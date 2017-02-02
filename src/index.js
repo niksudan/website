@@ -4,7 +4,7 @@ import { Router, Route, Redirect, browserHistory } from 'react-router';
 
 import App from './components/App';
 
-// import './index.css';
+import './index.css';
 
 render(
   <Router history={browserHistory}>

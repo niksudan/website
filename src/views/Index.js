@@ -4,7 +4,7 @@ import Heading from '../components/Heading';
 const Index = ({ dispatch, children }) => {
   return (
     <div className="app__view">
-      <Heading>Hello World!</Heading>
+      {/* <Heading>Hello World!</Heading> */}
     </div>
   );
 };
