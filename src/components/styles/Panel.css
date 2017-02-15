@@ -2,4 +2,40 @@
   width: calc(100vw / 3);
   height: calc(100vh / 3);
   display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .panel {
+    width: 100%;
+    display: block;
+  }
+}
+
+.panel >* {
+  width: 100%;
+  height: 100%;
+}
+
+.panel__image {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  filter: saturate(100%);
+  transition: 0.3s all ease-in-out;
+  z-index: 0;
+}
+
+.panel:hover .panel__image {
+  opacity: 0.2;
+  filter: saturate(50%);
+  transform: scale(1.05, 1.05);
+  z-index: 1;
+}
+
+.panel__content {
+  position: absolute;
 }
