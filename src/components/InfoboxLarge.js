@@ -50,6 +50,7 @@ const InfoboxLarge = ({ avatarUrl, handleClose, transition = 0 }) => {
                 <li><a href="http://soundcloud.com/niksudan" target="_blank">SoundCloud</a></li>
                 <li><a href="http://niksudan.bandcamp.com" target="_blank">BandCamp</a></li>
                 <li><a href="https://open.spotify.com/user/1164319488" target="_blank">Spotify</a></li>
+                <li><a href="https://www.last.fm/user/niksudan" target="_blank">Last.fm</a></li>
               </ul>
             </div>
             <div>
