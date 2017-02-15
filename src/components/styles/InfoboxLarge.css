@@ -1,0 +1,61 @@
+.infobox-large {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transform-origin: top right;
+}
+
+.infobox-large__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  margin: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  height: calc(100% - 4rem);
+}
+
+.infobox-large__wrapper >div {
+  width: 100%;
+}
+
+.infobox-large__avatar {
+  display: inline-block;
+  float: right;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+
+.infobox-large__avatar img {
+  width: 100%;
+}
+
+.infobox-large__heading, .infobox-large__content {
+  margin-bottom: 1rem;
+}
+
+.infobox-large__heading h1 {
+  font-size: 48px;
+}
+
+.infobox-large__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infobox-large__content >div {
+  width: 30%;
+}
+
+.infobox-large__content >div * {
+  margin-bottom: 0.5rem;
+}
+
+.infobox-large__content >div ul {
+  margin-bottom: 1rem;
+}
