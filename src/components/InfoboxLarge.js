@@ -31,7 +31,7 @@ const InfoboxLarge = ({ avatarUrl, handleClose, transition = 0 }) => {
               </ul>
             </div>
             <div>
-              <h3>Professional</h3>
+              <h3>Business</h3>
               <ul>
                 <li><a href="http://linkedin.com/in/niksudan" target="_blank">Linkedin</a></li>
                 <li><a href="http://angel.co/niksudan" target="_blank">AngelList</a></li>
