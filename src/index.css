@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald');
+/* Colours: https://coolors.co/0b132b-1c2541-3a506b-5bc0be-6fffe9 */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +9,28 @@
 
 body {
   font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #0B132B;
+  color: #AAAAAA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #EEEEEE;
+}
+
+a {
+  color: #6fffe9;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #5bc0be;
+}
+
+ul {
+  list-style: none;
 }

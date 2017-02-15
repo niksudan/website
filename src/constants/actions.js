@@ -1,0 +1,2 @@
+export const OPEN_INFOBOX = 'OPEN_INFOBOX';
+export const CLOSE_INFOBOX = 'CLOSE_INFOBOX';
