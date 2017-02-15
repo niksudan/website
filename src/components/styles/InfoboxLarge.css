@@ -4,7 +4,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 100;
   transform-origin: top right;
   overflow-y: scroll;
 }

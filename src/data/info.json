@@ -1,0 +1,102 @@
+{
+  "name": "Nik Sudan",
+  "avatar": "http://www.gravatar.com/avatar/88b83f86433e9aff6e3a1d25735384a6?s=500",
+  "instruction": "Who the hell is this?",
+  "description": "Web Developer, Game Developer, Musician.",
+  "links": [
+    {
+      "name": "Social",
+      "links": [
+        {
+          "name": "Twitter",
+          "link": "http://twitter.com/niksudan"
+        },
+        {
+          "name": "Facebook",
+          "link": "http://facebook.com/niksudan"
+        },
+        {
+          "name": "Google Plus",
+          "link": "https://plus.google.com/+NikSudan"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "links": [
+        {
+          "name": "Linkedin",
+          "link": "http://linkedin.com/in/niksudan"
+        },
+        {
+          "name": "AngelList",
+          "link": "http://angel.co/niksudan"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "links": [
+        {
+          "name": "YouTube",
+          "link": "http://youtube.com/c/niksudan"
+        },
+        {
+          "name": "Twitch",
+          "link": "http://twitch.tv/niksudan"
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "links": [
+        {
+          "name": "SoundCloud",
+          "link": "http://soundcloud.com/niksudann"
+        },
+        {
+          "name": "BandCamp",
+          "link": "http://niksudan.bandcamp.com"
+        },
+        {
+          "name": "Spotify",
+          "link": "https://open.spotify.com/user/1164319488"
+        },
+        {
+          "name": "Last.fm",
+          "link": "https://www.last.fm/user/niksudan"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "links": [
+        {
+          "name": "GitHub",
+          "link": "http://github.com/niksudan"
+        },
+        {
+          "name": "Game Jolt",
+          "link": "http://gamejolt.com/@nik"
+        },
+        {
+          "name": "itch.io",
+          "link": "http://nik.itch.io/"
+        }
+      ]
+    },
+    {
+      "name": "Content",
+      "links": [
+        {
+          "name": "Medium",
+          "link": "http://medium.com/@niksudan"
+        },
+        {
+          "name": "500px",
+          "link": "http://500px.com/niksudan"
+        }
+      ]
+    }
+  ]
+}

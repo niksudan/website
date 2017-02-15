@@ -4,13 +4,7 @@
   display: inline-block;
   position: relative;
   overflow: hidden;
-}
-
-@media (max-width: 768px) {
-  .panel {
-    width: 100%;
-    display: block;
-  }
+  cursor: pointer;
 }
 
 .panel >* {
@@ -36,6 +30,33 @@
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  .panel {
+    width: 100%;
+    display: block;
+  }
+  .panel .panel__image {
+    opacity: 0.2;
+    filter: saturate(50%);
+    transform: scale(1.05, 1.05);
+  }
+}
+
 .panel__content {
   position: absolute;
+  z-index: 2;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.panel__content >* {
+  width: 100%;
+}
+
+.panel__content h2, .panel__content h {
+  line-height: 40px;
 }

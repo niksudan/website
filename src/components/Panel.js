@@ -2,7 +2,7 @@ import React from 'react';
 import randomItem from 'random-item';
 import './styles/Panel.css';
 
-const Panel = ({ children }) => {
+const Panel = ({ data }) => {
   const image = randomItem([
     'https://drscdn.500px.org/photo/170329905/q%3D80_m%3D1500/ff15cfdd40211445c5f0c7fba5bb8d85',
     'https://drscdn.500px.org/photo/187101707/q%3D80_m%3D2000/29bc1c4dc05822a9425b13b41947e36a',
@@ -15,10 +15,11 @@ const Panel = ({ children }) => {
   return (
     <div className="panel">
       <div className="panel__image" style={{
-        'background-image': `url('${image}')`
+        backgroundImage: `url('${data.image ? data.image : image}')`
       }}></div>
       <div className="panel__content">
-        {children}
+        <h4>{data.date}</h4>
+        <h2>{data.name}</h2>
       </div>
     </div>
   );

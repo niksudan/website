@@ -1,2 +1,3 @@
 import infobox from './infobox';
-export { infobox };
+import projects from './projects';
+export { infobox, projects };
