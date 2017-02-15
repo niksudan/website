@@ -1,13 +1,12 @@
 import React from 'react';
+import Button from '../components/Button';
 import './styles/InfoboxLarge.css';
 
 const InfoboxLarge = ({ avatarUrl, handleClose, transition = 0 }) => {
   if (transition === 0) {
     return <div />;
   }
-
   const stretch = 1 - (0.75 * (1 - transition));
-
   return (
     <div className="infobox-large" style={{
       opacity: transition,
@@ -54,7 +53,7 @@ const InfoboxLarge = ({ avatarUrl, handleClose, transition = 0 }) => {
               </ul>
             </div>
             <div>
-              <h3>Games and Projects</h3>
+              <h3>Projects</h3>
               <ul>
                 <li><a href="http://github.com/niksudan" target="_blank">GitHub</a></li>
                 <li><a href="http://gamejolt.com/@nik" target="_blank">Game Jolt</a></li>
@@ -70,7 +69,7 @@ const InfoboxLarge = ({ avatarUrl, handleClose, transition = 0 }) => {
             </div>
           </div>
           <p>
-            <a onClick={handleClose}>Close</a>
+            <Button onClick={handleClose}>Close</Button>
           </p>
         </div>
       </div>

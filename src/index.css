@@ -21,10 +21,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #EEEEEE;
 }
 
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
 a {
   color: #6fffe9;
   cursor: pointer;
   text-decoration: none;
+  transition: color 0.2s;
 }
 
 a:hover, a:focus {

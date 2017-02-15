@@ -39,10 +39,6 @@
   margin-bottom: 1rem;
 }
 
-.infobox-large__heading h1 {
-  font-size: 48px;
-}
-
 .infobox-large__content {
   display: flex;
   flex-wrap: wrap;
