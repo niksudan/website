@@ -23,6 +23,12 @@
   overflow: hidden;
   width: 60px;
   height: 60px;
+  transition: 0.3s all;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.infobox-small:hover .infobox-small__avatar {
+  border-color: rgba(255, 255, 255, 1);
 }
 
 .infobox-small__avatar img {
@@ -32,8 +38,30 @@
 .infobox-small__heading {
   margin-right: 1rem;
   text-align: right;
+  opacity: 0;
+  position: relative;
+  right: -20px;
+  transition: 0.3s all;
 }
 
 .infobox-small__heading p {
   font-size: 0.9rem;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  opacity: 0;
+  top: -20px;
+  transition: 0.3s all;
+  transition-delay: 0.15s;
+}
+
+.infobox-small:hover .infobox-small__heading {
+  opacity: 1;
+  right: 0;
+}
+
+.infobox-small:hover .infobox-small__heading p {
+  opacity: 1;
+  top: 0;
 }

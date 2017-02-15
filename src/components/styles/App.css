@@ -1,7 +1,9 @@
 .app {
-  
+  width: 100%;
 }
 
 .app__view {
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }

@@ -64,7 +64,7 @@ const InfoboxLarge = ({ avatarUrl, handleClose, transition = 0 }) => {
             <div>
               <h3>Content</h3>
               <ul>
-                <li><a href="http://medium.com/niksudan" target="_blank">Medium</a></li>
+                <li><a href="http://medium.com/@niksudan" target="_blank">Medium</a></li>
                 <li><a href="http://500px.com/niksudan" target="_blank">500px</a></li>
               </ul>
             </div>

@@ -30,7 +30,7 @@ const Infobox = ({ dispatch, infobox }) => {
     <div className="infobox">
       <div className="infobox-small" onClick={handleOpen}>
         <div className="infobox-small__heading">
-          <h3>Nik Sudan</h3>
+          <h4>Nik Sudan</h4>
           <p>Who the hell is this?</p>
         </div>
         <div className="infobox-small__avatar">

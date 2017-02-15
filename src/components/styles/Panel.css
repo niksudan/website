@@ -1,0 +1,5 @@
+.panel {
+  width: calc(100vw / 3);
+  height: calc(100vh / 3);
+  display: inline-block;
+}
