@@ -10,7 +10,11 @@ const Index = ({ dispatch, projects }) => {
   return (
     <div className="app__view">
       {projects.items.map((project, index) => (
-        <Panel key={index} index={index} data={project} />
+        <Panel
+          key={index}
+          index={index}
+          data={project}
+          />
       ))}
       <Motion
         defaultStyle={{ transition: 0 }}
