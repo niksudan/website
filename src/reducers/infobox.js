@@ -1,8 +1,9 @@
 import * as actions from '../constants/actions';
+import infobox from '../data/info';
 
 const initialState = {
   isOpen: false,
-  data: require('../data/info')
+  data: infobox,
 };
 
 export default (state = initialState, action) => {

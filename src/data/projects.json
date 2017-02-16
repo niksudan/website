@@ -1,38 +1,47 @@
 [
   {
     "name": "Summer Project",
-    "date": "June 2016"
+    "date": "June 2016",
+    "description": "A bright and sunny project."
   },
   {
     "name": "Holiday Project",
-    "date": "July 2016"
+    "date": "July 2016",
+    "description": "A project about relaxing on the beach."
   },
   {
     "name": "Autumn Project",
-    "date": "August 2016"
+    "date": "August 2016",
+    "description": "A project with dead leaves."
   },
   {
     "name": "New Term Project",
-    "date": "September 2016"
+    "date": "September 2016",
+    "description": "A project with a fresh start."
   },
   {
     "name": "Halloween Project",
-    "date": "October 2016"
+    "date": "October 2016",
+    "description": "A very spooky and scary project."
   },
   {
     "name": "Fireworks Project",
-    "date": "November 2016"
+    "date": "November 2016",
+    "description": "A project with explosions."
   },
   {
     "name": "Christmas Project",
-    "date": "December 2016"
+    "date": "December 2016",
+    "description": "A very festive project."
   },
   {
     "name": "New Year Project",
-    "date": "January 2017"
+    "date": "January 2017",
+    "description": "A project celebrating the end of 2016."
   },
   {
     "name": "Valentines Project",
-    "date": "February 2017"
+    "date": "February 2017",
+    "description": "A project about the festival of love."
   }
 ]

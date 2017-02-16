@@ -1,0 +1,33 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transform-origin: center center;
+  overflow-y: scroll;
+}
+
+.modal__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  margin: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  min-height: calc(100% - 4rem);
+  max-height: auto;
+}
+
+@media (max-width: 550px) {
+  .modal__wrapper {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+
+.modal__wrapper >div {
+  width: 100%;
+}
