@@ -4,6 +4,7 @@ import { Motion, spring } from 'react-motion';
 import Panel from '../components/Panel';
 import Project from '../components/Project';
 import Modal from '../components/Modal';
+import { MOTION_MODAL } from '../constants/motion';
 import { unselectProject } from '../actions/projects';
 
 const Index = ({ dispatch, projects }) => {
@@ -18,7 +19,7 @@ const Index = ({ dispatch, projects }) => {
       ))}
       <Motion
         defaultStyle={{ transition: 0 }}
-        style={{ transition: projects.isOpen ? spring(1) : spring(0) }}
+        style={{ transition: spring(projects.isOpen ? 1 : 0, MOTION_MODAL) }}
         >
         {style =>
           projects.current &&

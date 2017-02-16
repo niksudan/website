@@ -17,7 +17,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 1;
+  opacity: 0.8;
   filter: saturate(100%);
   transition: 0.3s all ease-in-out;
   z-index: 0;
@@ -25,9 +25,15 @@
 
 .panel:hover .panel__image {
   opacity: 0.2;
-  filter: saturate(50%);
-  transform: scale(1.05, 1.05);
+  filter: saturate(0%);
+  transform: scale(1.1, 1.1);
   z-index: 1;
+}
+
+@media (max-width: 1280px) {
+  .panel {
+    width: calc(100vw / 2);
+  }
 }
 
 @media (max-width: 768px) {
@@ -36,7 +42,7 @@
     display: block;
   }
   .panel .panel__image {
-    opacity: 0.2;
+    opacity: 0.4;
     filter: saturate(50%);
     transform: scale(1.05, 1.05);
   }

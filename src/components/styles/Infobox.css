@@ -22,8 +22,8 @@
 .infobox-small__avatar {
   border-radius: 50%;
   overflow: hidden;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s all;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 768px) {
+  .infobox-small__avatar {
+    width: 60px;
+    height: 60px;
+  }
   .infobox-small__heading {
     display: none;
   }

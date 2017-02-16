@@ -4,9 +4,9 @@ import uniqueRandomArray from 'unique-random-array';
 import { selectProject } from '../actions/projects';
 import placeholders from '../data/placeholders';
 import './styles/Panel.css';
+const placeholder = uniqueRandomArray(placeholders);
 
 const Panel = ({ dispatch, data, index }) => {
-  const placeholder = uniqueRandomArray(placeholders);
   return (
     <div className="panel" onClick={(e) => {
       e.preventDefault();

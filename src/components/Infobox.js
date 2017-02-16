@@ -4,6 +4,7 @@ import { Motion, spring } from 'react-motion';
 import Modal from '../components/Modal';
 import InfoboxLarge from '../components/InfoboxLarge';
 import { openInfobox, closeInfobox } from '../actions/infobox';
+import { MOTION_MODAL } from '../constants/motion';
 import './styles/Infobox.css';
 
 const Infobox = ({ dispatch, infobox }) => (
@@ -22,7 +23,7 @@ const Infobox = ({ dispatch, infobox }) => (
     </div>
     <Motion
       defaultStyle={{ transition: 0 }}
-      style={{ transition: infobox.isOpen ? spring(1) : spring(0) }}
+      style={{ transition: spring(infobox.isOpen ? 1 : 0, MOTION_MODAL) }}
       >
       {style =>
         <Modal
