@@ -1,13 +1,33 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Motion, spring } from 'react-motion';
+import { browserHistory } from 'react-router';
 import Panel from '../components/Panel';
 import Project from '../components/Project';
 import Modal from '../components/Modal';
 import { MOTION_MODAL } from '../constants/motion';
-import { unselectProject } from '../actions/projects';
+import { selectProject, unselectProject } from '../actions/projects';
+import { openInfobox } from '../actions/infobox';
 
 const Index = ({ dispatch, projects }) => {
+
+  // Attempt to find and appropriate modal via pathname
+  const path = window.location.pathname;
+  if (!projects.isOpen && path !== '/') {
+    let found = false;
+    if (path === '/about') {
+      dispatch(openInfobox());
+      found = true;
+    } else {
+      projects.items.forEach((project, index) => {
+        if (`/${project.slug}` === path && !found) {
+          dispatch(selectProject(index));
+          found = true;
+        }
+      });
+    }
+  }
+  
   return (
     <div className="app__view">
       {projects.items.map((project, index) => (
@@ -28,6 +48,7 @@ const Index = ({ dispatch, projects }) => {
             handleClose={(e) => {
               e.preventDefault();
               dispatch(unselectProject());
+              browserHistory.push('/');
             }}
             >
             <Project data={projects.current} />

@@ -2,46 +2,55 @@
   {
     "name": "Summer Project",
     "date": "June 2016",
-    "description": "A bright and sunny project."
+    "description": "A bright and sunny project.",
+    "slug": "summer-project"
   },
   {
     "name": "Holiday Project",
     "date": "July 2016",
-    "description": "A project about relaxing on the beach."
+    "description": "A project about relaxing on the beach.",
+    "slug": "holiday-project"
   },
   {
     "name": "Autumn Project",
     "date": "August 2016",
-    "description": "A project with dead leaves."
+    "description": "A project with dead leaves.",
+    "slug": "autumn-project"
   },
   {
     "name": "New Term Project",
     "date": "September 2016",
-    "description": "A project with a fresh start."
+    "description": "A project with a fresh start.",
+    "slug": "new-term-project"
   },
   {
     "name": "Halloween Project",
     "date": "October 2016",
-    "description": "A very spooky and scary project."
+    "description": "A very spooky and scary project.",
+    "slug": "halloween-project"
   },
   {
     "name": "Fireworks Project",
     "date": "November 2016",
-    "description": "A project with explosions."
+    "description": "A project with explosions.",
+    "slug": "fireworks-project"
   },
   {
     "name": "Christmas Project",
     "date": "December 2016",
-    "description": "A very festive project."
+    "description": "A very festive project.",
+    "slug": "xmas-project"
   },
   {
     "name": "New Year Project",
     "date": "January 2017",
-    "description": "A project celebrating the end of 2016."
+    "description": "A project celebrating the end of 2016.",
+    "slug": "new-year-project"
   },
   {
     "name": "Valentines Project",
     "date": "February 2017",
-    "description": "A project about the festival of love."
+    "description": "A project about the festival of love.",
+    "slug": "valentines-project"
   }
 ]

@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Motion, spring } from 'react-motion';
+import { browserHistory } from 'react-router';
 import Modal from '../components/Modal';
 import InfoboxLarge from '../components/InfoboxLarge';
 import { openInfobox, closeInfobox } from '../actions/infobox';
@@ -12,6 +13,7 @@ const Infobox = ({ dispatch, infobox }) => (
     <div className="infobox-small" onClick={(e) => {
       e.preventDefault();
       dispatch(openInfobox());
+      browserHistory.push('/about');
     }}>
       <div className="infobox-small__heading">
         <h4>{infobox.data.name}</h4>
@@ -31,6 +33,7 @@ const Infobox = ({ dispatch, infobox }) => (
           handleClose={(e) => {
             e.preventDefault();
             dispatch(closeInfobox());
+            browserHistory.push('/');
           }}
           origin="top right"
           >

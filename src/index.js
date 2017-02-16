@@ -20,9 +20,9 @@ const store = createStore(
 render(
   <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/" component={App}>
-        <Redirect from="/*" to="/" />
-      </Route>
+      <Route path="/" component={App} />
+      <Route path="/:slug" component={App} />
+      <Redirect from="/*" to="/" />
     </Router>
   </Provider>,
   document.getElementById('root')
