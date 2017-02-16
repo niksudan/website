@@ -3,10 +3,13 @@ import './styles/Project.css';
 
 const Project = ({ data }) => (
   <div className="project">
+    {data.image &&
+      <img src={data.image} alt={data.name} title={data.name} />
+    }
     <h4>{data.date}</h4>
     <h1>{data.name}</h1>
     <p>{data.description}</p>
-    {data.links && 
+    {data.links &&
       <ul>
         {data.links.map((link, index) => (
           <li key={index}>

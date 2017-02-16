@@ -30,6 +30,7 @@
 
 .infobox-small:hover .infobox-small__avatar {
   border-color: rgba(255, 255, 255, 1);
+  transform: rotate(15deg);
 }
 
 .infobox-small__avatar img {
