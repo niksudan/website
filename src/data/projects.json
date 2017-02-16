@@ -51,6 +51,16 @@
     "name": "Valentines Project",
     "date": "February 2017",
     "description": "A project about the festival of love.",
-    "slug": "valentines-project"
+    "slug": "valentines-project",
+    "links": [
+      {
+        "name": "Link 1",
+        "link": "http://google.com"
+      },
+      {
+        "name": "Link 2",
+        "link": "https://google.com"
+      }
+    ]
   }
 ]

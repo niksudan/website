@@ -45,5 +45,14 @@ a:hover, a:focus {
 }
 
 ul {
-  list-style: none;
+  margin-top: 1rem;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+@media (max-width: 550px) {
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
 }
