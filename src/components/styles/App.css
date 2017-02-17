@@ -1,8 +1,8 @@
-.app {
+.app, .app__view {
   width: 100%;
 }
 
-.app__view {
+.app__view >div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
