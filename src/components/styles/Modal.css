@@ -32,3 +32,7 @@
 .modal__wrapper >div {
   width: 100%;
 }
+
+.modal h1 {
+  line-height: 1;
+}
