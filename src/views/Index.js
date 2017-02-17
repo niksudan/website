@@ -2,11 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Motion, spring } from 'react-motion';
 import { browserHistory } from 'react-router';
+import InfiniteScroll from 'react-infinite-scroller';
 import Panel from '../components/Panel';
 import Project from '../components/Project';
 import Modal from '../components/Modal';
 import { MOTION_MODAL } from '../constants/motion';
-import { selectProject, unselectProject } from '../actions/projects';
+import { selectProject, unselectProject, loadProjects } from '../actions/projects';
 import { openInfobox } from '../actions/infobox';
 
 const Index = ({ dispatch, projects }) => {
@@ -30,13 +31,22 @@ const Index = ({ dispatch, projects }) => {
   
   return (
     <div className="app__view">
-      {projects.items.map((project, index) => (
-        <Panel
-          key={index}
-          index={index}
-          data={project}
-          />
-      ))}
+      <InfiniteScroll
+        pageStart={projects.page}
+        loadMore={() => {
+          dispatch(loadProjects());
+        }}
+        hasMore={projects.items.length > projects.activeItems.length}
+        loader={<div />}
+        >
+        {projects.activeItems.map((project, index) => (
+          <Panel
+            key={index}
+            index={index}
+            data={project}
+            />
+        ))}
+      </InfiniteScroll>
       <Motion
         defaultStyle={{ transition: 0 }}
         style={{ transition: spring(projects.isOpen ? 1 : 0, MOTION_MODAL) }}

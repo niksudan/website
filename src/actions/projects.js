@@ -8,3 +8,7 @@ export const selectProject = (index) => ({
 export const unselectProject = () => ({
   type: actions.UNSELECT_PROJECT,
 });
+
+export const loadProjects = () => ({
+  type: actions.LOAD_PROJECTS,
+});

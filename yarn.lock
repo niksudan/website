@@ -4372,6 +4372,10 @@ react-dom:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-infinite-scroller:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-infinite-scroller/-/react-infinite-scroller-1.0.6.tgz#bb406d70032d09fa9e4a3e2175d3adbf4a3f559d"
+
 react-motion:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/react-motion/-/react-motion-0.4.7.tgz#f77331ec7920bdb0d0cfc37eb6ffa10571bf42c7"
