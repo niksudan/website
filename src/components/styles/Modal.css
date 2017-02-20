@@ -16,16 +16,17 @@
   margin: 2rem;
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 5px;
-  min-height: calc(100% - 4rem);
-  max-height: auto;
-  width: 100%;
+  width: calc(100vw - 4rem);
+  height: calc(100vh - 4rem);
 }
 
 @media (max-width: 550px) {
   .modal__wrapper {
     text-align: center;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
   }
 }
 
