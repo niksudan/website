@@ -26,7 +26,6 @@ const update = () => {
   const path = window.location.pathname;
 
   // Attempt to find and appropriate modal via pathname
-  console.log('ping');
   if (!projects.isOpen && path !== '/') {
     let found = false;
     if (path === '/about') {
