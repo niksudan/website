@@ -6,6 +6,16 @@ const Project = ({ data }) => (
   <div className="project">
     <Helmet
       title={data.name}
+      meta={[
+        { name: "description", content: data.description },
+        { property: "og:title", content: data.name },
+        { property: "og:description", content: data.description },
+        { property: "og:type", content: "article" },
+        { property: "twitter:card", content: "summary" },
+        { property: "twitter:site", content: "@niksudan" },
+        { property: "twitter:title", content: data.name },
+        { property: "twitter:description", content: data.description },
+      ]}
     />
     {data.image &&
       <img src={data.image} alt={data.name} title={data.name} />
