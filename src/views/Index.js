@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Motion, spring } from 'react-motion';
 import { browserHistory } from 'react-router';
 import InfiniteScroll from 'react-infinite-scroller';
+import Helmet from 'react-helmet';
 import Panel from '../components/Panel';
 import Project from '../components/Project';
 import Modal from '../components/Modal';
@@ -11,6 +12,10 @@ import { unselectProject, loadProjects } from '../actions/projects';
 
 const Index = ({ dispatch, projects }) => (
   <div className="app__view">
+    <Helmet
+      title="Games, Music and Other Things"
+      titleTemplate="%s | Nik Sudan's Portfolio"
+    />
     <InfiniteScroll
       pageStart={projects.page}
       loadMore={() => {

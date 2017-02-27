@@ -1,8 +1,12 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import './styles/Project.css';
 
 const Project = ({ data }) => (
   <div className="project">
+    <Helmet
+      title={data.name}
+    />
     {data.image &&
       <img src={data.image} alt={data.name} title={data.name} />
     }
