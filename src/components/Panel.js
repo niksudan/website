@@ -9,7 +9,7 @@ const placeholder = uniqueRandomArray(placeholders);
 
 const Panel = ({ dispatch, data, index }) => {
   return (
-    <div className="panel" onClick={(e) => {
+    <a href={`/${data.slug}`} className="panel" onClick={(e) => {
       e.preventDefault();
       dispatch(selectProject(index));
       browserHistory.push(`/${data.slug}`);
@@ -21,7 +21,7 @@ const Panel = ({ dispatch, data, index }) => {
         <h4>{data.date}</h4>
         <h2>{data.name}</h2>
       </div>
-    </div>
+    </a>
   );
 };
 

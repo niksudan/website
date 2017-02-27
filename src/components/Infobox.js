@@ -10,7 +10,7 @@ import './styles/Infobox.css';
 
 const Infobox = ({ dispatch, infobox }) => (
   <div className="infobox">
-    <div className="infobox-small" onClick={(e) => {
+    <a href="/about" className="infobox-small" onClick={(e) => {
       e.preventDefault();
       dispatch(openInfobox());
       browserHistory.push('/about');
@@ -22,7 +22,7 @@ const Infobox = ({ dispatch, infobox }) => (
       <div className="infobox-small__avatar">
         <img src={infobox.data.avatar} alt="Avatar" />
       </div>
-    </div>
+    </a>
     <Motion
       defaultStyle={{ transition: 0 }}
       style={{ transition: spring(infobox.isOpen ? 1 : 0, MOTION_MODAL) }}
