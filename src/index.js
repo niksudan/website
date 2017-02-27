@@ -6,7 +6,7 @@ import thunkMiddleware from 'redux-thunk';
 import { Router, Route, Redirect, browserHistory } from 'react-router';
 import { routerMiddleware } from 'react-router-redux';
 import * as reducers from './reducers';
-import { openInfobox } from './actions/infobox';
+import { openInfobox, closeInfobox } from './actions/infobox';
 import { selectProject, unselectProject } from './actions/projects';
 import App from './components/App';
 import './index.css';
@@ -21,6 +21,7 @@ const store = createStore(
 
 const update = () => {
   const projects = store.getState().projects;
+  const infobox = store.getState().infobox;
   const dispatch = store.dispatch;
   const path = window.location.pathname;
 
@@ -39,8 +40,12 @@ const update = () => {
         }
       });
     }
-  } else if (path === '/' && projects.isOpen) {
-    dispatch(unselectProject());
+  } else if (path === '/') {
+    if (projects.isOpen) {
+      dispatch(unselectProject());
+    } else if (infobox.isOpen) {
+      dispatch(closeInfobox());
+    }
   }
 };
 
