@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
+import Button from '../components/Button';
 import './styles/InfoboxLarge.css';
 
 const InfoboxLarge = ({ infobox }) => (
@@ -12,6 +13,12 @@ const InfoboxLarge = ({ infobox }) => (
     <div className="infobox-large__heading">
       <h1>{infobox.data.name}</h1>
       <p>{infobox.data.description}</p>
+      {infobox.data.cta &&
+        <Button onClick={(e) => {
+          e.preventDefault();
+          window.location.href = infobox.data.cta.link;
+        }}>{infobox.data.cta.name}</Button>
+      }
     </div>
     <div className="infobox-large__content">
       {infobox.data.links.map((section, index) => (

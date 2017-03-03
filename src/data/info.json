@@ -3,6 +3,10 @@
   "avatar": "http://www.gravatar.com/avatar/88b83f86433e9aff6e3a1d25735384a6?s=500",
   "instruction": "Who the hell is this?",
   "description": "Web Developer, Game Developer, Musician.",
+  "cta": {
+    "name": "Subscribe to Updates?",
+    "link": "https://upscri.be/81a958/"
+  },
   "links": [
     {
       "name": "Social",

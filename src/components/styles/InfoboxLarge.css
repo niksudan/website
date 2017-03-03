@@ -27,7 +27,10 @@
   width: 100%;
 }
 
-.infobox-large__heading, .infobox-large__content {
+.infobox-large__heading,
+.infobox-large__content,
+.infobox-large__heading h1,
+.infobox-large__heading p {
   margin-bottom: 1rem;
 }
 
