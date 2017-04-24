@@ -63,11 +63,15 @@
     "name": "Rhythmic",
     "date": "February 2011",
     "slug": "rhythmic",
-    "tags": ["game"],
+    "tags": ["game", "collaboration"],
     "team": [
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      },
+      {
+        "name": "Rob van Saaze",
+        "role": "Arist"
       }
     ]
   },
@@ -104,6 +108,10 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      },
+      {
+        "name": "Rob van Saaze",
+        "role": "Arist"
       }
     ]
   },
@@ -220,6 +228,10 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      },
+      {
+        "name": "Rob van Saaze",
+        "role": "Voice Actor"
       }
     ]
   },
@@ -459,6 +471,10 @@
     "team": [
       {
         "name": "Nik Sudan",
+        "role": "Developer"
+      },
+      {
+        "name": "John Wallie",
         "role": "Developer"
       }
     ]
@@ -996,6 +1012,22 @@
     ]
   },
   {
+    "name": "Kissing Time",
+    "date": "August 2015",
+    "slug": "kissing-time",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Ahmed Khalifa",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
     "name": "Battle Golf",
     "date": "August 2015",
     "slug": "battle-golf",
@@ -1167,7 +1199,7 @@
     "name": "Jolt Cast - Episode 1",
     "date": "July 2016",
     "slug": "jolt-cast-episode-1",
-    "tags": ["podcast"],
+    "tags": ["podcast", "collaboration"],
     "team": [
       {
         "name": "Nik Sudan",
@@ -1231,7 +1263,7 @@
     "name": "Jolt Cast - Episode 2",
     "date": "November 2016",
     "slug": "jolt-cast-episode-2",
-    "tags": ["podcast"],
+    "tags": ["podcast", "collaboration"],
     "team": [
       {
         "name": "Nik Sudan",
