@@ -3,216 +3,1292 @@
     "name": "Satanic Warrior",
     "date": "February 2010",
     "slug": "satanic-warrior",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Retro Blaster",
     "date": "September 2010",
     "slug": "retro-blaster",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Game Maker Games of 2010",
     "date": "December 2010",
     "slug": "game-maker-games-of-2010",
-    "tags": [ "video" ]
+    "tags": ["video"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "The Thrilling Adventure of Cookie Man",
     "date": "January 2011",
     "slug": "cookie-man",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Genesis",
     "date": "February 2011",
     "slug": "genesis",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Rhythmic",
     "date": "February 2011",
     "slug": "rhythmic",
-    "tags": [ "game" ]
-  },
-  {
-    "name": "Seventh Dimension",
-    "date": "May 2011",
-    "slug": "seventh-dimension",
-    "tags": [ "music", "song" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Guardian of the Skykeep",
     "date": "July 2011",
     "slug": "guardian-of-the-skykeep",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Barrel Roll",
     "date": "September 2011",
     "slug": "barrel-roll",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Rhythmical",
     "date": "September 2011",
     "slug": "rhythmical",
-    "tags": [ "game", "jam-game", "collaboration" ]
+    "tags": ["game", "jam-game", "collaboration"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Noob Battle",
     "date": "November 2011",
     "slug": "noob-battle",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "The Almighty Annihilation",
     "date": "December 2011",
     "slug": "the-almighty-annihilation",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Game Maker Games of 2011",
     "date": "January 2012",
     "slug": "game-maker-games-of-2011",
-    "tags": [ "video" ]
+    "tags": ["video"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "The Pretender Acoustic Cover",
     "date": "March 2012",
     "slug": "the-pretender-acoustic-cover",
-    "tags": [ "music", "song" ]
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
   },
   {
     "name": "Another Place",
     "date": "May 2012",
     "slug": "another-place",
-    "tags": [ "music", "album" ]
+    "tags": ["music", "album"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
   },
   {
     "name": "Excavation",
     "date": "June 2012",
     "slug": "excavation",
-    "tags": [ "game", "cancelled" ]
+    "tags": ["game", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Atloria",
     "date": "June 2012",
     "slug": "atloria",
-    "tags": [ "game", "cancelled", "collaboration" ]
+    "tags": ["game", "cancelled", "collaboration"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      },
+      {
+        "name": "James Gregory",
+        "role": "Writer"
+      },
+      {
+        "name": "Trystin Sinnot",
+        "role": "Artist"
+      }
+    ]
   },
   {
     "name": "On Melancholy Hill Acoustic Cover",
     "date": "June 2012",
     "slug": "on-melancholy-hill-acoustic-cover",
-    "tags": [ "music", "song" ]
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
   },
   {
     "name": "Nyctophobia",
     "date": "August 2012",
     "slug": "nyctophobia",
-    "tags": [ "game", "jam-game", "collaboration" ]
+    "tags": ["game", "jam-game", "collaboration"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "A.D.A.P.T.S",
     "date": "August 2012",
     "slug": "adapts",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Insane Balancing on One Leg in Extremely High Places",
     "date": "October 2012",
     "slug": "insane-balancing",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Warning Sign Cover",
     "date": "November 2012",
     "slug": "warning-sign-cover",
-    "tags": [ "music", "song" ]
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
   },
   {
     "name": "Insane Joyriding in a Jet Powered Bathtub through Hyperspace",
     "date": "December 2012",
     "slug": "insane-joyriding",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Evil Robot of Doom Crushes Innocent Town due to Parliamentary Disagreement",
     "date": "December 2012",
     "slug": "evil-robot-of-doom",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Game Maker Games of 2012",
     "date": "January 2013",
     "slug": "game-maker-games-of-2012",
-    "tags": [ "video" ]
+    "tags": ["video"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Creator"
+      }
+    ]
   },
   {
     "name": "Super Squat Simulator",
     "date": "January 2013",
     "slug": "super-squat-simulator",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Feel Good Inc Chiptune Cover",
     "date": "January 2013",
     "slug": "feel-good-inc-chiptune-cover",
-    "tags": [ "music", "song" ]
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
   },
   {
     "name": "Chemical Eruptions and Bunny Consternations",
     "date": "January 2013",
     "slug": "chemical-eruptions",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Maelstrom Redemption",
     "date": "February 2013",
     "slug": "maelstrom-redemption",
-    "tags": [ "music", "song" ]
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
   },
   {
     "name": "Dracaeli",
     "date": "March 2013",
     "slug": "dracaeli",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Slender Ultimatum",
     "date": "March 2013",
     "slug": "slender-ultimatum",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Requiem",
     "date": "April 2013",
     "slug": "requiem",
-    "tags": [ "game", "jam-game" ]
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Super Funky Dance Off Marathon",
     "date": "May 2013",
     "slug": "super-funky-dance-off-marathon",
-    "tags": [ "game", "cancelled" ]
+    "tags": ["game", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "The Legend of Zalda",
     "date": "May 2013",
     "slug": "the-legend-of-zalda",
-    "tags": [ "game", "jam-game", "cancelled" ]
+    "tags": ["game", "jam-game", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "PIPTRIP",
     "date": "May 2013",
     "slug": "piptrip",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   },
   {
     "name": "Zebra Hunt",
     "date": "June 2013",
     "slug": "zebra-hunt",
-    "tags": [ "game" ]
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "SOOPAH DOOPAH POOPAH",
+    "date": "July 2013",
+    "slug": "soopah-doopah-poopah",
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Zerox Residuum",
+    "date": "July 2013",
+    "slug": "zerox-residuum",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "MiniJolt",
+    "date": "August 2013",
+    "slug": "minijolt",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Lokopolis",
+    "date": "August 2013",
+    "slug": "lokopolis",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Super Amazing Quest",
+    "date": "September 2013",
+    "slug": "super-amazing-quest",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Rob van Saaze",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Ahriman's Treasure",
+    "date": "September 2013",
+    "slug": "ahrimans-treasure",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Solitude",
+    "date": "October 2013",
+    "slug": "solitude",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Rob van Saaze",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Knife to Meet You",
+    "date": "October 2013",
+    "slug": "knife-to-meet-you",
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Taking Over Raves with Triangle Waves",
+    "date": "October 2013",
+    "slug": "taking-over-raves",
+    "tags": ["music", "album"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Pestering Party Plebs for Pizza",
+    "date": "November 2013",
+    "slug": "pestering-party-plebs",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Tiny Dangerous Dungeons",
+    "date": "November 2013",
+    "slug": "tiny-dangerous-dungeons",
+    "tags": ["game", "jam-game", "collaboration"],
+    "team": [
+      {
+        "name": "Jussi Simpanen",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Super Sneaky Sample Stealer",
+    "date": "December 2013",
+    "slug": "super-sneaky-sample-stealer",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Crazy Christmas Courier Chucks Charity into Chimneys",
+    "date": "December 2013",
+    "slug": "crazy-christmas-courier",
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Game Maker Games of 2013",
+    "date": "January 2014",
+    "slug": "game-maker-games-of-2013",
+    "tags": ["video"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Creator"
+      }
+    ]
+  },
+  {
+    "name": "Video Game Music Volume 1",
+    "date": "January 2014",
+    "slug": "vgm-volume-1",
+    "tags": ["music", "album"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Weird Fishes Cover",
+    "date": "January 2014",
+    "slug": "weird-fishes-cover",
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "The Sound of Murder",
+    "date": "January 2014",
+    "slug": "the-sound-of-murder",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "John Wallie",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Flerpy Berd",
+    "date": "February 2014",
+    "slug": "flerpy-berd",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Protocol",
+    "date": "March 2014",
+    "slug": "protocol",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Moonrunner",
+    "date": "March 2014",
+    "slug": "moonrunner",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Skolgbor",
+    "date": "April 2014",
+    "slug": "skolgbor",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Octo-Beast of the Stormy Sea",
+    "date": "May 2014",
+    "slug": "octo-beast",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Tercon Major",
+    "date": "May 2014",
+    "slug": "tercon-major",
+    "tags": ["game", "collaboration", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Junkyard",
+    "date": "June 2014",
+    "slug": "junkyard",
+    "tags": ["game", "jam-game", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Twitterfeed",
+    "date": "July 2014",
+    "slug": "twitterfeed",
+    "tags": ["framework", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Steam Rogue",
+    "date": "August 2014",
+    "slug": "steam-rogue",
+    "tags": ["game", "jam-game", "collaboration"],
+    "team": [
+      {
+        "name": "Jussi Simpanen",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Boxhead",
+    "date": "September 2014",
+    "slug": "boxhead",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "petcat",
+    "date": "September 2014",
+    "slug": "petcat",
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Wheelie Legend",
+    "date": "November 2014",
+    "slug": "wheelie-legend",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Colin Lane",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Getting Your Game Out There",
+    "date": "November 2014",
+    "slug": "getting-your-game-out-there",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "POOP EM UP",
+    "date": "November 2014",
+    "slug": "poop-em-up",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "sk",
+    "date": "November 2014",
+    "slug": "sk",
+    "tags": ["framework", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "WordPress Post Distance Filter",
+    "date": "December 2014",
+    "slug": "wp-post-distance-filter",
+    "tags": ["plugin", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Spacemole",
+    "date": "January 2015",
+    "slug": "spacemole",
+    "tags": ["game", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Game Maker Games of 2014",
+    "date": "January 2015",
+    "slug": "game-maker-games-of-2014",
+    "tags": ["vide"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Creator"
+      }
+    ]
+  },
+  {
+    "name": "The Stage",
+    "date": "January 2015",
+    "slug": "the-stage",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Jack King Spooner",
+        "role": "Creator"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Artist"
+      }
+    ]
+  },
+  {
+    "name": "Golf is Hard",
+    "date": "January 2015",
+    "slug": "golf-is-hard",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Colin Lane",
+        "role": "Developer"
+      },
+      {
+        "name": "Folmer Kelly",
+        "role": "Artist"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Choosing the Right Music for your Game",
+    "date": "February 2015",
+    "slug": "choosing-the-right-music",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "prettylight",
+    "date": "February 2015",
+    "slug": "prettylight",
+    "tags": ["framework", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "WordPress Additional Logins",
+    "date": "March 2015",
+    "slug": "wp-additional-logins",
+    "tags": ["plugin", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Audio Editing for Games",
+    "date": "March 2015",
+    "slug": "audio-editing-for-games",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "Grimstorm",
+    "date": "April 2015",
+    "slug": "grimstorm",
+    "tags": ["game", "jam-game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Worp",
+    "date": "May 2015",
+    "slug": "worp",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Max Glockling",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Think About It",
+    "date": "May 2015",
+    "slug": "think-about-it",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "Battle Golf",
+    "date": "August 2015",
+    "slug": "battle-golf",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Colin Lane",
+        "role": "Developer"
+      },
+      {
+        "name": "Folmer Kelly",
+        "role": "Artist"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Trash",
+    "date": "October 2015",
+    "slug": "the-legend-of-trash",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Rob van Saaze",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Hoponono Cover",
+    "date": "November 2015",
+    "slug": "hoponono-cover",
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Western Wind",
+    "date": "February 2016",
+    "slug": "western-wind",
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Memory",
+    "date": "February 2016",
+    "slug": "memory",
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Flapy Burd",
+    "date": "April 2016",
+    "slug": "soaring-skies",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Doctor Nu",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "It's Not Just About You",
+    "date": "April 2016",
+    "slug": "its-not-just-about-you",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "borg",
+    "date": "April 2016",
+    "slug": "borg",
+    "tags": ["framework", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Rain City",
+    "date": "May 2016",
+    "slug": "rain-city",
+    "tags": ["game", "collaboration", "cancelled"],
+    "team": [
+      {
+        "name": "Tom van den Boogaart",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Grimstorm: Colosseum",
+    "date": "May 2016",
+    "slug": "grimstorm-colosseum",
+    "tags": ["game", "in-development"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Flipside",
+    "date": "June 2016",
+    "slug": "flipside",
+    "tags": ["game", "collaboration"],
+    "team": [
+      {
+        "name": "Rob van Saaze",
+        "role": "Developer"
+      },
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "End of the Day",
+    "date": "July 2016",
+    "slug": "end-of-the-day",
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Jolt Cast - Episode 1",
+    "date": "July 2016",
+    "slug": "jolt-cast-episode-1",
+    "tags": ["podcast"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Host"
+      },
+      {
+        "name": "Nathan Auckett",
+        "role": "Host"
+      }
+    ]
+  },
+  {
+    "name": "ONYERHEDSON!",
+    "date": "July 2016",
+    "slug": "onyerhedson",
+    "tags": ["game"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Fluxrunner",
+    "date": "September 2016",
+    "slug": "fluxrunner",
+    "tags": ["music", "song"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "Video Game Music Volume 2",
+    "date": "September 2016",
+    "slug": "vgm-volume-2",
+    "tags": ["music", "album"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Composer"
+      }
+    ]
+  },
+  {
+    "name": "DevRPG",
+    "date": "October 2016",
+    "slug": "devrpg",
+    "tags": ["service", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Jolt Cast - Episode 2",
+    "date": "November 2016",
+    "slug": "jolt-cast-episode-2",
+    "tags": ["podcast"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Host"
+      },
+      {
+        "name": "Nathan Auckett",
+        "role": "Host"
+      }
+    ]
+  },
+  {
+    "name": "Bounty Hunter",
+    "date": "November 2016",
+    "slug": "bounty-hunter",
+    "tags": ["game", "cancelled"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
+  },
+  {
+    "name": "Introduction to Node.js",
+    "date": "January 2017",
+    "slug": "intro-to-node-js",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "Introduction to JavaScript Package Managers",
+    "date": "January 2017",
+    "slug": "intro-to-javascript-package-managers",
+    "tags": ["article"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Writer"
+      }
+    ]
+  },
+  {
+    "name": "lemongen",
+    "date": "February 2017",
+    "slug": "lemongen",
+    "tags": ["service", "open-source"],
+    "team": [
+      {
+        "name": "Nik Sudan",
+        "role": "Developer"
+      }
+    ]
   }
 ]
