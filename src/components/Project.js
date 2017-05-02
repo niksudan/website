@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Button from './Button';
 import './styles/Project.css';
 
 const Project = ({ data }) => (
@@ -22,6 +23,11 @@ const Project = ({ data }) => (
     }
     <h4>{data.date}</h4>
     <h1>{data.name}</h1>
+    <div>
+      {data.tags.map((tag) => (
+        <h6 className={`project__tag tag--${tag}`}>{tag}</h6>
+      ))}
+    </div>
     <p>{data.description}</p>
     {data.links &&
       <ul>

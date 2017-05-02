@@ -65,3 +65,7 @@
 .panel__content h2 {
   line-height: 1;
 }
+
+.panel__tags {
+  margin-top: 10px;
+}
