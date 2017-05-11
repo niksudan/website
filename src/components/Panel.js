@@ -20,11 +20,11 @@ const Panel = ({ dispatch, data, index }) => {
       <div className="panel__content">
         <h4>{data.date}</h4>
         <h2>{data.name}</h2>
-        <div className="panel__tags">
-          {data.tags.map((tag) => (
-            <h6 className={`project__tag tag--${tag}`}>{tag}</h6>
-          ))}
-        </div>
+      </div>
+      <div className="panel__tags">
+        {data.tags.map((tag) => (
+          <h6 className={`project__tag tag--${tag}`}>{tag}</h6>
+        ))}
       </div>
     </a>
   );

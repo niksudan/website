@@ -23,6 +23,7 @@
   text-transform: uppercase;
   display: inline-block;
   font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .project__tag + .project__tag {

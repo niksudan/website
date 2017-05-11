@@ -68,4 +68,16 @@
 
 .panel__tags {
   margin-top: 10px;
+  opacity: 0;
+  transition: 0.2s all;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  width: auto;
+  height: auto;
+}
+
+.panel:hover .panel__tags {
+  opacity: 0.8;
+  bottom: 10px;
 }
