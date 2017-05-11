@@ -28,6 +28,14 @@ const Project = ({ data }) => (
         <h6 className={`project__tag tag--${tag}`}>{tag}</h6>
       ))}
     </div>
+    <div className="project__team">
+      {data.team.map((member) => (
+        <div>
+          <h5>{member.name}</h5>
+          <p>{member.role}</p>
+        </div>
+      ))}
+    </div>
     <p>{data.description}</p>
     {data.links &&
       <ul>

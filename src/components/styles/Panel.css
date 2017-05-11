@@ -31,22 +31,6 @@
   z-index: 1;
 }
 
-@media (max-width: 1280px) {
-  .panel {
-    width: calc(100vw / 2);
-  }
-}
-
-@media (max-width: 768px) {
-  .panel {
-    width: 100%;
-    display: block;
-  }
-  .panel .panel__image {
-    opacity: 0.4;
-  }
-}
-
 .panel__content {
   position: absolute;
   z-index: 2;
@@ -80,4 +64,20 @@
 .panel:hover .panel__tags {
   opacity: 0.8;
   bottom: 10px;
+}
+
+@media (max-width: 1280px) {
+  .panel {
+    width: calc(100vw / 2);
+  }
+}
+
+@media (max-width: 768px) {
+  .panel {
+    width: 100%;
+    display: block;
+  }
+  .panel .panel__image {
+    opacity: 0.4;
+  }
 }

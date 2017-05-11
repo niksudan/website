@@ -20,6 +20,14 @@
   min-height: calc(100vh - 4rem);
 }
 
+.modal__wrapper >div {
+  width: 100%;
+}
+
+.modal h1 {
+  line-height: 1;
+}
+
 @media (max-width: 550px) {
   .modal__wrapper {
     text-align: center;
@@ -28,12 +36,4 @@
     width: 100vw;
     min-height: 100vh;
   }
-}
-
-.modal__wrapper >div {
-  width: 100%;
-}
-
-.modal h1 {
-  line-height: 1;
 }

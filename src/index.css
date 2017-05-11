@@ -25,13 +25,7 @@ h1 { font-size: 64px; }
 h2 { font-size: 48px; }
 h3 { font-size: 36px; }
 h4 { font-size: 30px; }
-
-@media (max-width: 768px) {
-  h1 { font-size: 36px; }
-  h2 { font-size: 24px; }
-  h3 { font-size: 20px; }
-  h4 { font-size: 18px; }
-}
+h5 { font-size: 24px; }
 
 a {
   color: #6fffe9;
@@ -50,6 +44,12 @@ ul {
 }
 
 @media (max-width: 768px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 20px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 16px; }
+
   ul {
     line-height: 1.5;
   }
