@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Button from './Button';
+import FontAwesome from 'react-fontawesome';
 import './styles/Project.css';
 
 const Project = ({ data }) => (
@@ -30,7 +30,7 @@ const Project = ({ data }) => (
     </div>
     <div className="project__team">
       {data.team.map((member) => (
-        <div>
+        <div key={member.name}>
           <h5>{member.name}</h5>
           <p>{member.role}</p>
         </div>
@@ -41,7 +41,12 @@ const Project = ({ data }) => (
       <ul>
         {data.links.map((link, index) => (
           <li key={index}>
-            <a target="_blank" href={link.link}>{link.name}</a>
+            <a target="_blank" href={link.link}>
+              {link.icon &&
+                <FontAwesome name={link.icon} />
+              }
+              {link.name}
+            </a>
           </li>
         ))}
       </ul>

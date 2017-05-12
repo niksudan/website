@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* Colours: https://coolors.co/0b132b-1c2541-3a506b-5bc0be-6fffe9 */
 
 * {
@@ -41,6 +42,10 @@ a:hover, a:focus {
 ul {
   list-style: none;
   line-height: 2;
+}
+
+.fa {
+  margin-right: 0.5rem;
 }
 
 @media (max-width: 768px) {
