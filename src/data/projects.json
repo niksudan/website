@@ -879,7 +879,7 @@
     "name": "Game Maker Games of 2014",
     "date": "January 2015",
     "slug": "game-maker-games-of-2014",
-    "tags": ["vide"],
+    "tags": ["video"],
     "team": [
       {
         "name": "Nik Sudan",
@@ -1073,6 +1073,14 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "A cover of GoGo Penguin's crazy cool tune, 'Hopopono', in a chiptune style.",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/hopopono",
+        "icon": "soundcloud"
+      }
     ]
   },
   {
@@ -1084,6 +1092,14 @@
       {
         "name": "Nik Sudan",
         "role": "Composer"
+      }
+    ],
+    "description": "I found the score for a very old composition of mine when I was still taking musical Keyboard grades. I converted this hectic piano piece into a even more hectic chiptune piece.",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/western-wind",
+        "icon": "soundcloud"
       }
     ]
   },
@@ -1097,6 +1113,14 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "A mellow, acoustic track commissioned for a roadtrip video.",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/memory",
+        "icon": "soundcloud"
+      }
     ]
   },
   {
@@ -1106,12 +1130,25 @@
     "tags": ["game", "collaboration"],
     "team": [
       {
-        "name": "Doctor Nu",
+        "name": "Dr. Nu",
         "role": "Developer"
       },
       {
         "name": "Nik Sudan",
         "role": "Composer"
+      }
+    ],
+    "description": "A horrendous Flappy Bird clone made for the Game Boy Advance.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "https://gamejolt.com/games/flapy-burd/141878",
+        "icon": "gamepad"
+      },
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/soaring-skies",
+        "icon": "soundcloud"
       }
     ]
   },
@@ -1125,6 +1162,14 @@
         "name": "Nik Sudan",
         "role": "Writer"
       }
+    ],
+    "description": "A general guide to planning your indie game I wrote after realising a lot of developers don't actually plan.",
+    "links": [
+      {
+        "name": "Medium",
+        "link": "https://medium.com/@niksudan/think-about-it-c879ecebe721",
+        "icon": "medium"
+      }
     ]
   },
   {
@@ -1136,6 +1181,14 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "My attempt at a chatbot framework.",
+    "links": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/niksudan/borg",
+        "icon": "github"
       }
     ]
   },
@@ -1153,6 +1206,19 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "An experimental game where you walk around a mysterious town by the sea, featuring robots. A cancelled project by Tom van den Boogaart, with music by myself.",
+    "links": [
+      {
+        "name": "SoundCloud Playlist",
+        "link": "https://soundcloud.com/niksudan/sets/rain-city",
+        "icon": "soundcloud"
+      },
+      {
+        "name": "Gameplay",
+        "link": "https://www.youtube.com/watch?v=ChhZb__eZ-k",
+        "icon": "youtube-play"
+      }
     ]
   },
   {
@@ -1164,6 +1230,24 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "Battle against the undying in the fearsome arena of the mighty Lion in the cursed and corrupt land of Lords in this local multiplayer game for up to 4 players.",
+    "links": [
+      {
+        "name": "Website",
+        "link": "https://grimstorm.com/colosseum",
+        "icon": "globe"
+      },
+      {
+        "name": "Game Jolt Devlog",
+        "link": "http://gamejolt.com/games/grimstorm-colosseum/147486",
+        "icon": "book"
+      },
+      {
+        "name": "Development Videos",
+        "link": "https://www.youtube.com/playlist?list=PLgkjHa_vEaxnwDzEY5uUgsaAUdENhGao-",
+        "icon": "youtube-play"
       }
     ]
   },
@@ -1181,6 +1265,19 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "Colourful, intense shoot-em-up, that throws you against randomly generated bosses. I did the soundtrack for the game.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/flipside/156402",
+        "icon": "gamepad"
+      },
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/flipside",
+        "icon": "soundcloud"
+      }
     ]
   },
   {
@@ -1192,6 +1289,14 @@
       {
         "name": "Nik Sudan",
         "role": "Composer"
+      }
+    ],
+    "description": "A chilled out chiptune track made as background music for a podcast.",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/end-of-the-day",
+        "icon": "soundcloud"
       }
     ]
   },
@@ -1209,6 +1314,14 @@
         "name": "Nathan Auckett",
         "role": "Host"
       }
+    ],
+    "description": "A indie game podcast by the community at Game Jolt. Talks about game development, indie games, and more.",
+    "links": [
+      {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/watch?v=FLVLV_j3_vw",
+        "icon": "youtube-play"
+      }
     ]
   },
   {
@@ -1220,6 +1333,14 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "Short little therapeutic game where you must header balls in the air to get points. How many can you keep up?",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/onyerhedson/21873",
+        "icon": "gamepad"
       }
     ]
   },
@@ -1233,6 +1354,14 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "A neo-80s styled song with cyberpunk vibes.",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "link": "https://soundcloud.com/niksudan/fluxrunner",
+        "icon": "soundcloud"
+      }
     ]
   },
   {
@@ -1245,6 +1374,14 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "A collection of music I composed for various video games from 2014 to 2016.",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "link": "https://niksudan.bandcamp.com/album/video-game-music-volume-2",
+        "icon": "bandcamp"
+      }
     ]
   },
   {
@@ -1256,6 +1393,14 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "A project that started out as an experiment. It tracks commits from source control, and based on what you committed, it would award you with experience points. In the workplace it was a fight to see who could code the most!",
+    "links": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/niksudan/devrpg",
+        "icon": "github"
       }
     ]
   },
@@ -1273,6 +1418,14 @@
         "name": "Nathan Auckett",
         "role": "Host"
       }
+    ],
+    "description": "A indie game podcast by the community at Game Jolt. Talks about game development, indie games, and more.",
+    "links": [
+      {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/watch?v=0m2MU7iRYUM",
+        "icon": "youtube-play"
+      }
     ]
   },
   {
@@ -1285,7 +1438,8 @@
         "name": "Nik Sudan",
         "role": "Developer"
       }
-    ]
+    ],
+    "description": "A game where four players must hunt down bounties and each other in a dystopian, cyberpunk city. My first project in the Unity engine, but was cancelled due to time constraints."
   },
   {
     "name": "Introduction to Node.js",
@@ -1296,6 +1450,14 @@
       {
         "name": "Nik Sudan",
         "role": "Writer"
+      }
+    ],
+    "description": "Part of a series of tutorial articles on intermediate JavaScript development. This one covers moving from Vanilla JS to Node.JS.",
+    "links": [
+      {
+        "name": "Medium",
+        "link": "https://medium.com/@niksudan/introduction-to-node-js-91d12c8b485e",
+        "icon": "medium"
       }
     ]
   },
@@ -1309,6 +1471,14 @@
         "name": "Nik Sudan",
         "role": "Writer"
       }
+    ],
+    "description": "Part of a series of tutorial articles on intermediate JavaScript development. This one covers the use of package managers in environments.",
+    "links": [
+      {
+        "name": "Medium",
+        "link": "https://medium.com/@niksudan/introduction-to-javascript-package-managers-ca9610cda500",
+        "icon": "medium"
+      }
     ]
   },
   {
@@ -1320,6 +1490,19 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "Funny face generator based on the style of a series of comics I used to draw. Made in a couple of hours.",
+    "links": [
+      {
+        "name": "Website",
+        "link": "http://lemongen.niksudan.com",
+        "icon": "globe"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/niksudan/lemongen",
+        "icon": "github"
       }
     ]
   }
