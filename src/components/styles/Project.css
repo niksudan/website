@@ -20,25 +20,6 @@
   text-align: right;
 }
 
-.project__tag {
-  border: 1px solid #EEEEEE;
-  padding: 4px 8px;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  display: inline-block;
-  font-weight: 300;
-  margin-bottom: 1rem;
-}
-
-.project__tag + .project__tag {
-  margin-left: 5px;
-}
-
-.project__tag.tag--cancelled {
-  border-color: #ff6666;
-  color: #ff6666;
-}
-
 @media (max-width: 1280px) {
   .project img, .project__team {
     width: 40vw;

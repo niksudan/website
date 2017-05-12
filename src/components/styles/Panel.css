@@ -50,7 +50,7 @@
   line-height: 1;
 }
 
-.panel__tags {
+.panel .taglist {
   margin-top: 10px;
   opacity: 0;
   transition: 0.2s all;
@@ -61,7 +61,7 @@
   height: auto;
 }
 
-.panel:hover .panel__tags {
+.panel:hover .taglist {
   opacity: 1;
   bottom: 0px;
   right: 10px;

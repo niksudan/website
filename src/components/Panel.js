@@ -4,7 +4,9 @@ import { browserHistory } from 'react-router';
 import uniqueRandomArray from 'unique-random-array';
 import { selectProject } from '../actions/projects';
 import placeholders from '../data/placeholders';
+import TagList from './TagList';
 import './styles/Panel.css';
+
 const placeholder = uniqueRandomArray(placeholders);
 
 const Panel = ({ dispatch, data, index }) => {
@@ -21,11 +23,7 @@ const Panel = ({ dispatch, data, index }) => {
         <h4>{data.date}</h4>
         <h2>{data.name}</h2>
       </div>
-      <div className="panel__tags">
-        {data.tags.map((tag) => (
-          <h6 className={`project__tag tag--${tag}`}>{tag}</h6>
-        ))}
-      </div>
+      <TagList tags={data.tags} />
     </a>
   );
 };

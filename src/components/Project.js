@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import FontAwesome from 'react-fontawesome';
+import TagList from './TagList';
 import './styles/Project.css';
 
 const Project = ({ data }) => (
@@ -23,11 +24,7 @@ const Project = ({ data }) => (
     }
     <h4>{data.date}</h4>
     <h1>{data.name}</h1>
-    <div>
-      {data.tags.map((tag) => (
-        <h6 className={`project__tag tag--${tag}`}>{tag}</h6>
-      ))}
-    </div>
+    <TagList tags={data.tags} />
     <div className="project__team">
       {data.team.map((member) => (
         <div key={member.name}>

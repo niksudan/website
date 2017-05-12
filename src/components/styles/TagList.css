@@ -1,0 +1,18 @@
+.tag {
+  border: 1px solid #EEEEEE;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.tag + .tag {
+  margin-left: 5px;
+}
+
+.tag.tag--cancelled {
+  border-color: #ff6666;
+  color: #ff6666;
+}
