@@ -16,7 +16,7 @@
   margin: 2rem;
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 5px;
-  width: calc(100vw - 4rem);
+  width: calc(100% - 4rem);
   min-height: calc(100vh - 4rem);
 }
 

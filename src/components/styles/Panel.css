@@ -1,5 +1,5 @@
 .panel {
-  width: 33.33vw;
+  width: 33.33%;
   height: 33.33vh;
   display: inline-block;
   position: relative;
@@ -69,7 +69,7 @@
 
 @media (max-width: 1280px) {
   .panel {
-    width: 50vw;
+    width: 50%;
   }
 }
 
