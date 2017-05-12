@@ -27,6 +27,10 @@
   width: 100%;
 }
 
+.infobox-large__heading {
+  width: 50%;
+}
+
 .infobox-large__heading,
 .infobox-large__content,
 .infobox-large__heading h1,
@@ -46,6 +50,10 @@
 @media (max-width: 900px) {
   .infobox-large__content >div {
     width: calc(100% / 2);
+  }
+
+  .infobox-large__heading {
+    width: 100%;
   }
 }
 

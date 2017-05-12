@@ -13,15 +13,18 @@
       "links": [
         {
           "name": "Twitter",
-          "link": "http://twitter.com/niksudan"
+          "link": "http://twitter.com/niksudan",
+          "icon": "twitter"
         },
         {
           "name": "Facebook",
-          "link": "http://facebook.com/niksudan"
+          "link": "http://facebook.com/niksudan",
+          "icon": "facebook"
         },
         {
           "name": "Google Plus",
-          "link": "https://plus.google.com/+NikSudan"
+          "link": "https://plus.google.com/+NikSudan",
+          "icon": "google"
         }
       ]
     },
@@ -30,11 +33,13 @@
       "links": [
         {
           "name": "Linkedin",
-          "link": "http://linkedin.com/in/niksudan"
+          "link": "http://linkedin.com/in/niksudan",
+          "icon": "linkedin"
         },
         {
           "name": "AngelList",
-          "link": "http://angel.co/niksudan"
+          "link": "http://angel.co/niksudan",
+          "icon": "angellist"
         }
       ]
     },
@@ -43,11 +48,13 @@
       "links": [
         {
           "name": "YouTube",
-          "link": "http://youtube.com/c/niksudan"
+          "link": "http://youtube.com/c/niksudan",
+          "icon": "youtube-play"
         },
         {
           "name": "Twitch",
-          "link": "http://twitch.tv/niksudan"
+          "link": "http://twitch.tv/niksudan",
+          "icon": "twitch"
         }
       ]
     },
@@ -56,19 +63,23 @@
       "links": [
         {
           "name": "SoundCloud",
-          "link": "http://soundcloud.com/niksudan"
+          "link": "http://soundcloud.com/niksudan",
+          "icon": "soundcloud"
         },
         {
           "name": "BandCamp",
-          "link": "http://niksudan.bandcamp.com"
+          "link": "http://niksudan.bandcamp.com",
+          "icon": "bandcamp"
         },
         {
           "name": "Spotify",
-          "link": "https://open.spotify.com/user/1164319488"
+          "link": "https://open.spotify.com/user/1164319488",
+          "icon": "spotify"
         },
         {
           "name": "Last.fm",
-          "link": "https://www.last.fm/user/niksudan"
+          "link": "https://www.last.fm/user/niksudan",
+          "icon": "lastfm"
         }
       ]
     },
@@ -77,15 +88,18 @@
       "links": [
         {
           "name": "GitHub",
-          "link": "http://github.com/niksudan"
+          "link": "http://github.com/niksudan",
+          "icon": "github"
         },
         {
           "name": "Game Jolt",
-          "link": "http://gamejolt.com/@nik"
+          "link": "http://gamejolt.com/@nik",
+          "icon": "gamepad"
         },
         {
           "name": "itch.io",
-          "link": "http://nik.itch.io/"
+          "link": "http://nik.itch.io/",
+          "icon": "gamepad"
         }
       ]
     },
@@ -94,15 +108,18 @@
       "links": [
         {
           "name": "Medium",
-          "link": "http://medium.com/@niksudan"
+          "link": "http://medium.com/@niksudan",
+          "icon": "medium"
         },
         {
           "name": "500px",
-          "link": "http://500px.com/niksudan"
+          "link": "http://500px.com/niksudan",
+          "icon": "500px"
         },
         {
           "name": "Instagram",
-          "link": "https://www.instagram.com/niksudan"
+          "link": "https://www.instagram.com/niksudan",
+          "icon": "instagram"
         }
       ]
     }

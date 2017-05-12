@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
 import Button from '../components/Button';
+import FontAwesome from 'react-fontawesome';
 import './styles/InfoboxLarge.css';
 
 const InfoboxLarge = ({ infobox }) => (
@@ -27,7 +28,12 @@ const InfoboxLarge = ({ infobox }) => (
           <ul>
             {section.links.map((link, subindex) => (
               <li key={subindex}>
-                <a href={link.link} target="_blank">{link.name}</a>
+                <a href={link.link} target="_blank">
+                  {link.icon &&
+                    <FontAwesome name={link.icon} />
+                  }
+                  {link.name}
+                </a>
               </li>
             ))}
           </ul>
