@@ -16,3 +16,8 @@
   border-color: #ff6666;
   color: #ff6666;
 }
+
+.tag.tag--in-development {
+  border-color: #6fffe9;
+  color: #6fffe9;
+}
