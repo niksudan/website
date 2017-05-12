@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "build": true,
+    "node_modules": true,
+    "yarn.lock": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    "package.json": true
+  }
+}
