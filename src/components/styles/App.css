@@ -1,7 +1,3 @@
-.app, .app__view {
-  width: 100%;
-}
-
 .app__view >div {
   display: flex;
   flex-wrap: wrap;

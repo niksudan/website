@@ -4,7 +4,7 @@ import './styles/Modal.css';
 
 const Modal = ({ transition, handleClose, origin = 'center center', children }) => {
   if (transition === 0) {
-    return <div />;
+    return null;
   }
   const stretch = 1 - (0.75 * (1 - transition));
   return (
