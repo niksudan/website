@@ -262,6 +262,14 @@
         "name": "Nik Sudan",
         "role": "Developer"
       }
+    ],
+    "description": "BALANCE TO WIN! DON'T FALL TO YOUR DOOM! GET THOSE POINTS! HAVE FUN!",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/insane-balancing-on-one-leg-in-extremely-high-places/9925",
+        "icon": "gamepad"
+      }
     ]
   },
   {
@@ -321,6 +329,14 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "An exhilarating fitness simulator where you control our eager gym nut as he tries to break the record for the number of squats he can withstand.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/super-squat-simulator/11729",
+        "icon": "gamepad"
       }
     ]
   },
@@ -453,6 +469,14 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "Poop by pressing space. The longer you hold space the bigger it grows. The bigger a poop the more XP you get. You can upgrade stats to gain XP easier and to make your poop more macho.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/soopah-doopah-poopah/15722",
+        "icon": "gamepad"
       }
     ]
   },
@@ -947,6 +971,14 @@
         "name": "Nik Sudan",
         "role": "Writer"
       }
+    ],
+    "description": "An article about how to effectively plan the music in your game.",
+    "links": [
+      {
+        "name": "Medium",
+        "link": "https://medium.com/@niksudan/choosing-the-right-music-for-your-game-98ed179f80e5",
+        "icon": "medium"
+      }
     ]
   },
   {
@@ -983,6 +1015,14 @@
         "name": "Nik Sudan",
         "role": "Writer"
       }
+    ],
+    "description": "An article on how to process audio when making it for games.",
+    "links": [
+      {
+        "name": "Medium",
+        "link": "https://medium.com/@niksudan/audio-editing-for-games-9a9dbf8163bf",
+        "icon": "medium"
+      }
     ]
   },
   {
@@ -994,6 +1034,29 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "An intense, action-adventure set in a dark and grim world filled with knights and beasts. It's up to you alone to storm a castle of evil and bring back the peace! An entry for Adventure Jam 2015.",
+    "links": [
+      {
+        "name": "Website",
+        "link": "http://grimstorm.com",
+        "icon": "globe"
+      },
+      {
+        "name": "Game Jolt",
+        "link": "https://nik.gamejolt.io/grimstorm",
+        "icon": "gamepad"
+      },
+      {
+        "name": "Itch.io",
+        "link": "https://nik.itch.io/grimstorm",
+        "icon": "gamepad"
+      },
+      {
+        "name": "Soundtrack",
+        "link": "https://niksudan.bandcamp.com/album/grimstorm-ost",
+        "icon": "bandcamp"
       }
     ]
   },
@@ -1012,6 +1075,14 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "A fast paced arcade game where you must avoid obstacles in a game. Simple and fun! I was commissioned to compose an engaging soundtrack for players to focus to in this mobile game by Max.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/worp/71492",
+        "icon": "gamepad"
+      }
     ]
   },
   {
@@ -1023,6 +1094,14 @@
       {
         "name": "Nik Sudan",
         "role": "Writer"
+      }
+    ],
+    "description": "A general guide to planning your indie game I wrote after realising a lot of developers don't actually plan.",
+    "links": [
+      {
+        "name": "Medium",
+        "link": "https://medium.com/@niksudan/think-about-it-c879ecebe721",
+        "icon": "medium"
       }
     ]
   },
@@ -1040,6 +1119,14 @@
       {
         "name": "Nik Sudan",
         "role": "Composer"
+      }
+    ],
+    "description": "In a world lacking of kissing, you must kiss! I did the soundtrack for Amidos' jam game.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "links": "http://gamejolt.com/games/kissing-time/83687",
+        "icon": "gamepad"
       }
     ]
   },
@@ -1063,6 +1150,24 @@
         "name": "Nik Sudan",
         "role": "Composer"
       }
+    ],
+    "description": "Compete against an opponent in the most daring of days - golf! I composed the soundtrack for this game, created by Colin Lane.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/battle-golf/89587",
+        "icon": "gamepad"
+      },
+      {
+        "name": "App Store",
+        "link": "https://itunes.apple.com/gb/app/battle-golf/id1017112774",
+        "icon": "apple"
+      },
+      {
+        "name": "Google Play",
+        "link": "https://play.google.com/store/apps/details?id=com.kappsule.battlegolf",
+        "icon": "android"
+      }
     ]
   },
   {
@@ -1079,6 +1184,14 @@
       {
         "name": "Nik Sudan",
         "role": "Developer"
+      }
+    ],
+    "description": "A collaboration for the Indie Speed Run 2015. Restore a world lacking of colour, legendary trash can! I did sound, artwork and partial development for the project.",
+    "links": [
+      {
+        "name": "Game Jolt",
+        "link": "http://gamejolt.com/games/the-legend-of-trash/105533",
+        "icon": "gamepad"
       }
     ]
   },
@@ -1183,11 +1296,11 @@
         "role": "Writer"
       }
     ],
-    "description": "A general guide to planning your indie game I wrote after realising a lot of developers don't actually plan.",
+    "description": "When you make something, don't forget - other people do too! This article explains why caring for others is important in the world of development and design.",
     "links": [
       {
         "name": "Medium",
-        "link": "https://medium.com/@niksudan/think-about-it-c879ecebe721",
+        "link": "https://medium.com/@niksudan/its-not-just-about-you-3daeed181fca",
         "icon": "medium"
       }
     ]
