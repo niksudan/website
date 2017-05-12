@@ -55,15 +55,16 @@
   opacity: 0;
   transition: 0.2s all;
   position: absolute;
-  bottom: 0px;
+  bottom: -10px;
   right: 10px;
   width: auto;
   height: auto;
 }
 
 .panel:hover .panel__tags {
-  opacity: 0.8;
-  bottom: 10px;
+  opacity: 1;
+  bottom: 0px;
+  right: 10px;
 }
 
 @media (max-width: 1280px) {
