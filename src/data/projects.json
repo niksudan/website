@@ -71,6 +71,7 @@
       },
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Arist"
       }
     ]
@@ -111,6 +112,7 @@
       },
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Arist"
       }
     ]
@@ -199,10 +201,12 @@
       },
       {
         "name": "James Gregory",
+        "link": "https://twitter.com/imightbejames",
         "role": "Writer"
       },
       {
         "name": "Trystin Sinnot",
+        "link": "https://twitter.com/TrystinSinnott",
         "role": "Artist"
       }
     ]
@@ -231,6 +235,7 @@
       },
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Voice Actor"
       }
     ]
@@ -475,6 +480,7 @@
       },
       {
         "name": "John Wallie",
+        "link": "https://twitter.com/orangeclam",
         "role": "Developer"
       }
     ]
@@ -499,6 +505,7 @@
     "team": [
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Developer"
       },
       {
@@ -527,6 +534,7 @@
     "team": [
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Developer"
       },
       {
@@ -579,6 +587,7 @@
     "team": [
       {
         "name": "Jussi Simpanen",
+        "link": "https://twitter.com/AdventIslands",
         "role": "Developer"
       },
       {
@@ -767,6 +776,7 @@
     "team": [
       {
         "name": "Jussi Simpanen",
+        "link": "https://twitter.com/AdventIslands",
         "role": "Developer"
       },
       {
@@ -807,6 +817,7 @@
     "team": [
       {
         "name": "Colin Lane",
+        "link": "https://twitter.com/ColinWLane",
         "role": "Developer"
       },
       {
@@ -895,6 +906,7 @@
     "team": [
       {
         "name": "Jack King Spooner",
+        "link": "https://twitter.com/king_spooner",
         "role": "Creator"
       },
       {
@@ -911,10 +923,12 @@
     "team": [
       {
         "name": "Colin Lane",
+        "link": "https://twitter.com/ColinWLane",
         "role": "Developer"
       },
       {
         "name": "Folmer Kelly",
+        "link": "https://twitter.com/folmerkelly",
         "role": "Artist"
       },
       {
@@ -991,6 +1005,7 @@
     "team": [
       {
         "name": "Max Glockling",
+        "link": "https://twitter.com/maxinthepnw",
         "role": "Developer"
       },
       {
@@ -1019,6 +1034,7 @@
     "team": [
       {
         "name": "Ahmed Khalifa",
+        "link": "https://twitter.com/Amidos2006",
         "role": "Developer"
       },
       {
@@ -1035,10 +1051,12 @@
     "team": [
       {
         "name": "Colin Lane",
+        "link": "https://twitter.com/ColinWLane",
         "role": "Developer"
       },
       {
         "name": "Folmer Kelly",
+        "link": "https://twitter.com/folmerkelly",
         "role": "Artist"
       },
       {
@@ -1055,6 +1073,7 @@
     "team": [
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Developer"
       },
       {
@@ -1131,6 +1150,7 @@
     "team": [
       {
         "name": "Dr. Nu",
+        "link": "https://twitter.com/ScrelliCopter",
         "role": "Developer"
       },
       {
@@ -1200,6 +1220,7 @@
     "team": [
       {
         "name": "Tom van den Boogaart",
+        "link": "https://twitter.com/tomboogaart",
         "role": "Developer"
       },
       {
@@ -1259,6 +1280,7 @@
     "team": [
       {
         "name": "Rob van Saaze",
+        "link": "https://twitter.com/RobvanSaaze",
         "role": "Developer"
       },
       {
@@ -1312,6 +1334,7 @@
       },
       {
         "name": "Nathan Auckett",
+        "link": "https://twitter.com/NathanAuckett",
         "role": "Host"
       }
     ],
@@ -1388,10 +1411,15 @@
     "name": "DevRPG",
     "date": "October 2016",
     "slug": "devrpg",
-    "tags": ["service", "open-source"],
+    "tags": ["service", "open-source", "collaboration"],
     "team": [
       {
         "name": "Nik Sudan",
+        "role": "Developer"
+      },
+      {
+        "name": "Frank Martin",
+        "link": "https://twitter.com/_EFAREM",
         "role": "Developer"
       }
     ],
@@ -1416,6 +1444,7 @@
       },
       {
         "name": "Nathan Auckett",
+        "link": "https://twitter.com/NathanAuckett",
         "role": "Host"
       }
     ],

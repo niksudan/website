@@ -28,7 +28,14 @@ const Project = ({ data }) => (
     <div className="project__team">
       {data.team.map((member) => (
         <div key={member.name}>
-          <h5>{member.name}</h5>
+          <h5>
+            {member.link &&
+              <a href={member.link} target="_blank">
+                <FontAwesome name="twitter" />
+              </a>
+            }
+            {member.name}
+          </h5>
           <p>{member.role}</p>
         </div>
       ))}
