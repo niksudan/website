@@ -44,12 +44,12 @@
 }
 
 .infobox-large__content >div {
-  width: calc(100% / 3);
+  width: 33.33%;
 }
 
 @media (max-width: 900px) {
   .infobox-large__content >div {
-    width: calc(100% / 2);
+    width: 50%;
   }
 
   .infobox-large__heading {
