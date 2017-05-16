@@ -7,7 +7,21 @@ import './styles/InfoboxLarge.css';
 
 const InfoboxLarge = ({ infobox }) => (
   <div className="infobox-large">
-    <Helmet title="About" />
+    <Helmet
+      title="About"
+      meta={[
+        { name: "description", content: infobox.data.description },
+        { property: "og:title", content: `About ${infobox.data.name}` },
+        { property: "og:description", content: infobox.data.description },
+        { property: "og:type", content: "website" },
+        { propety: "og:image", content: infobox.data.avatar },
+        { property: "og:url", content: `${window.location.hostname}/about` },
+        { property: "twitter:card", content: "summary" },
+        { property: "twitter:site", content: "@niksudan" },
+        { property: "twitter:title", content: `About ${infobox.data.name}` },
+        { property: "twitter:description", content: infobox.data.description },
+      ]}
+    />
     <div className="infobox-large__avatar">
       <img src={infobox.data.avatar} alt="Avatar" />
     </div>

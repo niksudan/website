@@ -13,6 +13,8 @@ const Project = ({ data }) => (
         { property: "og:title", content: data.name },
         { property: "og:description", content: data.description },
         { property: "og:type", content: "article" },
+        { propety: "og:image", content: "https://www.gravatar.com/avatar/88b83f86433e9aff6e3a1d25735384a6?s=500" },
+        { property: "og:url", content: `${window.location.hostname}/${data.slug}` },
         { property: "twitter:card", content: "summary" },
         { property: "twitter:site", content: "@niksudan" },
         { property: "twitter:title", content: data.name },
