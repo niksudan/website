@@ -4,7 +4,7 @@
     "node_modules": true,
     "yarn.lock": true,
     ".editorconfig": true,
-    ".gitignore": true,
-    "package.json": true
+    "public/sitemap.xml": true,
+    "public/favicon.ico": true
   }
 }
