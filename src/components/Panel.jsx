@@ -20,7 +20,7 @@ const Panel = ({ dispatch, data, index }) => {
         backgroundImage: `url('${data.image ? data.image : placeholder()}')`
       }}></div>
       <div className="panel__content">
-        <h4>{data.date}</h4>
+        <h5>{data.date}</h5>
         <h2>{data.name}</h2>
       </div>
       <TagList tags={data.tags} />
