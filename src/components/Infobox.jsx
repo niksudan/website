@@ -35,7 +35,7 @@ const Infobox = ({ dispatch, infobox }) => (
             dispatch(closeInfobox());
             browserHistory.push('/');
           }}
-          origin="top right"
+          origin="bottom right"
           >
           <InfoboxLarge />
         </Modal>

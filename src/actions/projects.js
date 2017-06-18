@@ -18,3 +18,12 @@ export const unselectProject = () => {
 export const loadProjects = () => ({
   type: actions.LOAD_PROJECTS,
 });
+
+export const setFilter = (filter) => ({
+  type: actions.SET_FILTER,
+  filter,
+});
+
+export const clearFilter = () => ({
+  type: actions.CLEAR_FILTER,
+});

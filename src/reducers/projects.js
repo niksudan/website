@@ -1,3 +1,4 @@
+import { assign } from 'lodash';
 import * as actions from '../constants/actions';
 import projects from '../data/projects';
 
@@ -7,37 +8,40 @@ const initialState = {
   page: 0,
   current: null,
   isOpen: false,
+  filter: false,
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case actions.SELECT_PROJECT:
       if (state.items.length >= action.index) {
-        return {
-          items: state.items,
-          activeItems: state.activeItems,
+        return assign({}, state, {
           current: state.items[action.index],
           isOpen: true,
-          page: state.page,
-        };
+        });
       }
       return state;
     case actions.UNSELECT_PROJECT:
-      return {
-        items: state.items,
-        activeItems: state.activeItems,
-        current: state.current,
+      return assign({}, state, {
         isOpen: false,
-        page: state.page,
-      };
+      });
     case actions.LOAD_PROJECTS:
-      return {
-        items: state.items,
+      return assign({}, state, {
         activeItems: state.items.slice(0, 12 * (state.page + 2)),
-        current: state.current,
-        isOpen: state.isOpen,
         page: state.page + 1,
-      }
+      });
+    case actions.SET_FILTER:
+      return assign({}, state, {
+        filter: action.filter,
+        activeItems: state.items,
+        page: 0,
+      });
+    case actions.CLEAR_FILTER:
+      return assign({}, state, {
+        filter: false,
+        activeItems: projects.slice(0, 12),
+        page: 0,
+      });
     default:
       return state;
   }
