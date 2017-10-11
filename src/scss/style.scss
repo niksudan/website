@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
-@import url('../node_modules/tippy.js/dist/tippy.css');
+@import url('../../node_modules/tippy.js/dist/tippy.css');
 
 $primary: #364F6B;
 $secondary: #FC5185;
@@ -32,8 +32,8 @@ section {
   }
 }
 
-@import 'scss/content';
-@import 'scss/logo';
-@import 'scss/social-icons';
-@import 'scss/bell';
-@import 'scss/scrollers';
+@import 'content';
+@import 'logo';
+@import 'social-icons';
+@import 'bell';
+@import 'scrollers';

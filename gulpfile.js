@@ -5,13 +5,14 @@ const babili = require('gulp-babili');
 const cleanCSS = require('gulp-clean-css');
 const rimraf = require('rimraf');
 const browserSync = require('browser-sync').create();
+const ejs = require("gulp-ejs");
 
 gulp.task('clean', (cb) =>
   rimraf('./dist', cb)
 );
 
 gulp.task('styles', () =>
-  gulp.src('./src/**/*.scss')
+  gulp.src('./src/scss/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(cleanCSS())
     .pipe(gulp.dest('./dist'))
@@ -33,24 +34,27 @@ gulp.task('scripts', () =>
     .pipe(gulp.dest('./dist/'))
 );
 
-gulp.task('html', () =>
-  gulp.src('src/**/*.html')
+gulp.task('views', () =>
+  gulp.src('src/views/*.ejs')
+    .pipe(ejs({
+      title: '',
+    }, {}, { ext: '.html' }))
     .pipe(gulp.dest('./dist'))
 );
 
 gulp.task('default', ['clean'], () => {
   gulp.start('styles');
   gulp.start('scripts');
-  gulp.start('html');
+  gulp.start('views');
 });
 
 gulp.task('watch', ['default'], () => {
   browserSync.init({
     server: {
-        baseDir: "./dist"
+      baseDir: "./dist"
     }
   });
   gulp.watch('./src/**/*.scss', ['styles']).on('change', browserSync.stream);
   gulp.watch('./src/**/*.js', ['scripts']).on('change', browserSync.reload);
-  gulp.watch('./src/**/*.html', ['html']).on('change', browserSync.reload);
+  gulp.watch('./src/**/*.ejs', ['views']).on('change', browserSync.reload);
 });
