@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('../node_modules/tippy.js/dist/tippy.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  height: 100vh;
+
+  .content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.logo {
+  width: 100%;
+  max-width: 512px;
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  a {
+    display: inline-block;
+    margin-right: 1rem;
+    border: 0;
+    opacity: 0;
+    animation: iconAnimation 0.5s ease-out;
+    animation-fill-mode: forwards;
+    position: relative;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+    
+    @for $index from 1 through 7 {
+      &:nth-child(#{$index}) {
+        animation-delay: #{0.5 + ($index / 20)}s;
+      }
+    }
+
+    img {
+      width: 2rem;
+      transition: 0.1s all;
+      position: relative;
+      top: 0;
+
+      &:hover {
+        animation-fill-mode: none;
+        transform: scale(1.5);
+      }
+    }
+  }
+}
+
+@keyframes iconAnimation {
+  0% {
+    opacity: 0;
+    top: 10rem;
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+    top: -1rem;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+  }
+}
