@@ -1,3 +1,10 @@
+h1 {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
 p, li {
   line-height: 1.5;
 }
@@ -17,6 +24,7 @@ a {
 .content {
   text-align: left;
   max-width: 800px;
+  display: inline-block;
   margin: auto;
 
   @media (max-width: 768px) {
