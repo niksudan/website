@@ -11,9 +11,7 @@ $background: #F5F5F5;
 
 body {
   font-family: 'Lato', sans-serif;
-  width: 100%;
-  max-width: 1080px;
-  margin: auto;
+  margin: 0;
   background-color: $background;
   color: $primary;
   font-size: 18px;
@@ -23,6 +21,8 @@ section {
   display: table;
   width: 100%;
   height: 100vh;
+  margin: auto;
+  max-width: 1080px;
   position: relative;
 
   .container {

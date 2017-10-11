@@ -6,6 +6,8 @@ const cleanCSS = require('gulp-clean-css');
 const rimraf = require('rimraf');
 const browserSync = require('browser-sync').create();
 const ejs = require("gulp-ejs");
+const marked = require('marked');
+const fs = require('fs');
 
 gulp.task('clean', (cb) =>
   rimraf('./dist', cb)
@@ -37,7 +39,8 @@ gulp.task('scripts', () =>
 gulp.task('views', () =>
   gulp.src('src/views/*.ejs')
     .pipe(ejs({
-      title: '',
+      title: 'Nik\'s Space',
+      stuff: marked(fs.readFileSync('./src/content/stuff.md', { encoding: 'UTF8' }))
     }, {}, { ext: '.html' }))
     .pipe(gulp.dest('./dist'))
 );
@@ -57,4 +60,5 @@ gulp.task('watch', ['default'], () => {
   gulp.watch('./src/**/*.scss', ['styles']).on('change', browserSync.stream);
   gulp.watch('./src/**/*.js', ['scripts']).on('change', browserSync.reload);
   gulp.watch('./src/**/*.ejs', ['views']).on('change', browserSync.reload);
+  gulp.watch('./src/**/*.md', ['views']).on('change', browserSync.reload);
 });

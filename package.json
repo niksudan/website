@@ -8,6 +8,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-ejs": "^3.0.1",
     "gulp-sass": "^3.1.0",
+    "marked": "^0.3.6",
     "rimraf": "^2.6.2"
   },
   "scripts": {

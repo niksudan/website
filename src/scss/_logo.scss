@@ -24,3 +24,14 @@
     }
   }
 }
+
+.small-logo {
+  display: inline-block;
+  width: 150px;
+  border: 0;
+
+  #logo {
+    padding: 1rem;
+    margin: 0;
+  }
+}
