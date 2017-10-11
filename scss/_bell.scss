@@ -1,0 +1,20 @@
+.bell {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 100;
+
+  a {
+    display: inline-block;
+    border: 0;
+    padding: 1rem;
+
+    .feather {
+      transform: scale(2);
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

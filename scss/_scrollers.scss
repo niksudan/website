@@ -1,0 +1,23 @@
+.scroller {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border: 0;
+
+  .feather {
+    transform: scale(2);
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.is-bottom {
+    bottom: 1rem;
+  }
+  
+  &.is-top {
+    top: 1rem;
+  }
+}

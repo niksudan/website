@@ -9,6 +9,8 @@ new Vivus('logo', {
 // Enable tooltips
 tippy('.has-tooltip', {
   position: 'bottom',
-  distance: 20,
   animateFill: false,
 });
+
+// Enable smooth scrolling
+new SmoothScroll('a[href*="#"]');

@@ -23,6 +23,7 @@ section {
   display: table;
   width: 100%;
   height: 100vh;
+  position: relative;
 
   .container {
     display: table-cell;
@@ -31,14 +32,8 @@ section {
   }
 }
 
-.has-mobile-margin {
-  @media (max-width: 768px) {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
 @import 'content';
 @import 'logo';
 @import 'social-icons';
-@import 'grid';
+@import 'bell';
+@import 'scrollers';

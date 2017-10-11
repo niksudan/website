@@ -3,13 +3,24 @@ p, li {
 }
 
 a {
-  color: $secondary;
+  color: $primary;
   text-decoration: none;
-  border-bottom: 3px solid $secondary;
+  border-bottom: 2px solid $primary;
   transition: 0.2s all ease-in-out;
 
   &:hover {
-    color: $primary;
-    border-color: $primary;
+    color: $secondary;
+    border-color: $secondary;
+  }
+}
+
+.content {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+
+  @media (max-width: 768px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
