@@ -1,0 +1,24 @@
+#logo {
+  width: 100%;
+  max-width: 512px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem;
+  }
+  
+  path {
+    fill: rgba(0, 0, 0, 0);
+    stroke: $primary;
+    stroke-width: 10px;
+    stroke-linecap: round;
+  }
+
+  &.is-finished {
+    path {
+      transition: 0.4s all ease-out;
+      fill: $secondary;
+    }
+  }
+}

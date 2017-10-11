@@ -15,103 +15,30 @@ body {
   max-width: 1080px;
   margin: auto;
   background-color: $background;
+  color: $primary;
+  font-size: 18px;
 }
 
-.container {
+section {
   display: table;
   width: 100%;
   height: 100vh;
 
-  .content {
+  .container {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
   }
 }
 
-#logo {
-  width: 100%;
-  max-width: 512px;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  
-  path {
-    fill: rgba(0, 0, 0, 0);
-    stroke: $primary;
-    stroke-width: 10px;
-    stroke-linecap: round;
-  }
-
-  &.is-finished {
-    path {
-      transition: 0.4s all ease-out;
-      fill: $secondary;
-    }
+.has-mobile-margin {
+  @media (max-width: 768px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
-.social-icons {
-  a {
-    display: inline-block;
-    margin-right: 3rem;
-    border: 0;
-    opacity: 0;
-    animation: iconAnimation 0.5s ease-out;
-    animation-fill-mode: forwards;
-    position: relative;
-
-    &:last-of-type {
-      margin-right: 0;
-    }
-    
-    @for $index from 1 through 7 {
-      &:nth-child(#{$index}) {
-        animation-delay: #{0.5 + ($index / 20)}s;
-      }
-    }
-
-    .feather {
-      transform: scale(2);
-      transition: 0.1s all;
-      position: relative;
-      top: 0;
-
-      * {
-        fill: none;
-        stroke: $primary;
-      }
-
-      &:hover {
-        animation-fill-mode: none;
-        transform: scale(2.25);
-
-        * {
-          stroke: $secondary;
-        }
-      }
-    }
-  }
-}
-
-.tippy-tooltip {
-  background-color: $secondary;
-  color: $background;
-}
-
-@keyframes iconAnimation {
-  0% {
-    opacity: 0;
-    top: 20rem;
-    transform: scale(1);
-  }
-  75% {
-    opacity: 1;
-    top: -1rem;
-    transform: scale(1.5);
-  }
-  100% {
-    opacity: 1;
-    top: 0;
-    transform: scale(1);
-  }
-}
+@import 'content';
+@import 'logo';
+@import 'social-icons';
+@import 'grid';
