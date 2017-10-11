@@ -9,6 +9,7 @@
     "build": "gulp"
   },
   "dependencies": {
-    "tippy.js": "^1.3.0"
+    "tippy.js": "^1.3.0",
+    "vivus": "^0.4.2"
   }
 }
