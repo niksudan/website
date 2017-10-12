@@ -8,3 +8,4 @@ A portfolio of my work.
 - Font - [Lato](https://fonts.google.com/specimen/Lato)
 - Tooltips - [Tippy.js](https://atomiks.github.io/tippyjs)
 - SVG Animation - [Vivus](https://maxwellito.github.io/vivus/)
+- Palette - [Color Hunt](http://www.colorhunt.co/c/32893)

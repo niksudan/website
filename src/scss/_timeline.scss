@@ -1,0 +1,58 @@
+.timeline {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  > ul {
+    padding: 0;
+    list-style: none;
+    margin-left: 50px;
+
+    > li {
+      padding-left: 50px;
+      min-height: 100px;
+      position: relative;
+      border-left: 8px solid $primary;
+
+      > :first-child {
+        float: left;
+        background-color: $secondary;
+        color: $background;
+        border: 8px solid $primary;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: -56px;
+        line-height: 1.5;
+        text-align: center;
+        justify-content: center;
+        font-weight: 300;
+
+        &::after {
+          display: block;
+          content: "";
+          clear: both;
+        }
+      }
+
+      > ul {
+        padding-top: 100px;
+      }
+
+      ul {
+        text-align: left;
+        margin-left: 1rem;
+      }
+
+      svg {
+        position: relative;
+        top: 6px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

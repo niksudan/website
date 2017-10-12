@@ -5,9 +5,13 @@ const babili = require('gulp-babili');
 const cleanCSS = require('gulp-clean-css');
 const rimraf = require('rimraf');
 const browserSync = require('browser-sync').create();
-const ejs = require("gulp-ejs");
+const ejs = require('gulp-ejs');
 const marked = require('marked');
 const fs = require('fs');
+const Entities = require('html-entities').AllHtmlEntities;
+const ejsRenderer = require('ejs');
+
+const entities = new Entities();
 
 gulp.task('clean', (cb) =>
   rimraf('./dist', cb)
@@ -36,14 +40,24 @@ gulp.task('scripts', () =>
     .pipe(gulp.dest('./dist/'))
 );
 
-gulp.task('views', () =>
+gulp.task('views', () => {
+  const stuff = ejsRenderer.render(
+    entities.decode(
+      marked(
+        fs.readFileSync('./src/content/stuff.md', { encoding: 'UTF8' })
+      )
+    ),
+    {},
+    { root: __dirname + '/src/views' }
+  );
+  console.log(stuff);
   gulp.src('src/views/*.ejs')
     .pipe(ejs({
       title: 'Nik\'s Space',
-      stuff: marked(fs.readFileSync('./src/content/stuff.md', { encoding: 'UTF8' }))
+      stuff,
     }, {}, { ext: '.html' }))
     .pipe(gulp.dest('./dist'))
-);
+});
 
 gulp.task('default', ['clean'], () => {
   gulp.start('styles');
@@ -57,7 +71,7 @@ gulp.task('watch', ['default'], () => {
       baseDir: "./dist"
     }
   });
-  gulp.watch('./src/**/*.scss', ['styles']).on('change', browserSync.stream);
+  gulp.watch('./src/scss/*.scss', ['styles']).on('change', browserSync.stream);
   gulp.watch('./src/**/*.js', ['scripts']).on('change', browserSync.reload);
   gulp.watch('./src/**/*.ejs', ['views']).on('change', browserSync.reload);
   gulp.watch('./src/**/*.md', ['views']).on('change', browserSync.reload);

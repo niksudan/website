@@ -2,12 +2,14 @@
   "version": "2.0.0",
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "ejs": "^2.5.7",
     "gulp": "^3.9.1",
     "gulp-babili": "^0.1.4",
     "gulp-clean-css": "^3.9.0",
     "gulp-concat": "^2.6.1",
     "gulp-ejs": "^3.0.1",
     "gulp-sass": "^3.1.0",
+    "html-entities": "^1.2.1",
     "marked": "^0.3.6",
     "rimraf": "^2.6.2"
   },

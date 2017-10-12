@@ -36,7 +36,17 @@
         <p>By day, I work for a web agency called <a class="has-tooltip" title="We make stuff!" target="_blank" href="https://www.digital-results.com">Digital Results</a>.</p>
         <p>I write a lot of music too, dabbling in all sorts of instruments and styles.</p>
         <p>There's bound to be something here that you'd like!</p>
-        <p><a class="has-tooltip" title="There's a lot!" href="/stuff.html">See all of my stuff</a>, or <a class="has-tooltip" title="Don't spam 😢" href="mailto:nik@niks.space">get in touch</a>.</p>
+        <p><a class="has-tooltip" title="There's a lot!" href="#stuff">See all of my stuff</a>, or <a class="has-tooltip" title="Don't spam 😢" href="mailto:nik@niks.space">get in touch</a>.</p>
+      </div>
+    </div>
+    <a class="scroller is-bottom" href="#stuff">
+      <%- include('icons/chevron-down') %>
+    </a>
+  </section>
+  <section id="stuff">
+    <div class="container">
+      <div class="content timeline">
+        <%- stuff %>
       </div>
     </div>
     <a class="scroller is-bottom" href="#intro">
