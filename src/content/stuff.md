@@ -21,7 +21,7 @@
       <h3 id="risk-ahoy">
         [Risk Ahoy!](https://itunes.apple.com/us/app/risk-ahoy-uk-p-i-club/id1236855989?mt=8)
       </h3>
-      Mobile game raising made in collaboration with the [UK P&I Club](https://www.ukpandi.com/) to raise awareness of risks at sea. Test your skills and powers of observation as you avoid hazards, make decisions and maintain your ship in this fast-paced, arcade experience..
+      Mobile game made in collaboration with the [UK P&I Club](https://www.ukpandi.com/) to raise awareness of risks at sea. Test your skills and powers of observation as you avoid hazards, make decisions and maintain your ship in this fast-paced, arcade experience.
   - `June`
     - <%- include('/icons/github') %>
       <h3 id="peanut-botter">
