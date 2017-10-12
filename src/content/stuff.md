@@ -1,3 +1,92 @@
+- **2014**
+  - `December`
+    - <%- include('/icons/github') %>
+      <h3 id="wp-post-distance">
+        [WordPress Post Distance Filter](https://github.com/niksudan/wp-post-distance-filter)
+      </h3>
+      A plugin that filters WordPress posts by distance.
+  - `November`
+    - <%- include('/icons/github') %>
+      <h3 id="sk">
+        [sk](https://github.com/niksudan/sk)
+      </h3>
+      GameMaker skeleton animation library.
+    - <%- include('/icons/star') %>
+      <h3 id="poop-em-up">
+        [POOP EM UP](https://gamejolt.com/games/poop-em-up/38749)
+      </h3>
+      A shoot-em-up, but with a crappy twist. Sometimes you just wanna poop on everyone, you know?
+    - <%- include('/icons/music') %>
+      <h3 id="wheelie-legend">
+        [Wheelie Legend](http://www.kongregate.com/games/colburt187/wheelie-legend)
+      </h3>
+      A game by [Colin Lane](https://twitter.com/ColinWLane) involving bikes and wheelies. I wrote the soundtrack for this game.
+  - `September`
+    - <%- include('/icons/star') %>
+      <h3 id="petcat">
+        [petcat](https://gamejolt.com/games/petcat/34473)
+      </h3>
+      Pet a cat, but not too hard.
+    - <%- include('/icons/star') %>
+      <h3 id="boxhead">
+        [Boxhead](https://gamejolt.com/games/boxhead/34056)
+      </h3>
+      The sub levels of Tercon Major are a lovely place to be. A game made in the style of Tom van den Boogaart's projects.
+  - `August`
+   - <%- include('/icons/music') %>
+      <h3 id="steam-rogue">
+        [Steam Rogue](https://www.newgrounds.com/portal/view/644288?id=644288)
+      </h3>
+      A game [Jussi Simpanen](https://twitter.com/AdventIslands) made for Game Boy Jam 2014. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/game-boy-jam-3) for this game.
+  - `April`
+    - <%- include('/icons/star') %>
+      <h3 id="octo-beast">
+        [Octo-Beast of the Stormy Sea](https://gamejolt.com/games/octo-beast-of-the-stormy-sea/26060)
+      </h3>
+      Try to survive the attack of the fearsome Octo-Beast of the Stormy Sea. Will you escape the seas alive?
+    - <%- include('/icons/star') %>
+      <h3 id="skolgbor">
+        [Skolgbor](https://gamejolt.com/games/skolgbor/25829)
+      </h3>
+      It's time for Skolgbor to come out of hiding and embrace the world. Guide him to the exit whilst avoiding low flying Gaznogs.
+  - `March`
+    - <%- include('/icons/star') %>
+      <h3 id="moonrunner">
+        [Moonrunner](https://gamejolt.com/games/moonrunner/24502)
+      </h3>
+      Outrun the dark side of the moon in this game I made in 3 hours.
+    - <%- include('/icons/star') %>
+      <h3 id="protocol">
+        [Protocol](https://gamejolt.com/games/protocol/23683)
+      </h3>
+      Take control of a biker and take down the lawbots that are pursuing her in a dystopian world. Came [2nd out of 259 entries](https://itch.io/jam/cyberpunk-jam/results) in the 2014 Cyberpunk Jam.
+  - `February`
+    - <%- include('/icons/star') %>
+      <h3 id="flerpy-berd">
+        [Flerpy Berd](https://gamejolt.com/games/flerpy-berd/22802)
+      </h3>
+      My _obligatory_ Flappy Bird clone.
+  - `January`
+    - <%- include('/icons/music') %>
+      <h3 id="the-sound-of-murder">
+        [The Sound of Murder](https://gamejolt.com/games/the-sound-of-murder/21938)
+      </h3>
+      [John Wallie](https://twitter.com/orangeclam)'s mysterious adventure. I wrote the soundtrack for this game.
+    - <%- include('/icons/music') %>
+      <h3 id="weird-fishes-cover">
+        [Weird Fishes/Arpeggi Cover](https://soundcloud.com/niksudan/weird-fishes-cover)
+      </h3>
+      A cover of Radiohead's song in my own style. From the album "In Rainbows".
+    - <%- include('/icons/music') %>
+      <h3 id="vgm-volumne-1">
+        [Video Game Music Volume 1](https://niksudan.bandcamp.com/album/video-game-music-volume-1)
+      </h3>
+      A collection of music I have composed for various video games from 2012 to 2013.
+    - <%- include('/icons/video') %>
+      <h3 id="game-maker-games-of-2013">
+        [Game Maker Games of 2013](https://www.youtube.com/watch?v=6pjgnOWsrPg)
+      </h3>
+      A video showcasing every game I made with GameMaker in 2013.
 - **2013**
   - `December`
     - <%- include('/icons/star') %>
@@ -5,10 +94,16 @@
         [Crazy Christmas Courier Chucks Charity into Chimneys](https://gamejolt.com/games/crazy-christmas-courier-chucks-charity-into-chimneys/20448)
       </h3>
       Run on the rooftops! Pelt those presents! Get them in chimneys, don't be hesitant!
+    - <%- include('/icons/music') %>
+      <h3 id="running-into-darkness">
+        [Running Into Darkness](https://soundcloud.com/niksudan/running-into-darkness)
+      </h3>
+      A alternative, progressive song about the dark.
+    - <%- include('/icons/star') %>
       <h3 id="super-sneaky-sample-stealer">
         [Super Sneaky Sample Stealer](https://gamejolt.com/games/super-sneaky-sample-stealer/20139)
       </h3>
-      Who can resist the urge to nab as many free samples in a ridiculously overpriced shopping centre? Not you. However, the vendors will only give one sample to each person...
+      Who can resist the urge to nab as many free samples in a ridiculously overpriced shopping centre? Came [4th out of 2061 entries](http://ludumdare.com/compo/ludum-dare-28/?action=top) for Ludum Dare 28.
   - `November`
     - <%- include('/icons/music') %>
       <h3 id="tiny-dangerous-dungeons">
