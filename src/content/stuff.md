@@ -1,3 +1,77 @@
+- **2015**
+  - `November`
+    - <%- include('/icons/music') %>
+      <h3 id="hoponono-chiptune-cover">
+        [Hoponono Chiptune Cover](https://soundcloud.com/niksudan/hopopono)
+      </h3>
+      A cover of GoGo Penguin's crazy cool tune, 'Hopopono', in a chiptune style.
+  - `October`
+    - <%- include('/icons/star') %>
+      <h3 id="the-legend-of-trash">
+        [The Legend of Trash](http://gamejolt.com/games/the-legend-of-trash/105533)
+      </h3>
+      A collaboration for the Indie Speed Run 2015 with [Rob van Saaze](https://twitter.com/RobvanSaaze). Restore a world lacking of colour, legendary trash can! I did sound, artwork and partial development for the project.
+  - `August`
+   - <%- include('/icons/music') %>
+      <h3 id="battle-golf">
+        [Battle Golf](https://itunes.apple.com/gb/app/battle-golf/id1017112774)
+      </h3>
+      Compete against an opponent in the most daring of days - golf! I composed the soundtrack for this game, created by [Colin Lane](https://twitter.com/ColinWLane) and [Folmer Kelly](https://twitter.com/folmerkelly).
+   - <%- include('/icons/music') %>
+      <h3 id="kissing-time">
+        [Kissing Time](http://gamejolt.com/games/kissing-time/83687)
+      </h3>
+      In a world lacking of kissing, you must kiss! I did the soundtrack for [Ahmed Khalifa](https://twitter.com/Amidos2006)'s jam game.
+  - `May`
+   - <%- include('/icons/music') %>
+      <h3 id="worp">
+        [Worp](http://gamejolt.com/games/worp/71492)
+      </h3>
+      A fast paced arcade game where you must avoid obstacles in this simple and and fun game by [Max Glockling](https://twitter.com/maxinthepnw). I wrote the soundtrack to this game.
+  - `April`
+    - <%- include('/icons/star') %>
+      <h3 id="grimstorm">
+        [Grimstorm](https://nik.gamejolt.io/grimstorm)
+      </h3>
+      An intense, action-adventure set in a dark and grim world filled with knights and beasts. It's up to you alone to storm a castle of evil and bring back the peace!
+    - <%- include('/icons/music') %>
+      <h3 id="beyond-the-event-horizon">
+        [Beyond The Event Horizon](https://soundcloud.com/niksudan/beyond-the-event-horizon)
+      </h3>
+      A chilled out chiptune track that mixes more ambient tones into the normally energetic style.
+    - <%- include('/icons/music') %>
+      <h3 id="borg-waltz">
+        [Borg Waltz](https://soundcloud.com/niksudan/borg-waltz)
+      </h3>
+      A song for Tom van den Boogaart's cancelled exploration game set in the streets of a gritty dystopia, "Briefdrager".
+  - `March`
+    - <%- include('/icons/github') %>
+      <h3 id="wp-additional-logins">
+        [prettylight](https://github.com/niksudan/wp-additional-logins)
+      </h3>
+      Plugin that allows additional logins per WordPress user.
+  - `February`
+    - <%- include('/icons/github') %>
+      <h3 id="prettylight">
+        [prettylight](https://github.com/niksudan/prettylight)
+      </h3>
+      Powerful lighting engine for use with GameMaker: Studio.
+  - `January`
+    - <%- include('/icons/music') %>
+      <h3 id="golf-is-hard">
+        [Golf is Hard](https://jackspinoza.itch.io/the-stage)
+      </h3>
+      [Colin Lane](https://twitter.com/ColinWLane)'s single player golf simulator, with art by [Folmer Kelly](https://twitter.com/folmerkelly). I wrote [the soundtrack](https://soundcloud.com/niksudan/golfing-around) for this game.
+    - <%- include('/icons/star') %>
+      <h3 id="the-stage">
+        [The Stage](https://jackspinoza.itch.io/the-stage)
+      </h3>
+      A collection of microgames by [Jack King-Spooner](https://twitter.com/king_spooner). I did the artwork and writing for [episode 17 - "Shopkeeper"](http://jackkingspooner.github.io/shop/).
+    - <%- include('/icons/star') %>
+      <h3 id="game-maker-games-of-2014">
+        [Game Maker Games of 2014](https://www.youtube.com/watch?v=81ns0mj1SaQ)
+      </h3>
+      A video showcasing every game I made with GameMaker in 2014.
 - **2014**
   - `December`
     - <%- include('/icons/github') %>
