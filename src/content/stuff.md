@@ -51,6 +51,11 @@
       </h3>
       An [experimental game](https://www.youtube.com/watch?v=ChhZb__eZ-k) where you walk around a mysterious town by the sea, featuring robots. A cancelled project by [Tom van den Boogaart](https://twitter.com/tomboogaart), with music by myself.
   - `April`
+    - <%- include('/icons/document') %>
+      <h3 id="its-not-just-about-you">
+        [It's Not Just About You](https://medium.com/@niksudan/its-not-just-about-you-3daeed181fca)
+      </h3>
+      You aren’t the only one with a game.
     - <%- include('/icons/music') %>
       <h3 id="flapy-bird">
         [Flapy Bird](https://gamejolt.com/games/flapy-burd/141878)
@@ -92,7 +97,12 @@
       </h3>
       In a world lacking of kissing, you must kiss! I did the soundtrack for [Ahmed Khalifa](https://twitter.com/Amidos2006)'s jam game.
   - `May`
-   - <%- include('/icons/music') %>
+    - <%- include('/icons/document') %>
+      <h3 id="think-about-it">
+        [Think About It](https://medium.com/@niksudan/think-about-it-c879ecebe721)
+      </h3>
+      How can planning your game make a difference?
+    - <%- include('/icons/music') %>
       <h3 id="worp">
         [Worp](http://gamejolt.com/games/worp/71492)
       </h3>
@@ -114,12 +124,22 @@
       </h3>
       A song for [Tom van den Boogaart](https://twitter.com/tomboogaart)'s cancelled exploration game set in the streets of a gritty dystopia, "Briefdrager".
   - `March`
+    - <%- include('/icons/document') %>
+      <h3 id="audio-editing-for-games">
+        [Audio Editing for Games](https://medium.com/@niksudan/choosing-the-right-music-for-your-game-98ed179f80e5)
+      </h3>
+      That sounds pretty good, but how could you make it even better?
     - <%- include('/icons/github') %>
       <h3 id="wp-additional-logins">
         [prettylight](https://github.com/niksudan/wp-additional-logins)
       </h3>
       Plugin that allows additional logins per WordPress user.
   - `February`
+    - <%- include('/icons/document') %>
+      <h3 id="choosing-the-right-music">
+        [Choosing the Right Music for your Game](https://medium.com/@niksudan/choosing-the-right-music-for-your-game-98ed179f80e5)
+      </h3>
+      I wonder what your game sounds like? It doesn’t? Let’s make it sound like something!
     - <%- include('/icons/github') %>
       <h3 id="prettylight">
         [prettylight](https://github.com/niksudan/prettylight)
@@ -149,6 +169,11 @@
       </h3>
       A plugin that filters WordPress posts by distance.
   - `November`
+    - <%- include('/icons/document') %>
+      <h3 id="getting-your-game-out-there">
+        [Getting Your Game Out There](https://medium.com/@niksudan/getting-your-game-out-there-4b5c25cd1a1a)
+      </h3>
+      The internet is full of games, don’t get your game lost in the crowd.
     - <%- include('/icons/github') %>
       <h3 id="sk">
         [sk](https://github.com/niksudan/sk)
