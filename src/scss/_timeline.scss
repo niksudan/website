@@ -15,10 +15,15 @@
       position: relative;
       border-left: 4px solid $primary;
 
+      @media (max-width: 768px) {
+        border: 0;
+        padding-left: 1rem;
+      }
+
       > :first-child {
         float: left;
         background-color: $secondary;
-        color: $background;
+        color: $primary;
         border: 4px solid $primary;
         width: 100px;
         height: 100px;
@@ -30,22 +35,57 @@
         line-height: 1.5;
         text-align: center;
         justify-content: center;
-        font-weight: 300;
+        font-weight: 400;
+        font-size: 2rem;
 
         &::after {
           display: block;
           content: "";
           clear: both;
         }
+        
+        @media (max-width: 768px) {
+          width: 100%;
+          border-width: 0;
+          border-radius: 0;
+          font-size: 2rem;
+          left: 0;
+          float: none;
+          position: relative;
+          display: block;
+          height: auto;
+          background: none;
+          color: $primary;
+          text-align: right;
+          font-size: 3.5rem;
+          margin-top: 1rem;
+        }
       }
 
       > ul {
         padding-top: 100px;
         margin-left: 1rem;
-        
+
+        @media (max-width: 768px) {
+          margin-left: 0;
+          padding-top: 0;
+          text-align: right;
+
+          code {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+          }
+        }
+
         > li ul {
           margin-left: 4.5rem;
           margin-top: 1rem;
+
+          @media (max-width: 768px) {
+            margin-left: 0;
+            text-align: left;
+          }
 
           li {
             position: relative;
@@ -58,7 +98,7 @@
               transform: scale(2);
             }
   
-            h3 {
+            h1, h2, h3 {
               margin-bottom: 0.5rem;
               line-height: 1.5;
             }

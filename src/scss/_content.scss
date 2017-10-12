@@ -10,6 +10,11 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+  font-weight: 400;
+  
+  a {
+    border-width: 3px;
+  }
 }
 
 h3 {
@@ -57,4 +62,8 @@ code {
   margin-right: 5px;
   border-radius: 5px;
   font-weight: 300;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
