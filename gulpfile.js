@@ -40,7 +40,7 @@ gulp.task('scripts', () =>
     .pipe(gulp.dest('./dist/'))
 );
 
-gulp.task('views', () => {
+gulp.task('views', ['favicon'], () => {
   const stuff = ejsRenderer.render(
     entities.decode(
       marked(
@@ -52,11 +52,15 @@ gulp.task('views', () => {
   );
   gulp.src('src/views/*.ejs')
     .pipe(ejs({
-      title: 'Nik\'s Space',
       stuff,
     }, {}, { ext: '.html' }))
     .pipe(gulp.dest('./dist'))
 });
+
+gulp.task('favicon', () =>
+  gulp.src('src/favicon.ico')
+  .pipe(gulp.dest('./dist'))
+);
 
 gulp.task('default', ['clean'], () => {
   gulp.start('styles');
