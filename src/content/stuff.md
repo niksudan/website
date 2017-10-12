@@ -1,5 +1,5 @@
 - **2017**
-  - `In Development`
+  - `On My Plate`
     - <%- include('/icons/star') %>
       <h3 id="beargame">
         [Beargame](https://nik.gamejolt.io/beargame)
@@ -63,7 +63,7 @@
       <h3 id="jolt-cast-2">
         [Jolt Cast - Episode 2](https://www.youtube.com/watch?v=0m2MU7iRYUM)
       </h3>
-      A indie game podcast by the community at Game Jolt. Talks about game development, indie games, and more.
+      A indie game podcast by the community at Game Jolt. Talks about game development, indie games, and more. Check out <a href="#jolt-cast-1" target="_self">episode 1 here</a>.
   - `October`
     - <%- include('/icons/github') %>
       <h3 id="devrpg">
@@ -103,7 +103,7 @@
       <h3 id="grimstorm-colosseum">
         [Grimstorm: Colosseum](http://gamejolt.com/games/grimstorm-colosseum/147486)
       </h3>
-      Battle against the undying in the fearsome arena of the mighty Lion in the cursed and corrupt land of Lords in this local multiplayer game for up to 4 players.
+      Battle against the undying in the fearsome arena of the mighty Lion in the cursed and corrupt land of Lords in this local multiplayer game for up to 4 players. A successor to <a href="#grimstorm" target="_self">Grimstorm</a>.
     - <%- include('/icons/music') %>
       <h3 id="soddenborough">
         [Soddenborough](https://soundcloud.com/niksudan/sets/soddenborough)
@@ -540,7 +540,7 @@
       <h3 id="rhythmical">
         [Rhythmical](https://gamejolt.com/games/rhythmical/6179)
       </h3>
-      Blast your way through the endless wave of enemies to the beat of the song. A successor to [Rhythmic](#rhythmic), with sprites by [Rob van Saaze](https://twitter.com/robvansaaze) and Izanagi.
+      Blast your way through the endless wave of enemies to the beat of the song. A successor to <a href="#rhythmic" target="_self">Rhythmic</a>, with sprites by [Rob van Saaze](https://twitter.com/robvansaaze) and Izanagi.
     - <%- include('/icons/star') %>
       <h3 id="barrel-roll">
         [Barrel Roll](https://gamejolt.com/games/do-a-barrel-roll/6062)
