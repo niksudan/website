@@ -1,3 +1,72 @@
+- **2016**
+  - `November`
+    - <%- include('/icons/video') %>
+      <h3 id="jolt-cast-2">
+        [Jolt Cast - Episode 2](https://www.youtube.com/watch?v=0m2MU7iRYUM)
+      </h3>
+      A indie game podcast by the community at Game Jolt. Talks about game development, indie games, and more.
+  - `October`
+    - <%- include('/icons/github') %>
+      <h3 id="devrpg">
+        [DevRPG](https://github.com/niksudan/devrpg)
+      </h3>
+      An experiment made in collaboration with [Frank Martin](https://twitter.com/_EFAREM) that tracks commits from source control and awards you with experience points.
+  - `September`
+    - <%- include('/icons/music') %>
+      <h3 id="vgm-volumne-2">
+        [Video Game Music Volume 2](https://niksudan.bandcamp.com/album/video-game-music-volume-2)
+      </h3>
+      A collection of music I have composed for various video games from 2014 to 2016.
+    - <%- include('/icons/music') %>
+      <h3 id="fluxrunner">
+        [Fluxrunner](https://soundcloud.com/niksudan/fluxrunner)
+      </h3>
+      A neo-80s styled song with cyberpunk vibes.
+  - `July`
+    - <%- include('/icons/star') %>
+      <h3 id="onyerhedson">
+        [ONYERHEDSON!](http://gamejolt.com/games/onyerhedson/21873)
+      </h3>
+      Short little therapeutic game where you must header balls in the air to get points. How many can you keep up?
+    - <%- include('/icons/video') %>
+      <h3 id="jolt-cast-1">
+        [Jolt Cast - Episode 1](https://www.youtube.com/watch?v=FLVLV_j3_vw)
+      </h3>
+      A indie game podcast by the community at Game Jolt. Talks about game development, indie games, and more.
+  - `June`
+    - <%- include('/icons/music') %>
+      <h3 id="flipside">
+        [Flipside](http://gamejolt.com/games/flipside/156402)
+      </h3>
+      Colourful, intense shoot-em-up by [Rob van Saaze](https://twitter.com/RobvanSaaze), that throws you against randomly generated bosses. I wrote [the soundtrack](https://soundcloud.com/niksudan/flipside) for this game.
+  - `May`
+    - <%- include('/icons/star') %>
+      <h3 id="grimstorm-colosseum">
+        [Grimstorm: Colosseum](http://gamejolt.com/games/grimstorm-colosseum/147486)
+      </h3>
+      Battle against the undying in the fearsome arena of the mighty Lion in the cursed and corrupt land of Lords in this local multiplayer game for up to 4 players.
+    - <%- include('/icons/music') %>
+      <h3 id="soddenborough">
+        [Soddenborough](https://soundcloud.com/niksudan/sets/soddenborough)
+      </h3>
+      An [experimental game](https://www.youtube.com/watch?v=ChhZb__eZ-k) where you walk around a mysterious town by the sea, featuring robots. A cancelled project by [Tom van den Boogaart](https://twitter.com/tomboogaart), with music by myself.
+  - `April`
+    - <%- include('/icons/music') %>
+      <h3 id="flapy-bird">
+        [Flapy Bird](https://gamejolt.com/games/flapy-burd/141878)
+      </h3>
+      A horrendous Flappy Bird clone made for the Game Boy Advance by [Dr Nu](https://twitter.com/ScrelliCopter). I wrote [the soundtrack](https://soundcloud.com/niksudan/soaring-skies) for this game.
+  - `February`
+    - <%- include('/icons/music') %>
+      <h3 id="memory">
+        [Memory](https://soundcloud.com/niksudan/memory)
+      </h3>
+      A mellow, acoustic track I created for a laid back roadtrip video.
+    - <%- include('/icons/music') %>
+      <h3 id="western-wind">
+        [Western Wind](https://soundcloud.com/niksudan/western-wind)
+      </h3>
+      I found the score for a very old composition of mine when I was still taking musical Keyboard grades. I converted this hectic piano piece into a even more hectic chiptune piece.
 - **2015**
   - `November`
     - <%- include('/icons/music') %>
@@ -43,7 +112,7 @@
       <h3 id="borg-waltz">
         [Borg Waltz](https://soundcloud.com/niksudan/borg-waltz)
       </h3>
-      A song for Tom van den Boogaart's cancelled exploration game set in the streets of a gritty dystopia, "Briefdrager".
+      A song for [Tom van den Boogaart](https://twitter.com/tomboogaart)'s cancelled exploration game set in the streets of a gritty dystopia, "Briefdrager".
   - `March`
     - <%- include('/icons/github') %>
       <h3 id="wp-additional-logins">
@@ -105,7 +174,7 @@
       <h3 id="boxhead">
         [Boxhead](https://gamejolt.com/games/boxhead/34056)
       </h3>
-      The sub levels of Tercon Major are a lovely place to be. A game made in the style of Tom van den Boogaart's projects.
+      The sub levels of Tercon Major are a lovely place to be. A game made in the style of [Tom van den Boogaart](https://twitter.com/tomboogaart)'s projects.
   - `August`
    - <%- include('/icons/music') %>
       <h3 id="steam-rogue">
