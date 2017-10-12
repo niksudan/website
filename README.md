@@ -1,6 +1,9 @@
-# Nik's Website
+# Nik Sudan's Portfolio
 
-A portfolio of my work.
+My website, detailing information about myself and showcasing most of my works.
+
+- `yarn dev` - Watch files locally for development and start a local server on port 3000
+- `yarn build` - Build files for production under `dist/` directory
 
 ### Credits
 
