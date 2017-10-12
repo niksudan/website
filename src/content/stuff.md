@@ -1,3 +1,62 @@
+- **2017**
+  - `In Development`
+    - <%- include('/icons/star') %>
+      <h3 id="beargame">
+        [Beargame](https://nik.gamejolt.io/beargame)
+      </h3>
+      A game about a bear, coming soon for PC and Mac.
+    - <%- include('/icons/github') %>
+      <h3 id="bedroll">
+        [Bedroll](https://github.com/niksudan/bedroll)
+      </h3>
+      View Basecamp todos in your menubar.
+  - `October`
+    - <%- include('/icons/music') %>
+      <h3 id="psychosis">
+        [Psychosis](https://soundcloud.com/niksudan/psychosis)
+      </h3>
+      A sinister track, conveying descent into madness. Originally composed for [an apocalyptic game](https://gamejolt.com/games/westend/287691).
+  - `September`
+    - <%- include('/icons/star') %>
+      <h3 id="risk-ahoy">
+        [Risk Ahoy!](https://itunes.apple.com/us/app/risk-ahoy-uk-p-i-club/id1236855989?mt=8)
+      </h3>
+      Mobile game raising made in collaboration with the [UK P&I Club](https://www.ukpandi.com/) to raise awareness of risks at sea. Test your skills and powers of observation as you avoid hazards, make decisions and maintain your ship in this fast-paced, arcade experience..
+  - `June`
+    - <%- include('/icons/github') %>
+      <h3 id="peanut-botter">
+        [Peanut Botter](https://github.com/niksudan/peanut-botter)
+      </h3>
+      A Discord bot for Overwatch servers.
+  - `May`
+    - <%- include('/icons/github') %>
+      <h3 id="fnafjolt">
+        [FNAFJOLT](https://github.com/niksudan/fnafjolt)
+      </h3>
+      Twitter bot that tweets the latest Five Nights at Freddy's fangames.
+  - `April`
+    - <%- include('/icons/github') %>
+      <h3 id="butt">
+        [butt](https://github.com/niksudan/butt)
+      </h3>
+      Discord bot that farts at you.
+  - `February`
+    - <%- include('/icons/github') %>
+      <h3 id="lemongen">
+        [lemongen](http://lemongen.niksudan.com/)
+      </h3>
+      Funny face generator based on the style of a series of comics I used to draw. [Made](https://github.com/niksudan/lemongen) in a couple of hours.
+  - `January`
+    - <%- include('/icons/document') %>
+      <h3 id="intro-to-javascript-package-managers">
+        [Introduction to JavaScript Package Managers](https://medium.com/@niksudan/introduction-to-javascript-package-managers-ca9610cda500)
+      </h3>
+      Part of a series of tutorial articles on intermediate JavaScript development. This one covers the use of package managers in environments.
+    - <%- include('/icons/document') %>
+      <h3 id="intro-to-node-js">
+        [Introduction to Node.js](https://medium.com/@niksudan/introduction-to-node-js-91d12c8b485e)
+      </h3>
+      Part of a series of tutorial articles on intermediate JavaScript development. This one covers moving from Vanilla JS to Node.JS.
 - **2016**
   - `November`
     - <%- include('/icons/video') %>
