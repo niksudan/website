@@ -190,7 +190,7 @@
       That sounds pretty good, but how could you make it even better?
     - <%- include('/icons/github') %>
       <h3 id="wp-additional-logins">
-        [prettylight](https://github.com/niksudan/wp-additional-logins)
+        [WordPress Additional Logins](https://github.com/niksudan/wp-additional-logins)
       </h3>
       Plugin that allows additional logins per WordPress user.
   - `February`
