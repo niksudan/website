@@ -1,0 +1,79 @@
+.social-icons {
+  a {
+    display: inline-block;
+    margin-right: 3rem;
+    border: 0;
+    opacity: 0;
+    animation: iconAnimation 0.5s ease-out;
+    animation-fill-mode: forwards;
+    position: relative;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+    
+    @for $index from 1 through 7 {
+      &:nth-child(#{$index}) {
+        animation-delay: #{0.5 + ($index / 20)}s;
+      }
+    }
+
+    .feather {
+      transform: scale(2);
+      transition: 0.1s all;
+      position: relative;
+      top: 0;
+
+      * {
+        fill: none;
+        stroke: $primary;
+      }
+    }
+    
+    &:hover {
+      .feather {
+        animation-fill-mode: none;
+        transform: scale(2.25);
+
+        * {
+          stroke: $secondary;
+        }
+      }
+    }
+    
+    @media (max-width: 768px) {
+      margin-right: 0;
+      margin-bottom: 3rem;
+      padding-top: 1rem;
+      display: inline-block;
+      width: 30%;
+
+      .feather {
+        transform: scale(2);
+      }
+    }
+  }
+}
+  
+.tippy-tooltip {
+  background-color: $secondary;
+  color: $background;
+}
+
+@keyframes iconAnimation {
+  0% {
+    opacity: 0;
+    top: 20rem;
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+    top: -1rem;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+  }
+}

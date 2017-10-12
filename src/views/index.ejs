@@ -1,0 +1,59 @@
+<%- include('parts/header') %>
+  <section id="intro">
+    <div class="container">
+      <%- include('icons/logo') %>
+      <div class="social-icons">
+        <a class="has-tooltip" title="Tweets" data-distance="20" target="_blank" href="https://twitter.com/niksudan">
+          <%- include('icons/twitter') %>
+        </a>
+        <a class="has-tooltip" title="Games" data-distance="20" target="_blank" href="https://gamejolt.com/@nik">
+          <%- include('icons/star') %>
+        </a>
+        <a class="has-tooltip" title="Sounds" data-distance="20" target="_blank" href="https://soundcloud.com/niksudan">
+          <%- include('icons/music') %>
+        </a>
+        <a class="has-tooltip" title="Code" data-distance="20" target="_blank" href="https://github.com/niksudan">
+          <%- include('icons/github') %>
+        </a>
+        <a class="has-tooltip" title="Videos" data-distance="20" target="_blank" href="https://youtube.com/c/niksudan">
+          <%- include('icons/video') %>
+        </a>
+        <a class="has-tooltip" title="Pictures" data-distance="20" target="_blank" href="https://instagram.com/niksudan">
+          <%- include('icons/insta') %>
+        </a>
+        <a class="has-tooltip" title="Blog" data-distance="20" target="_blank" href="https://medium.com/@niksudan">
+          <%- include('icons/document') %>
+        </a>
+      </div>
+    </div>
+    <a class="scroller is-bottom" href="#about" target="_self">
+      <%- include('icons/chevron-down') %>
+    </a>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="content">
+        <h1>Hello!</h1>
+        <p>I'm Nik Sudan - a creator of things based in London.</p>
+        <p>I like to make short, fun, and weird games in a pixelated style.</p>
+        <p>By day, I work for a web agency called <a class="has-tooltip" title="We make stuff!" target="_blank" href="https://www.digital-results.com">Digital Results</a>.</p>
+        <p>I write a lot of music too, dabbling in all sorts of instruments and styles.</p>
+        <p>There's bound to be something here that you'd like!</p>
+        <p><a class="has-tooltip" title="There's a lot!" href="#stuff" target="_self">See all of my stuff</a>, or <a class="has-tooltip" title="Don't spam 😢" href="mailto:nik@niks.space">get in touch</a>.</p>
+      </div>
+    </div>
+    <a class="scroller is-bottom" href="#stuff" target="_self">
+      <%- include('icons/chevron-down') %>
+    </a>
+  </section>
+  <section id="stuff">
+    <div class="container">
+      <div class="content timeline">
+        <%- stuff %>
+      </div>
+    </div>
+    <a class="scroller is-bottom" href="#intro" target="_self">
+      <%- include('icons/chevron-up') %>
+    </a>
+  </section>
+<%- include('parts/footer') %>

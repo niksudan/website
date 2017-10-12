@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('../../node_modules/tippy.js/dist/tippy.css');
+
+$primary: #364F6B;
+$secondary: #FC5185;
+$background: #F5F5F5;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: $background;
+  color: $primary;
+  font-size: 18px;
+}
+
+section {
+  display: table;
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  max-width: 1080px;
+  position: relative;
+
+  .container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+@import 'content';
+@import 'logo';
+@import 'social-icons';
+@import 'bell';
+@import 'scrollers';
+@import 'timeline';

@@ -1,7 +1,0 @@
-export const OPEN_INFOBOX = 'OPEN_INFOBOX';
-export const CLOSE_INFOBOX = 'CLOSE_INFOBOX';
-export const SELECT_PROJECT = 'SELECT_PROJECT';
-export const UNSELECT_PROJECT = 'UNSELECT_PROJECT';
-export const LOAD_PROJECTS = 'LOAD_PROJECTS';
-export const SET_FILTER = 'SET_FILTER';
-export const CLEAR_FILTER = 'CLEAR_FILTER';

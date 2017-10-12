@@ -1,31 +1,25 @@
 {
-  "name": "niksudan.com",
-  "version": "0.2.0",
-  "private": true,
+  "version": "2.0.0",
   "devDependencies": {
-    "react-scripts": "0.8.5"
-  },
-  "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.4",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-fontawesome": "^1.6.1",
-    "react-helmet": "^4.0.0",
-    "react-infinite-scroller": "^1.0.6",
-    "react-motion": "^0.4.7",
-    "react-redux": "^5.0.2",
-    "react-router": "^3.0.2",
-    "react-router-redux": "^4.0.8",
-    "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0",
-    "unique-random-array": "^1.0.0",
-    "xml": "^1.0.1"
+    "browser-sync": "^2.18.13",
+    "ejs": "^2.5.7",
+    "gulp": "^3.9.1",
+    "gulp-babili": "^0.1.4",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^3.0.1",
+    "gulp-sass": "^3.1.0",
+    "html-entities": "^1.2.1",
+    "marked": "^0.3.6",
+    "rimraf": "^2.6.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "node sitemap && react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "gulp watch",
+    "build": "gulp"
+  },
+  "dependencies": {
+    "smooth-scroll": "^12.1.5",
+    "tippy.js": "^1.3.0",
+    "vivus": "^0.4.2"
   }
 }
