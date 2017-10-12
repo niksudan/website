@@ -50,7 +50,6 @@ gulp.task('views', () => {
     {},
     { root: __dirname + '/src/views' }
   );
-  console.log(stuff);
   gulp.src('src/views/*.ejs')
     .pipe(ejs({
       title: 'Nik\'s Space',
