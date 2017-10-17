@@ -11,6 +11,11 @@
       </h3>
       View Basecamp todos in your menubar.
   - `October`
+    - <%- include('/icons/star') %>
+      <h3 id="boozy-blundering">
+        [Boozy Blundering](https://gamejolt.com/games/boozy-blundering/290440)
+      </h3>
+      You've only got one shot of alcohol in your system - will this be enough to convince four bar patrons that you're off your rockers, or will they see through your lack of intake and oust you? Originally created in 48 hours for the GM48 Game Jam with a theme of "One Shot".
     - <%- include('/icons/music') %>
       <h3 id="psychosis">
         [Psychosis](https://soundcloud.com/niksudan/psychosis)
