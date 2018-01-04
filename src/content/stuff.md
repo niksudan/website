@@ -1,5 +1,10 @@
-- **2017**
-  - `On My Plate`
+- **2018**
+  - `Being Worked On`
+    - <%- include('/icons/star') %>
+      <h3 id="shovellers">
+        Shovellers
+      </h3>
+      A multiplayer game about digging.
     - <%- include('/icons/star') %>
       <h3 id="beargame">
         [Beargame](https://nik.gamejolt.io/beargame)
@@ -10,6 +15,13 @@
         [Bedroll](https://github.com/niksudan/bedroll)
       </h3>
       View Basecamp todos in your menubar.
+- **2017**
+  - `December`
+    - <%- include('/icons/star') %>
+      <h3 id="bgelf">
+        [BGelF Toy Trouble](https://www.forge.uk/our-portfolio/bgelf/)
+      </h3>
+      A frenetic race to help Santa stuff his sacks with toys in time for Christmas. Seemingly simple yet dangerously addictive. Mobile game developed for investment firm [BGF](https://www.bgf.co.uk).
   - `October`
     - <%- include('/icons/star') %>
       <h3 id="boozy-blundering">
@@ -24,7 +36,7 @@
   - `September`
     - <%- include('/icons/star') %>
       <h3 id="risk-ahoy">
-        [Risk Ahoy!](https://itunes.apple.com/us/app/risk-ahoy-uk-p-i-club/id1236855989?mt=8)
+        [Risk Ahoy!](https://www.forge.uk/our-portfolio/risk-ahoy/)
       </h3>
       Mobile game made in collaboration with the [UK P&I Club](https://www.ukpandi.com/) to raise awareness of risks at sea. Test your skills and powers of observation as you avoid hazards, make decisions and maintain your ship in this fast-paced, arcade experience.
   - `June`
