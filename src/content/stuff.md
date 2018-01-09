@@ -5,6 +5,11 @@
         Shovellers
       </h3>
       A multiplayer game about digging.
+    - <%- include('/icons/music') %>
+      <h3 id="secret-music-project">
+        Secret Music Project
+      </h3>
+      A music project that I can't tell you about.
     - <%- include('/icons/star') %>
       <h3 id="beargame">
         [Beargame](https://nik.gamejolt.io/beargame)
@@ -17,11 +22,37 @@
       View Basecamp todos in your menubar.
 - **2017**
   - `December`
+    - <%- include('/icons/music') %>
+      <h3 id="house-of-hauntings">
+        [House of Hauntings](https://soundcloud.com/niksudan/house-of-hauntings)
+      </h3>
+      The soundtrack for the Haunted House level of [Blanco: The Color of Adventure](http://store.steampowered.com/app/528960/Blanco_The_Color_of_Adventure/). This was based on a chiptune piece for the level originally written by GameBoy Advantage.
+    - <%- include('/icons/music') %>
+      <h3 id="the-clamour">
+        [The Clamour](https://soundcloud.com/niksudan/transcendence)
+      </h3>
+      A darker, cinematic piece all revolving around the central piano track. Inspired by the piano works of Trent Reznor.
     - <%- include('/icons/star') %>
       <h3 id="bgelf">
         [BGelF Toy Trouble](https://www.forge.uk/our-portfolio/bgelf/)
       </h3>
       A frenetic race to help Santa stuff his sacks with toys in time for Christmas. Seemingly simple yet dangerously addictive. Mobile game developed for investment firm [BGF](https://www.bgf.co.uk).
+    - <%- include('/icons/music') %>
+      <h3 id="imperfect-manner">
+        [Imperfect Manner](https://soundcloud.com/niksudan/imperfect-manner)
+      </h3>
+      A piece that blossomed around an electric piano riff I came up with a few months ago. It's a calming but groovy little track that immerses you in a nice little soundscape.
+  - `November`
+    - <%- include('/icons/music') %>
+      <h3 id="place-in-my-heart">
+        [Place in my Heart](https://soundcloud.com/niksudan/place-in-my-heart)
+      </h3>
+      A cover of a song by Taylor McFerrin and RYAT. I came up with a piano version of it and decided to record my rendition.
+    - <%- include('/icons/music') %>
+      <h3 id="transcendence">
+        [Transcendence](https://soundcloud.com/niksudan/transcendence)
+      </h3>
+      An ambient piece inspired by the soundtrack of Blade Runner. This piece is a single take and instrument, and was entirely improvised.
   - `October`
     - <%- include('/icons/star') %>
       <h3 id="boozy-blundering">
