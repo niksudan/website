@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 300;
@@ -11,7 +16,7 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  
+
   a {
     border-width: 3px;
   }
@@ -21,9 +26,10 @@ h3 {
   font-size: 2rem;
 }
 
-p, li {
+p,
+li {
   line-height: 2;
-  
+
   @media (max-width: 768px) {
     line-height: 1.5;
   }
@@ -32,7 +38,7 @@ p, li {
 a {
   color: $primary;
   text-decoration: none;
-  border-bottom: 2px solid $primary;
+  border-bottom: 3px solid $primary;
   transition: 0.2s all ease-in-out;
 
   &:hover {
@@ -59,9 +65,10 @@ code {
   padding: 0.5rem 0.75rem;
   background-color: $secondary;
   color: $background;
+  border: 3px solid #364f6b;
   margin-right: 5px;
   border-radius: 5px;
-  font-weight: 300;
+  font-weight: 400;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;

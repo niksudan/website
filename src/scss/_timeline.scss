@@ -23,7 +23,7 @@
       > :first-child {
         float: left;
         background-color: $secondary;
-        color: $primary;
+        color: white;
         border: 4px solid $primary;
         width: 100px;
         height: 100px;
@@ -40,10 +40,10 @@
 
         &::after {
           display: block;
-          content: "";
+          content: '';
           clear: both;
         }
-        
+
         @media (max-width: 768px) {
           width: 100%;
           border-width: 0;
@@ -97,8 +97,10 @@
               left: -3.5rem;
               transform: scale(2);
             }
-  
-            h1, h2, h3 {
+
+            h1,
+            h2,
+            h3 {
               margin-bottom: 0.5rem;
               line-height: 1.5;
             }
