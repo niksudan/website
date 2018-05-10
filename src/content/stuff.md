@@ -1,5 +1,5 @@
 * **2018**
-  * `May` \*
+  * `May`
     * <%- include('/icons/music') %>
       <h3 id="absence">
         [Torque](https://robvansaaze.itch.io/torque)
