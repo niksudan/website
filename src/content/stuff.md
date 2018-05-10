@@ -4,7 +4,7 @@
       <h3 id="absence">
         [Torque](https://robvansaaze.itch.io/torque)
       </h3>
-      A game of incredible skill and reflex by [Rob van Saaze](https://twitter.com/robvansaaze), where you must control two ships and take down bosses. I composed one of the three soundtracks.
+      A game of incredible skill and reflex by [Rob van Saaze](https://twitter.com/robvansaaze), where you must control two ships and take down bosses. I composed one of the three [soundtracks](https://soundcloud.com/niksudan/force).
   * `April`
     * <%- include('/icons/music') %>
       <h3 id="absence">
