@@ -5,8 +5,12 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  margin-bottom: 1rem;
-  font-weight: 300;
+  margin-bottom: 0;
+  font-family: 'Morning Comic Sans', 'Poppins', sans-serif;
+
+  a {
+    border-width: 0px;
+  }
 }
 
 h1 {
@@ -38,7 +42,8 @@ li {
 a {
   color: $primary;
   text-decoration: none;
-  border-bottom: 3px solid $primary;
+  border-bottom: 3px solid $secondary;
+  font-weight: 700;
   transition: 0.2s all ease-in-out;
 
   &:hover {
@@ -65,10 +70,11 @@ code {
   padding: 0.5rem 0.75rem;
   background-color: $secondary;
   color: $background;
-  border: 3px solid #364f6b;
   margin-right: 5px;
   border-radius: 5px;
-  font-weight: 400;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;

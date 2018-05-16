@@ -62,10 +62,16 @@ gulp.task('favicon', () =>
   .pipe(gulp.dest('./dist'))
 );
 
+gulp.task('fonts', () =>
+  gulp.src('src/fonts/*')
+  .pipe(gulp.dest('./dist'))
+);
+
 gulp.task('default', ['clean'], () => {
   gulp.start('styles');
   gulp.start('scripts');
   gulp.start('views');
+  gulp.start('fonts');
 });
 
 gulp.task('watch', ['default'], () => {
