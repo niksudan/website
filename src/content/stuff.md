@@ -200,16 +200,16 @@
       </h3>
       A collaboration for the Indie Speed Run 2015 with [Rob van Saaze](https://twitter.com/RobvanSaaze). Restore a world lacking of colour, legendary trash can! I did sound, artwork and partial development for the project.
   * `August`
-  * <%- include('/icons/music') %>
-     <h3 id="battle-golf">
-       [Battle Golf](https://itunes.apple.com/gb/app/battle-golf/id1017112774)
-     </h3>
-     Compete against an opponent in the most daring of days - golf! I composed the soundtrack for this game, created by [Colin Lane](https://twitter.com/ColinWLane) and [Folmer Kelly](https://twitter.com/folmerkelly).
-  * <%- include('/icons/music') %>
-     <h3 id="kissing-time">
-       [Kissing Time](http://gamejolt.com/games/kissing-time/83687)
-     </h3>
-     In a world lacking of kissing, you must kiss! I did the soundtrack for [Ahmed Khalifa](https://twitter.com/Amidos2006)'s jam game.
+    * <%- include('/icons/music') %>
+      <h3 id="battle-golf">
+        [Battle Golf](https://itunes.apple.com/gb/app/battle-golf/id1017112774)
+      </h3>
+      Compete against an opponent in the most daring of days - golf! I composed the soundtrack for this game, created by [Colin Lane](https://twitter.com/ColinWLane) and [Folmer Kelly](https://twitter.com/folmerkelly).
+    * <%- include('/icons/music') %>
+      <h3 id="kissing-time">
+        [Kissing Time](http://gamejolt.com/games/kissing-time/83687)
+      </h3>
+      In a world lacking of kissing, you must kiss! I did the soundtrack for [Ahmed Khalifa](https://twitter.com/Amidos2006)'s jam game.
   * `May`
     * <%- include('/icons/document') %>
       <h3 id="think-about-it">
@@ -315,11 +315,11 @@
       </h3>
       The sub levels of Tercon Major are a lovely place to be. A game made in the style of [Tom van den Boogaart](https://twitter.com/tomboogaart)'s projects.
   * `August`
-  * <%- include('/icons/music') %>
-     <h3 id="steam-rogue">
-       [Steam Rogue](https://www.newgrounds.com/portal/view/644288?id=644288)
-     </h3>
-     A game [Jussi Simpanen](https://twitter.com/AdventIslands) made for Game Boy Jam 2014. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/game-boy-jam-3) for this game.
+    * <%- include('/icons/music') %>
+      <h3 id="steam-rogue">
+        [Steam Rogue](https://www.newgrounds.com/portal/view/644288?id=644288)
+      </h3>
+      A game [Jussi Simpanen](https://twitter.com/AdventIslands) made for Game Boy Jam 2014. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/game-boy-jam-3) for this game.
   * `April`
     * <%- include('/icons/star') %>
       <h3 id="octo-beast">
