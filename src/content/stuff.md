@@ -1,4 +1,16 @@
 * **2018**
+  * `September`
+    * <%- include('/icons/github') %>
+      <h3 id="battery-watcher">
+        [Battery Watcher](https://github.com/niksudan/battery-watcher)
+      </h3>
+      Menubar app that (sarcastically) notifies when your laptop's battery runs low.
+  * `August`
+    * <%- include('/icons/music') %>
+      <h3 id="nyc">
+        [NYC](https://soundcloud.com/niksudan/nyc)
+      </h3>
+      A piano cover of Interpol's NYC from the album Turn On the Bright Lights.
   * `May`
     * <%- include('/icons/music') %>
       <h3 id="absence">
