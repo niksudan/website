@@ -1,5 +1,21 @@
 * **2018**
+  * `October`
+    * <%- include('/icons/star') %>
+      <h3 id="captain-gastronaut">
+        [Captain Gastronaut](https://gamejolt.com/games/captain-gastronaut/373463)
+      </h3>
+      Save your planet from extinction with your amazing fart powers! A ridiculous collaboration made in under 48 hours with [Ben](https://twitter.com/benbenchammer), [Linkronny](https://twitter.com/ronnyegt) and [Sascha](https://twitter.com/sushilul) for the [Jupiter Hadley Game Jam](https://itch.io/jam/the-jupiter-hadley-game-jam) in London.
+    * <%- include('/icons/github') %>
+      <h3 id="vscode-forge-theme">
+        [Forge Theme for VS Code](https://marketplace.visualstudio.com/items?itemName=forge.vscode-forge-theme)
+      </h3>
+      A dark theme for Visual Studio Code using [Forge](https://forge.uk)'s unique and stylish [branding](https://www.forge.style/).
   * `September`
+    * <%- include('/icons/document') %>
+      <h3 id="fireside-with-nik-side">
+        [A Fireside with Nik Sudan](https://gamejamcurator.tumblr.com/post/178214234541/game-jams-with-james-a-fireside-with-nik-sudan)
+      </h3>
+      In the sixth interview in the "[Game Jams with James](https://gamejamcurator.tumblr.com/tagged/gamejamswithjames)" series, [James Earl Cox](https://twitter.com/just404it) talks to me about the classification of short-form games in 'prototypes' and 'concentrated experiences', how I jam and which jam games I love.
     * <%- include('/icons/github') %>
       <h3 id="battery-watcher">
         [Battery Watcher](https://github.com/niksudan/battery-watcher)
