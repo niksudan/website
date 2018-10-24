@@ -1,5 +1,10 @@
 * **2018**
   * `October`
+    * <%- include('/icons/music') %>
+      <h3 id="as-the-waves-hit-me">
+        [As The Waves Hit Me](https://soundcloud.com/niksudan/as-the-waves-hit-me)
+      </h3>
+      A piece infusing the sound of pianos and synths together in an atmospheric crescendo. Mixed by [memoraphile](https://soundcloud.com/memoraphile).
     * <%- include('/icons/star') %>
       <h3 id="captain-gastronaut">
         [Captain Gastronaut](https://gamejolt.com/games/captain-gastronaut/373463)
@@ -104,7 +109,7 @@
       <h3 id="risk-ahoy">
         [Risk Ahoy!](https://www.forge.uk/our-portfolio/risk-ahoy/)
       </h3>
-      Mobile game made in collaboration with the [UK P&I Club](https://www.ukpandi.com/) to raise awareness of risks at sea. Test your skills and powers of observation as you avoid hazards, make decisions and maintain your ship in this fast-paced, arcade experience.
+      Mobile game made in collaboration with the [UK P&I Club](https://www.ukpandi.com/) to raise awareness of risks at sea. Test your skills and powers of observation as you avoid hazards, make decisions and maintain your ship in this fast-paced, arcade experience. [Highly commended](https://twitter.com/forge_london/status/1053210223786291200) at the [Safety at Sea Awards](https://www.sasawards.com/) 2018.
   * `June`
     * <%- include('/icons/github') %>
       <h3 id="peanut-botter">
