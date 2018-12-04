@@ -9,7 +9,7 @@
       <h3 id="super-amazing-quest-definitive">
         [Super Amazing Quest: Definitive Edition](https://robvansaaze.itch.io/super-amazing-quest-definitive)
       </h3>
-      [Rob van Saaze](https://twitter.com/robvansaaze)'s remaster of his [2013 game](#super-amazing-quest) about a hero's epic journey. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/super-amazing-quest-ost).
+      [Rob van Saaze](https://twitter.com/robvansaaze)'s remaster of his <a href="#super-amazing-quest" target="_self">2013 game</a> about a hero's epic journey. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/super-amazing-quest-ost).
   * `October`
     * <%- include('/icons/music') %>
       <h3 id="as-the-waves-hit-me">
