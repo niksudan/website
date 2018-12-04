@@ -1,10 +1,21 @@
 * **2018**
+  * `November`
+    * <%- include('/icons/music') %>
+      <h3 id="away-for-so-long">
+        [Away For So Long](https://soundcloud.com/niksudan/away-for-so-long)
+      </h3>
+      A cinematic piece invoking loneliness, driving around a rhythmic piano. Production work by [memoraphile](https://soundcloud.com/memoraphile).
+    * <%- include('/icons/star') %>
+      <h3 id="super-amazing-quest-definitive">
+        [Super Amazing Quest: Definitive Edition](https://robvansaaze.itch.io/super-amazing-quest-definitive)
+      </h3>
+      [Rob van Saaze](https://twitter.com/robvansaaze)'s remaster of his [2013 game](#super-amazing-quest) about a hero's epic journey. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/super-amazing-quest-ost).
   * `October`
     * <%- include('/icons/music') %>
       <h3 id="as-the-waves-hit-me">
         [As The Waves Hit Me](https://soundcloud.com/niksudan/as-the-waves-hit-me)
       </h3>
-      A piece infusing the sound of pianos and synths together in an atmospheric crescendo. Mixed by [memoraphile](https://soundcloud.com/memoraphile).
+      A piece infusing the sound of pianos and synths together in an atmospheric crescendo. Production work by [memoraphile](https://soundcloud.com/memoraphile).
     * <%- include('/icons/star') %>
       <h3 id="captain-gastronaut">
         [Captain Gastronaut](https://gamejolt.com/games/captain-gastronaut/373463)
@@ -435,7 +446,7 @@
       <h3 id="taking-over-raves-with-triangle-waves">
         [Taking Over Raves with Triangle Waves](https://niksudan.bandcamp.com/album/taking-over-raves-with-triangle-waves)
       </h3>
-      A collection of 5 chiptune tracks in a modern, electronic style.
+      A collection of 5 chiptune tracks in a modern, electronic style. Also available on [Spotify](https://open.spotify.com/album/22vRXdRNEY5DgQei2jgkaa).
     * <%- include('/icons/star') %>
       <h3 id="knife-to-meet-you">
         [Knife to Meet You](https://gamejolt.com/games/knife-to-meet-you/18667)
@@ -454,7 +465,7 @@
       After having found a magical, flying carpet, you must flee the Temple of Ahriman as it collapses.Avoid obstacles and gather the rare treasure of Ahriman on the way.
     * <%- include('/icons/music') %>
       <h3 id="super-amazing-quest">
-        [Super Amazing Quest](https://robvansaaze.itch.io/super-amazing-quest-deluxe)
+        [Super Amazing Quest](https://gamejolt.com/games/super-amazing-quest/16384)
       </h3>
       [Rob van Saaze](https://twitter.com/robvansaaze)'s epic journey of a hero who decided to dedicate his life to saving princesses. I wrote [the soundtrack](https://niksudan.bandcamp.com/album/super-amazing-quest-ost) for this game.
   * `August`
