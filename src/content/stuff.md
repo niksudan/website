@@ -1,11 +1,11 @@
 * **2019**
   * `January`
-    * <%- include ('/icons/music') %>
+    * <%- include('/icons/music') %>
       <h3 id="every-time-we-fight">
         [Every Time We Fight](https://soundcloud.com/niksudan/every-time-we-fight)
       </h3>
       My take on a piece by [Will Newman](https://soundcloud.com/willnewman-2).
-    * <%- include ('/icons/music') %>
+    * <%- include('/icons/music') %>
       <h3 id="agitate">
         [Agitate](https://soundcloud.com/niksudan/agitate)
       </h3>
