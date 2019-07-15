@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link, animateScroll } from 'react-scroll';
 import Section from './Section';
 import SocialIcon from './SocialIcon';
 import Box from './Box';
@@ -10,6 +11,8 @@ interface State {
 }
 
 export default class View extends React.Component<{}, State> {
+  content?: any;
+
   constructor(props) {
     super(props);
     this.state = {
@@ -80,6 +83,14 @@ export default class View extends React.Component<{}, State> {
             </div>
           </div>
         </div>
+        <div className="hero-foot has-text-centered">
+          <Link smooth={true} duration={500} to="who">
+            <Icon
+              iconName="chevron-down fa-2x"
+              className="has-text-white is-large"
+            />
+          </Link>
+        </div>
       </section>
     );
   }
@@ -87,7 +98,9 @@ export default class View extends React.Component<{}, State> {
   renderAreas() {
     return (
       <Section>
-        <h2 className="title is-3 has-text-white fade-in">Who?</h2>
+        <h2 className="title is-3 has-text-white fade-in" id="who">
+          Who?
+        </h2>
         <div className="columns">
           <div className="column is-4">
             <Box index={1}>

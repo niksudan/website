@@ -5,6 +5,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
+    "react-scroll": "^1.7.12",
     "react-tippy": "^1.2.3",
     "typescript": "^3.2.1",
     "vivus": "^0.4.4"
