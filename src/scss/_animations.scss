@@ -37,3 +37,17 @@ a {
     opacity: 1;
   }
 }
+
+.card {
+  transition: 0.2s all ease-in-out;
+  top: 0;
+
+  img {
+    width: 100%;
+  }
+}
+
+a:hover .card {
+  top: -1em;
+  box-shadow: 0 1em 1em rgba(black, 0.5);
+}

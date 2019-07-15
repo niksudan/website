@@ -11,13 +11,10 @@ $box-padding: 2em;
 @import '~react-tippy/dist/tippy.css';
 
 @import 'animations';
+@import 'logo';
 
 * {
   box-sizing: border-box;
-}
-
-a {
-  transition: 0.2s all ease-in-out;
 }
 
 .button {
@@ -28,5 +25,8 @@ a {
   font-weight: bold;
 }
 
-@import 'box';
-@import 'logo';
+.box,
+.card {
+  height: 100%;
+  border-bottom: 1em solid $primary;
+}
