@@ -1,7 +1,22 @@
-@import '~font-awesome/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+$family-sans-serif: 'Poppins';
+$primary: #fc5185;
+$link: $primary;
+$control-border-width: 2px;
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
 @import '~bulma';
 @import '~react-tippy/dist/tippy.css';
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  transition: 0.2s all ease-in-out;
+}
+
+.button {
+  font-weight: bold;
 }
