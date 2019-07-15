@@ -1,0 +1,8 @@
+.box {
+  height: 100%;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name: fadeInUp;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}

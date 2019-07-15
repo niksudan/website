@@ -1,0 +1,18 @@
+.logo {
+  animation: 0.2s fadeInUp ease-out;
+
+  path {
+    fill: rgba($white, 0);
+    stroke: $white;
+    stroke-width: 10px;
+    stroke-linecap: round;
+  }
+
+  &.is-finished {
+    path {
+      transition: 0.4s all ease-out;
+      stroke-width: 0px;
+      fill: $white;
+    }
+  }
+}

@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
-$family-sans-serif: 'Poppins';
+$family-sans-serif: 'Poppins', sans-serif;
 $primary: #fc5185;
 $link: $primary;
 $control-border-width: 2px;
+$box-padding: 2em;
 
 @import '~@fortawesome/fontawesome-free/css/all.css';
 @import '~bulma';
 @import '~react-tippy/dist/tippy.css';
+
+@import 'animations';
 
 * {
   box-sizing: border-box;
@@ -20,3 +23,10 @@ a {
 .button {
   font-weight: bold;
 }
+
+.tippy-tooltip {
+  font-weight: bold;
+}
+
+@import 'box';
+@import 'logo';
