@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "strictNullChecks": false,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es2015", "esnext", "esnext.asynciterable"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["**/*.test.ts"]
+}
