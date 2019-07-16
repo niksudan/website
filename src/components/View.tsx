@@ -47,7 +47,7 @@ export default class View extends React.Component<{}, State> {
 
   renderHero() {
     return (
-      <section className="hero is-fullheight is-primary">
+      <section className="hero is-fullheight is-primary fade-in">
         <div className="hero-body fade-in-up">
           <div className="container">
             <div className="columns is-vcentered is-centered">
