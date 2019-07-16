@@ -1,15 +1,20 @@
-workflow "Build and Deploy" {
+workflow "Deploy to Github Pages" {
   on = "push"
-  resolves = ["Deploy"]
+  resolves = ["Deploy to gh-pages"]
 }
 
-action "Build" {
-  uses = "actions/npm@master"
-  args = "install"
+action "master branch only" {
+  uses = "actions/bin/filter@master"
+  args = "branch master"
 }
 
-action "Deploy" {
-  needs = "Build"
-  uses = "actions/npm@master"
-  args = "run deploy"
+action "Deploy to gh-pages" {
+  uses = "JamesIves/github-pages-deploy-action@master"
+  env = {
+    BRANCH = "gh-pages"
+    BUILD_SCRIPT = "npm install && npm run-script build"
+    FOLDER = "build"
+  }
+  secrets = ["ACCESS_TOKEN"]
+  needs = ["master branch only"]
 }
