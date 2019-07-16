@@ -33,7 +33,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack-dev-server --config webpack.config.dev.js --content-base dist/ --hot",
-    "deploy": "npm run build && gh-pages -d dist"
+    "dev":
+      "webpack-dev-server --config webpack.config.dev.js --content-base dist/ --hot",
+    "deploy": "npm run build && gh-pages -d dist --remove '!CNAME'"
   }
 }
