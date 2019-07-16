@@ -1,4 +1,5 @@
 {
+  "version": "0.1.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "bulma": "^0.7.5",
