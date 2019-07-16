@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-scroll';
+import projects from '../data/projects';
 import Section from './Section';
 import SocialIcon from './SocialIcon';
 import Box from './Box';
@@ -219,95 +220,17 @@ export default class View extends React.Component<{}, State> {
           I make a lot of stuff, but here's just the cool bits:
         </p>
         <div className="columns is-multiline">
-          <div className="column is-3">
-            <Project
-              img={require('../assets/diatris.png')}
-              title="Diatris Soundtrack"
-              release="July 2019"
-              description="Soundtrack to Rob van Saaze's crazy addicting diagonal tetris game."
-              href="https://soundcloud.com/niksudan/sets/diatris"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/captain-gastronaut.gif')}
-              title="Captain Gastronaut"
-              release="October 2018"
-              description="Save your planet from extinction with your amazing fart powers! A ridiculous collaboration made in under 48 hours for the Jupiter Hadley Game Jam in London."
-              href="https://gamejolt.com/games/captain-gastronaut/373463"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/absence.jpg')}
-              title="Absence"
-              release="April 2018"
-              description="A collection of cinematic covers of Nine Inch Nails songs, originally written by Trent Reznor. A month in the making."
-              href="https://soundcloud.com/niksudan/sets/absence"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/bgelf.jpg')}
-              title="BGelF Toy Trouble"
-              release="December 2017"
-              description="Christmas-themed mobile game developed for the investment firm BGF. Designed, developed, and distributed in just 2 weeks."
-              href="https://forge.uk/our-portfolio/bgelf"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/boozy-blundering.png')}
-              title="Boozy Blundering"
-              release="October 2017"
-              description="You've only got one shot of alcohol in your system - will this be enough to convince four bar patrons that you're off your rockers, or will they see through your lack of intake and oust you?"
-              href="https://gamejolt.com/games/boozy-blundering/290440"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/risk-ahoy.jpg')}
-              title="Risk Ahoy!"
-              release="September 2017"
-              description="Mobile arcade game built in Unity made to raise awareness of risks at sea. Highly commended at the Safety at Sea Awards 2018."
-              href="https://forge.uk/our-portfolio/risk-ahoy"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/butt.png')}
-              title="butt"
-              release="April 2017"
-              description="Discord bot that farts at you."
-              href="https://github.com/niksudan/butt"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/grimstorm.gif')}
-              title="Grimstorm"
-              release="April 2015"
-              description="Intense, action-adventure set in a dark and grim world filled with knights and beasts. Made in user 2 weeks for a game jam, and featured in PC Gamer and Kotaku."
-              href="https://nik.gamejolt.io/grimstorm"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              img={require('../assets/prettylight.png')}
-              title="prettylight"
-              release="February 2015"
-              description="Powerful lighting engine for use with GameMaker: Studio. Open source & highly rated on the GameMaker Marketplace by other developers."
-              href="https://github.com/niksudan/prettylight"
-            />
-          </div>
-          <div className="column is-3">
-            <Project
-              title="Super Squat Simulator"
-              release="2013"
-              description="A simplistic and comedic “fitness simulator” that gained ridiculous momentum and eventually ended up going viral. Prominent streamers showcased it, essays were written about it, and several fan-games were produced."
-              href="https://gamejolt.com/games/super-squat-simulator/11729"
-            />
-          </div>
+          {projects.map((project, index) => (
+            <div className="column is-3" key={index}>
+              <Project
+                img={project.img}
+                title={project.title}
+                release={`${project.month} ${project.year}`}
+                description={project.description}
+                href={project.href}
+              />
+            </div>
+          ))}
         </div>
       </Section>
     );
