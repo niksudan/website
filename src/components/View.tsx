@@ -221,7 +221,7 @@ export default class View extends React.Component<{}, State> {
         </p>
         <div className="columns is-multiline">
           {projects.map((project, index) => (
-            <div className="column is-3" key={index}>
+            <div className="column is-4 is-3-widescreen" key={index}>
               <Project
                 img={project.img}
                 title={project.title}

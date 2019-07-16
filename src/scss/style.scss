@@ -27,6 +27,9 @@ $box-padding: 2em;
 
 .box,
 .card {
-  height: 100%;
   border-bottom: 1em solid $primary;
+
+  @media screen and (min-width: $tablet) {
+    height: 100%;
+  }
 }
