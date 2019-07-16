@@ -19,9 +19,14 @@ export default class View extends React.Component<{}, State> {
     this.state = {
       isLoaded: false,
     };
+    this.handleLoad = this.handleLoad.bind(this);
   }
 
   componentDidMount() {
+    window.addEventListener('load', this.handleLoad);
+  }
+
+  handleLoad() {
     this.setState({ isLoaded: true });
   }
 
@@ -61,21 +66,24 @@ export default class View extends React.Component<{}, State> {
                     className="button is-primary is-inverted is-outlined is-medium"
                     href="https://twitter.com/niksudan"
                     target="_blank"
-                    rel="noopener nofollow">
+                    rel="noopener nofollow"
+                  >
                     <Icon iconName="twitter" iconPack="fab" />
                   </a>
                   <a
                     className="button is-primary is-inverted is-outlined is-medium"
                     href="https://soundcloud.com/niksudan"
                     target="_blank"
-                    rel="noopener nofollow">
+                    rel="noopener nofollow"
+                  >
                     <Icon iconName="music" />
                   </a>
                   <a
                     className="button is-primary is-inverted is-outlined is-medium"
                     href="https://upscri.be/81a958/"
                     target="_blank"
-                    rel="noopener nofollow">
+                    rel="noopener nofollow"
+                  >
                     <span>I accept you into my life</span>
                     <Icon iconName="arrow-right" />
                   </a>
