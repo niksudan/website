@@ -1,0 +1,20 @@
+.card {
+  .title {
+    transition: 0.2s color;
+    background: -webkit-linear-gradient(
+      top left,
+      darken(saturate(adjust-hue($primary, -10deg), 10%), 10%),
+      lighten(saturate(adjust-hue($primary, 10deg), 5%), 5%)
+    );
+    -webkit-background-clip: text;
+  }
+
+  &:hover {
+    z-index: 100;
+
+    .title {
+      color: rgba($primary, 0);
+      background-position: 200% center;
+    }
+  }
+}

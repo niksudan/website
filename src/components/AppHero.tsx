@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-scroll';
+import { motion } from 'framer-motion';
 import Logo from './Logo';
 import Icon from './Icon';
 
@@ -14,30 +15,49 @@ export default class AppHero extends React.Component {
                 <Logo />
               </div>
               <div className="column is-6">
-                <h1 className="title is-2">
+                <motion.h1
+                  className="title is-2"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 }}
+                >
                   Interfaces, Games, Software Architecture &amp; Sounds
-                </h1>
-                <p className="subtitle is-4">
+                </motion.h1>
+                <motion.p
+                  className="subtitle is-4"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.4 }}
+                >
                   Welcome to the website of Nik Sudan
-                </p>
+                </motion.p>
                 <div className="buttons">
-                  <a
+                  <motion.a
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1, transition: { delay: 0.6 } }}
+                    whileHover={{ scale: 1.25 }}
                     className="button is-primary is-inverted is-outlined is-medium"
                     href="https://twitter.com/niksudan"
                     target="_blank"
                     rel="noopener nofollow"
                   >
                     <Icon iconName="twitter" iconPack="fab" />
-                  </a>
-                  <a
+                  </motion.a>
+                  <motion.a
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1, transition: { delay: 0.7 } }}
+                    whileHover={{ scale: 1.25 }}
                     className="button is-primary is-inverted is-outlined is-medium"
                     href="https://soundcloud.com/niksudan"
                     target="_blank"
                     rel="noopener nofollow"
                   >
                     <Icon iconName="music" />
-                  </a>
-                  <a
+                  </motion.a>
+                  <motion.a
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1, transition: { delay: 0.8 } }}
+                    whileHover={{ scale: 1.25, originX: 0 }}
                     className="button is-primary is-inverted is-outlined is-medium"
                     href="https://upscri.be/81a958/"
                     target="_blank"
@@ -45,7 +65,7 @@ export default class AppHero extends React.Component {
                   >
                     <span>I accept you into my life</span>
                     <Icon iconName="arrow-right" />
-                  </a>
+                  </motion.a>
                 </div>
               </div>
             </div>
@@ -56,6 +76,7 @@ export default class AppHero extends React.Component {
             <Icon
               iconName="chevron-down fa-2x"
               className="has-text-white is-large"
+              canHover
             />
           </Link>
         </div>

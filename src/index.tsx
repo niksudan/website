@@ -4,6 +4,7 @@ import AppLoader from './components/AppLoader';
 import AppHero from './components/AppHero';
 import AppAbout from './components/AppAbout';
 import AppProjects from './components/AppProjects';
+import AppFooter from './components/AppFooter';
 import './scss/style.scss';
 
 interface State {
@@ -38,6 +39,7 @@ export default class App extends React.Component<{}, State> {
         <AppHero />
         <AppAbout />
         <AppProjects />
+        <AppFooter />
       </>
     );
   }

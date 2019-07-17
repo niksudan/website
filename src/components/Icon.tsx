@@ -1,22 +1,28 @@
 import * as React from 'react';
+import { motion } from 'framer-motion';
 
 interface Props {
   iconName: string;
   iconPack?: string;
   className?: string;
+  canHover?: boolean;
 }
 
 export default class Icon extends React.Component<Props> {
   static defaultProps = {
     iconPack: 'fas',
     className: '',
+    canHover: false,
   };
 
   render() {
     return (
-      <span className={`icon ${this.props.className}`}>
+      <motion.span
+        className={`icon ${this.props.className}`}
+        whileHover={this.props.canHover ? { scale: 1.5, originY: 0.75 } : {}}
+      >
         <i className={`${this.props.iconPack} fa-${this.props.iconName}`} />
-      </span>
+      </motion.span>
     );
   }
 }

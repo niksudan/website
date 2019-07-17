@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { motion } from 'framer-motion';
 
 interface Props {
   img?: string;
@@ -12,7 +13,11 @@ export default class Project extends React.Component<Props> {
   render() {
     return (
       <a href={this.props.href} target="_blank" rel="noopener nofollow">
-        <div className="card">
+        <motion.div
+          className="card"
+          whileHover={{ scale: 1.2 }}
+          transition={{ type: 'spring', stiffness: 260, damping: 10 }}
+        >
           <div className="card-header">
             {this.props.img !== undefined ? (
               <figure className="image">
@@ -33,7 +38,7 @@ export default class Project extends React.Component<Props> {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </a>
     );
   }

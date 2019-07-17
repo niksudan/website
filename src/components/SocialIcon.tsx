@@ -24,6 +24,7 @@ export default class SocialIcon extends React.Component<Props> {
             iconPack={`${this.props.iconPack} fa-2x`}
             iconName={this.props.iconName}
             className={`is-large ${this.props.className}`}
+            canHover
           />
         </Tooltip>
       </a>
