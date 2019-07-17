@@ -3,6 +3,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "bulma": "^0.7.5",
+    "framer-motion": "^1.2.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
@@ -34,8 +35,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev":
-      "webpack-dev-server --config webpack.config.dev.js --content-base dist/ --hot",
+    "dev": "webpack-dev-server --config webpack.config.dev.js --content-base dist/ --hot",
     "deploy": "npm run build && gh-pages -d dist --remove '!CNAME'"
   }
 }

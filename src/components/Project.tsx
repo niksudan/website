@@ -14,7 +14,11 @@ export default class Project extends React.Component<Props> {
       <a href={this.props.href} target="_blank" rel="noopener nofollow">
         <div className="card">
           <div className="card-header">
-            {this.props.img !== undefined ? <img src={this.props.img} /> : null}
+            {this.props.img !== undefined ? (
+              <figure className="image">
+                <img src={this.props.img} alt={this.props.title} />
+              </figure>
+            ) : null}
           </div>
           <div className="card-content">
             <div className="media">

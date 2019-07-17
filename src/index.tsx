@@ -1,6 +1,46 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import View from './components/View';
+import AppLoader from './components/AppLoader';
+import AppHero from './components/AppHero';
+import AppAbout from './components/AppAbout';
+import AppProjects from './components/AppProjects';
 import './scss/style.scss';
 
-render(<View />, document.getElementById('app'));
+interface State {
+  isLoaded: boolean;
+}
+
+export default class App extends React.Component<{}, State> {
+  content?: any;
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoaded: false,
+    };
+    this.handleLoad = this.handleLoad.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('load', this.handleLoad);
+  }
+
+  handleLoad() {
+    this.setState({ isLoaded: true });
+  }
+
+  render() {
+    if (!this.state.isLoaded) {
+      return <AppLoader />;
+    }
+    return (
+      <>
+        <AppHero />
+        <AppAbout />
+        <AppProjects />
+      </>
+    );
+  }
+}
+
+render(<App />, document.getElementById('app'));
