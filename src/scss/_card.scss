@@ -9,8 +9,20 @@
     -webkit-background-clip: text;
   }
 
+  .card-header {
+    background-color: rgba($primary, 0.5);
+
+    .image {
+      transition: 0.2s opacity ease-in-out;
+    }
+  }
+
   &:hover {
     z-index: 100;
+
+    .image {
+      opacity: 0.8;
+    }
 
     .title {
       color: rgba($primary, 0);
