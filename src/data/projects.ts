@@ -18,6 +18,15 @@ const projects: IProject[] = [
     href: 'https://soundcloud.com/niksudan/sets/diatris',
   },
   {
+    img: require('../assets/artusen.jpg'),
+    title: 'Artusen Soundtrack',
+    month: 'April',
+    year: 2019,
+    description:
+      "Original composition for Rohan Sudan's short film. A more minimal version of this mix made it into the final cut of the film.",
+    href: 'https://soundcloud.com/niksudan/artusen',
+  },
+  {
     img: require('../assets/captain-gastronaut.gif'),
     title: 'Captain Gastronaut',
     month: 'October',
@@ -27,6 +36,15 @@ const projects: IProject[] = [
     href: 'https://gamejolt.com/games/captain-gastronaut/373463',
   },
   {
+    img: require('../assets/battery-watcher.png'),
+    title: 'Battery Watcher',
+    month: 'September',
+    year: 2018,
+    description:
+      'Existential menubar application that notifies you when your battery runs low.',
+    href: 'https://github.com/niksudan/battery-watcher',
+  },
+  {
     img: require('../assets/absence.jpg'),
     title: 'Absence',
     month: 'April',
@@ -34,6 +52,24 @@ const projects: IProject[] = [
     description:
       'A collection of cinematic covers of Nine Inch Nails songs, originally written by Trent Reznor. A month in the making.',
     href: 'https://soundcloud.com/niksudan/sets/absence',
+  },
+  {
+    img: require('../assets/shovellers.gif'),
+    title: 'Shovellers',
+    month: 'March',
+    year: 2018,
+    description:
+      'Get as much gold before time runs out. Dig up ore, collect treasure, and steal from other players to increase your total.',
+    href: 'https://twitter.com/i/moments/934805923423498240',
+  },
+  {
+    img: require('../assets/seafood-survival.gif'),
+    title: 'Seafood Survival',
+    month: 'January',
+    year: 2018,
+    description:
+      'A little fishing game created over a weekend for the 25th GM48 game jam.',
+    href: 'https://gamejolt.com/games/seafood-survival/311591',
   },
   {
     img: require('../assets/bgelf.jpg'),
@@ -71,6 +107,32 @@ const projects: IProject[] = [
     href: 'https://github.com/niksudan/butt',
   },
   {
+    img: require('../assets/vgm2.jpg'),
+    title: 'Video Game Music - Volume 2',
+    month: 'September',
+    year: 2016,
+    description:
+      'A collection of music I have composed for various video games from 2014 to 2016.',
+    href: 'https://niksudan.bandcamp.com/album/video-game-music-volume-2',
+  },
+  {
+    title: 'ONYERHEDSON!',
+    month: 'July',
+    year: 2016,
+    description:
+      'Short little therapeutic game where you must header balls in the air to get points. How many can you keep up?',
+    href: 'http://gamejolt.com/games/onyerhedson/21873',
+  },
+  {
+    img: require('../assets/grimstorm-colosseum.gif'),
+    title: 'Grimstorm: Colosseum',
+    month: 'May',
+    year: 2016,
+    description:
+      'Battle against the undying in the fearsome arena of the mighty Lion in the cursed and corrupt land of Lords in this local multiplayer game for up to 4 players. A successor to Grimstorm.',
+    href: 'http://gamejolt.com/games/grimstorm-colosseum/147486',
+  },
+  {
     img: require('../assets/grimstorm.gif'),
     title: 'Grimstorm',
     month: 'April',
@@ -87,6 +149,126 @@ const projects: IProject[] = [
     description:
       'Powerful lighting engine for use with GameMaker: Studio. Open source & highly rated on the GameMaker Marketplace by other developers.',
     href: 'https://github.com/niksudan/prettylight',
+  },
+  {
+    title: 'Game Maker Games of 2014',
+    month: 'January',
+    year: 2015,
+    description: 'A video showcasing every game I made with GameMaker in 2014.',
+    href: 'https://www.youtube.com/watch?v=81ns0mj1SaQ',
+  },
+  {
+    img: require('../assets/sk.png'),
+    title: 'sk',
+    month: 'November',
+    year: 2014,
+    description: 'Game Maker skeleton animation library.',
+    href: 'https://github.com/niksudan/sk',
+  },
+  {
+    title: 'POOP EM UP',
+    month: 'November',
+    year: 2014,
+    description:
+      'A shoot-em-up, but with a crappy twist. Sometimes you just wanna poop on everyone, you know?',
+    href: 'https://gamejolt.com/games/poop-em-up/38749',
+  },
+  {
+    title: 'petcat',
+    month: 'September',
+    year: 2014,
+    description: 'Pet a cat, but not too hard',
+    href: 'https://gamejolt.com/games/petcat/34473',
+  },
+  {
+    title: 'Boxhead',
+    month: 'September',
+    year: 2014,
+    description:
+      "The sub levels of Tercon Major are a lovely place to be. A game made in the style of Tom van den Boogaart's projects.",
+    href: 'https://gamejolt.com/games/boxhead/34056',
+  },
+  {
+    title: 'Octo-Beast of the Stormy Sea',
+    month: 'April',
+    year: 2014,
+    description:
+      'Try to survive the attack of the fearsome Octo-Beast of the Stormy Sea. Will you escape the seas alive?',
+    href: 'https://gamejolt.com/games/octo-beast-of-the-stormy-sea/26060',
+  },
+  {
+    title: 'Skolgbor',
+    month: 'April',
+    year: 2014,
+    description:
+      "It's time for Skolgbor to come out of hiding and embrace the world. Guide him to the exit whilst avoiding low flying Gaznogs.",
+    href: 'https://gamejolt.com/games/skolgbor/25829',
+  },
+  {
+    title: 'Moonrunner',
+    month: 'March',
+    year: 2014,
+    description:
+      'Outrun the dark side of the moon in this game I made in just 3 hours.',
+    href: 'https://gamejolt.com/games/moonrunner/24502',
+  },
+  {
+    title: 'Protocol',
+    month: 'March',
+    year: 2014,
+    description:
+      'Take control of a biker and take down the lawbots that are pursuing her in a dystopian world. Came 2nd out of 259 entries in the 2014 Cyberpunk Jam.',
+    href: 'https://gamejolt.com/games/protocol/23683',
+  },
+  {
+    title: 'Flerpy Berd',
+    month: 'February',
+    year: 2014,
+    description: 'Obligatory Flappy Bird clone.',
+    href: 'https://gamejolt.com/games/flerpy-berd/22802',
+  },
+  {
+    img: require('../assets/vgm1.jpg'),
+    title: 'Video Game Music - Volume 1',
+    month: 'January',
+    year: 2014,
+    description:
+      'A collection of music I have composed for various video games from 2012 to 2013.',
+    href: 'https://niksudan.bandcamp.com/album/video-game-music-volume-1',
+  },
+  {
+    title: 'Game Maker Games of 2013',
+    month: 'January',
+    year: 2014,
+    description: 'A video showcasing every game I made with GameMaker in 2013.',
+    href: 'https://www.youtube.com/watch?v=6pjgnOWsrPg',
+  },
+  {
+    title: 'Crazy Christmas Courier Chucks Charity into Chimneys',
+    month: 'December',
+    year: 2013,
+    description:
+      'Christmas themed endless runner where you must throw gifts down the very rooftops you bolt across',
+    href:
+      'https://gamejolt.com/games/crazy-christmas-courier-chucks-charity-into-chimneys/20448',
+  },
+  {
+    title: 'Super Sneaky Sample Stealer',
+    description:
+      'Nab as many free samples as you can by stealing clothes in an overpriced shopping centre. Placed 4th overall in the Ludum Dare 28 game jam.',
+    month: 'December',
+    year: 2013,
+    href: 'https://gamejolt.com/games/super-sneaky-sample-stealer/20139',
+  },
+  {
+    img: require('../assets/tiny-dangerous-dungeons.jpg'),
+    title: 'Tiny Dangerous Dungeons Soundtrack',
+    description:
+      "Soundtrack to Jussi Simpanen's immensely popular Game Boy styled metroidvania.",
+    month: 'November',
+    year: 2013,
+    href:
+      'https://niksudan.bandcamp.com/album/tiny-dangerous-dungeons-original-game-soundtrack',
   },
   {
     img: require('../assets/taking-over-raves.jpg'),
@@ -111,6 +293,15 @@ const projects: IProject[] = [
     description:
       'After having found a magical, flying carpet, you must flee the Temple of Ahriman as it collapses. Avoid obstacles and gather the rare treasure of Ahriman on the way.',
     href: 'https://gamejolt.com/games/ahriman-s-treasure/17966',
+  },
+  {
+    img: require('../assets/super-amazing-quest.jpg'),
+    title: 'Super Amazing Quest Soundtrack',
+    description: "Soundtrack to Rob van Saaze's adventure game.",
+    month: 'September',
+    year: 2013,
+    href:
+      'https://niksudan.bandcamp.com/album/super-amazing-quest-original-game-soundtrack',
   },
   {
     title: 'Lokopolis',
