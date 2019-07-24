@@ -14,14 +14,14 @@ export default class AppHero extends React.Component {
               <div className="column is-4">
                 <Logo />
               </div>
-              <div className="column is-6">
+              <div className="column is-5">
                 <motion.h1
                   className="title is-2"
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 }}
                 >
-                  Interfaces, Games, Software Architecture &amp; Sounds
+                  Interfaces, Games, Software &amp; Sounds
                 </motion.h1>
                 <motion.p
                   className="subtitle is-4"
