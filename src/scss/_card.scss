@@ -15,6 +15,13 @@
     .image {
       transition: 0.2s opacity ease-in-out;
     }
+
+    .tags {
+      position: absolute;
+      top: 1em;
+      left: 1em;
+      right: 1em;
+    }
   }
 
   &:hover {

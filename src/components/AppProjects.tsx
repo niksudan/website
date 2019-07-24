@@ -20,6 +20,7 @@ export default class AppProjects extends React.Component {
                   release={`${project.month} ${project.year}`}
                   description={project.description}
                   href={project.href}
+                  tags={project.tags}
                 />
               </div>
             ))}

@@ -7,6 +7,7 @@ interface Props {
   release: string;
   description: any;
   href: string;
+  tags: string[];
 }
 
 export default class Project extends React.Component<Props> {
@@ -19,23 +20,36 @@ export default class Project extends React.Component<Props> {
           transition={{ type: 'spring', stiffness: 260, damping: 10 }}
         >
           <div className="card-header">
-            {this.props.img !== undefined ? (
-              <figure className="image">
-                <img src={this.props.img} alt={this.props.title} />
-              </figure>
-            ) : null}
+            <figure className="image">
+              <img
+                src={
+                  this.props.img !== undefined
+                    ? this.props.img
+                    : 'https://source.unsplash.com/random/640x480?nature'
+                }
+                alt={this.props.title}
+              />
+              <div className="tags is-right">
+                {this.props.tags.map((tag, index) => (
+                  <span
+                    className={`tag ${index === 0 ? 'is-primary' : ''}`}
+                    key={index}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </figure>
           </div>
           <div className="card-content">
-            <div className="media">
-              <div className="media-content">
-                <small className="has-text-grey has-text-weight-normal">
-                  {this.props.release}
-                </small>
-                <p>
-                  <strong className="title is-5">{this.props.title}</strong>
-                </p>
-                <p>{this.props.description}</p>
-              </div>
+            <small className="has-text-grey has-text-weight-normal">
+              {this.props.release}
+            </small>
+            <p>
+              <strong className="title is-5">{this.props.title}</strong>
+            </p>
+            <div className="content">
+              <p>{this.props.description}</p>
             </div>
           </div>
         </motion.div>
