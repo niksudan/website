@@ -16,7 +16,13 @@ export default class Project extends React.Component<Props> {
       <a href={this.props.href} target="_blank" rel="noopener nofollow">
         <motion.div
           className="card"
-          whileHover={{ scale: 1.15 }}
+          initial={{
+            perspective: 1,
+            translateX: 0,
+            translateY: 0,
+            translateZ: 0,
+          }}
+          whileHover={{ scale: 1.0625 }}
           transition={{ type: 'spring', stiffness: 260, damping: 10 }}
         >
           <div className="card-header">

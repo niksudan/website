@@ -1,4 +1,6 @@
 .card {
+  backface-visibility: hidden;
+
   .title {
     transition: 0.2s color;
     background: -webkit-linear-gradient(
