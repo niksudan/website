@@ -17,6 +17,7 @@
     }
 
     .tags {
+      transition: 0.2s opacity ease-in-out;
       position: absolute;
       top: 1em;
       left: 1em;
@@ -29,6 +30,10 @@
 
     .image {
       opacity: 0.8;
+    }
+
+    .tags {
+      opacity: 0.5;
     }
 
     .title {
