@@ -34,3 +34,20 @@ $box-padding: 2em;
     height: 100%;
   }
 }
+
+.projects {
+  .column,
+  .project {
+    position: relative;
+
+    .project-inner {
+      @media screen and (min-width: $tablet) {
+        height: 100%;
+      }
+    }
+
+    &:hover {
+      z-index: 100;
+    }
+  }
+}

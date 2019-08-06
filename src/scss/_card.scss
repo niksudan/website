@@ -1,5 +1,6 @@
 .card {
   backface-visibility: hidden;
+  position: relative;
 
   .title {
     transition: 0.2s color;
@@ -15,6 +16,7 @@
     background-color: rgba($primary, 0.5);
 
     .image {
+      width: 100%;
       transition: 0.2s opacity ease-in-out;
     }
 
@@ -28,8 +30,6 @@
   }
 
   &:hover {
-    z-index: 100;
-
     .image {
       opacity: 0.8;
     }

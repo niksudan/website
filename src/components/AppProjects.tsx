@@ -11,7 +11,7 @@ export default class AppProjects extends React.Component {
           <p className="subtitle is-5 has-text-white">
             I make a lot of stuff, but here's just the cool bits:
           </p>
-          <div className="columns is-multiline">
+          <div className="columns is-multiline projects">
             {projects.map((project, index) => (
               <div className="column is-4 is-3-widescreen" key={index}>
                 <Project
