@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-tilt';
+import TrackVisibility from 'react-on-screen';
+import { url } from 'inspector';
 
 interface Props {
   img?: string;
@@ -50,15 +52,16 @@ export default class Project extends React.Component<Props> {
             }}
           >
             <div className="card-header">
-              <figure className="image">
-                <img
-                  src={
+              <figure
+                className="image is-4by3"
+                style={{
+                  backgroundImage: `url('${
                     this.props.img !== undefined
                       ? this.props.img
                       : this.placeholder
-                  }
-                  alt={this.props.title}
-                />
+                  }')`,
+                }}
+              >
                 <div className="tags is-right">
                   {this.props.tags.map((tag, index) => (
                     <span

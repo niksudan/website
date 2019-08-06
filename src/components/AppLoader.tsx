@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Loader from './Loader';
 
 export default class AppLoader extends React.Component {
   render() {
@@ -6,7 +7,7 @@ export default class AppLoader extends React.Component {
       <section className="hero is-fullheight is-dark">
         <div className="hero-body has-text-centered">
           <div style={{ width: '100%' }}>
-            <div className="button is-loading is-text is-large is-fullwidth" />
+            <Loader />
             <small className="has-text-grey-light">
               Loading... something, I swear
             </small>

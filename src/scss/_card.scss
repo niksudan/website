@@ -18,6 +18,9 @@
     .image {
       width: 100%;
       transition: 0.2s opacity ease-in-out;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     .tags {
