@@ -27,7 +27,7 @@ const projects: IProject[] = [
     description:
       "Soundtrack to Rob van Saaze's crazy addicting diagonal tetris game.",
     href: 'https://soundcloud.com/niksudan/sets/diatris',
-    tags: ['Music', 'Film'],
+    tags: ['Music', 'Game'],
   },
   {
     img: require('../assets/artusen.jpg'),
@@ -37,7 +37,7 @@ const projects: IProject[] = [
     description:
       "Original composition for Rohan Sudan's short film. A more minimal version of this mix made it into the final cut of the film.",
     href: 'https://soundcloud.com/niksudan/artusen',
-    tags: ['Music', 'Game'],
+    tags: ['Music', 'Film'],
   },
   {
     img: require('../assets/captain-gastronaut.gif'),
