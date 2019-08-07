@@ -14,7 +14,7 @@ action "Deploy to gh-pages" {
     BRANCH = "gh-pages"
     BUILD_SCRIPT = "npm install && npm run build"
     FOLDER = "dist"
-    CNAME = "new.niks.space"
+    CNAME = "niks.space"
   }
   secrets = ["ACCESS_TOKEN"]
   needs = ["master branch only"]
