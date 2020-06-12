@@ -303,7 +303,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
-    img: require('../assets/sample-stealer'),
+    img: require('../assets/sample-stealer.gif'),
     title: 'Super Sneaky Sample Stealer',
     description:
       'Nab as many free samples as you can by stealing clothes in an overpriced shopping centre. Placed 4th overall in the Ludum Dare 28 game jam.',
@@ -513,7 +513,7 @@ const projects: IProject[] = [
     tags: ['Video', 'Game'],
   },
   {
-    img: require('../assets/almighty-annihilation.jpg'),
+    img: require('../assets/almighty-annihilation.png'),
     title: 'The Almighty Annihilation',
     month: 'December',
     year: 2011,
