@@ -139,6 +139,7 @@ const projects: IProject[] = [
     tags: ['Music', 'Game'],
   },
   {
+    img: require('../assets/onyerhedson.gif'),
     title: 'ONYERHEDSON!',
     month: 'July',
     year: 2016,
@@ -195,6 +196,7 @@ const projects: IProject[] = [
     tags: ['Open Source'],
   },
   {
+    img: require('../assets/poop-em-up.gif'),
     title: 'POOP EM UP',
     month: 'November',
     year: 2014,
@@ -204,6 +206,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/petcat.gif'),
     title: 'petcat',
     month: 'September',
     year: 2014,
@@ -212,6 +215,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/boxhead.gif'),
     title: 'Boxhead',
     month: 'September',
     year: 2014,
@@ -221,6 +225,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/octobeast.gif'),
     title: 'Octo-Beast of the Stormy Sea',
     month: 'April',
     year: 2014,
@@ -230,6 +235,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/skolgbor.png'),
     title: 'Skolgbor',
     month: 'April',
     year: 2014,
@@ -239,6 +245,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/moonrunner.png'),
     title: 'Moonrunner',
     month: 'March',
     year: 2014,
@@ -248,6 +255,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/protocol.gif'),
     title: 'Protocol',
     month: 'March',
     year: 2014,
@@ -257,6 +265,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/flerpy-berd.gif'),
     title: 'Flerpy Berd',
     month: 'February',
     year: 2014,
@@ -283,6 +292,7 @@ const projects: IProject[] = [
     tags: ['Video', 'Game'],
   },
   {
+    img: require('../assets/crazy-christmas.png'),
     title: 'Crazy Christmas Courier Chucks Charity into Chimneys',
     month: 'December',
     year: 2013,
@@ -293,6 +303,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/sample-stealer'),
     title: 'Super Sneaky Sample Stealer',
     description:
       'Nab as many free samples as you can by stealing clothes in an overpriced shopping centre. Placed 4th overall in the Ludum Dare 28 game jam.',
@@ -323,6 +334,7 @@ const projects: IProject[] = [
     tags: ['Music'],
   },
   {
+    img: require('../assets/knife-to-meet-you.png'),
     title: 'Knife to Meet You',
     month: 'October',
     year: 2013,
@@ -331,6 +343,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/ahrimans-treasure.png'),
     title: "Ahriman's Treasure",
     month: 'September',
     year: 2013,
@@ -350,6 +363,7 @@ const projects: IProject[] = [
     tags: ['Music', 'Game'],
   },
   {
+    img: require('../assets/lokopolis.png'),
     title: 'Lokopolis',
     month: 'August',
     year: 2013,
@@ -359,6 +373,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/zerox-residuum.png'),
     title: 'Zerox Residuum',
     month: 'July',
     year: 2013,
@@ -368,6 +383,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/soopah-doopah-poopah.gif'),
     title: 'SOOPAH DOOPAH POOPAH',
     month: 'July',
     year: 2013,
@@ -377,6 +393,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/zebra-hunt.png'),
     title: 'Zebra Hunt',
     month: 'June',
     year: 2013,
@@ -386,6 +403,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/zalda.png'),
     title: 'The Legend of Zalda',
     month: 'May',
     year: 2013,
@@ -395,6 +413,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/requiem.png'),
     title: 'Requiem',
     month: 'April',
     year: 2013,
@@ -404,6 +423,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/feel-good-inc.jpg'),
     title: 'Feel Good Inc - Chiptune Cover',
     month: 'January',
     year: 2013,
@@ -413,6 +433,7 @@ const projects: IProject[] = [
     tags: ['Music'],
   },
   {
+    img: require('../assets/super-squat-simulator.gif'),
     title: 'Super Squat Simulator',
     month: 'January',
     year: 2013,
@@ -430,6 +451,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/evil-robot.gif'),
     title:
       'Evil Robot of Doom Crushes Innocent Town due to Parliamentary Disagreement',
     month: 'December',
@@ -441,6 +463,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/insane-joyriding.gif'),
     title: 'Insane Joyriding in a Jet Powered Bathtub through Hyperspace',
     month: 'December',
     year: 2012,
@@ -451,6 +474,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/insane-balancing.gif'),
     title: 'Insane Balancing on One Leg in Extremely High Places',
     month: 'October',
     year: 2012,
@@ -461,6 +485,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/adapts.png'),
     title: 'A.D.A.P.T.S',
     month: 'August',
     year: 2012,
@@ -470,6 +495,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/nyctophobia.png'),
     title: 'Nyctophobia',
     month: 'August',
     year: 2012,
@@ -487,6 +513,7 @@ const projects: IProject[] = [
     tags: ['Video', 'Game'],
   },
   {
+    img: require('../assets/almighty-annihilation.jpg'),
     title: 'The Almighty Annihilation',
     month: 'December',
     year: 2011,
@@ -496,6 +523,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/skykeep.jpg'),
     title: 'Guardian of the Skykeep',
     month: 'July',
     year: 2011,
@@ -505,6 +533,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/rhythmic.jpg'),
     title: 'Rhythmic',
     month: 'February',
     year: 2011,
@@ -514,6 +543,7 @@ const projects: IProject[] = [
     tags: ['Game'],
   },
   {
+    img: require('../assets/genesis.jpg'),
     title: 'Genesis',
     month: 'February',
     year: 2011,
