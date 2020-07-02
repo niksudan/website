@@ -20,6 +20,16 @@ type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/ghosts-null.png'),
+    title: 'Ghosts: Null',
+    month: 'June',
+    year: 2020,
+    description:
+      'A collaborative album and artbook made by members of the Nine Inch Nails Discord server. I contributed 2 tracks as well as the front and back covers.',
+    href: 'https://twitter.com/NIN_Discord/status/1273716735183433728',
+    tags: ['Music'],
+  },
+  {
     img: require('../assets/diatris.png'),
     title: 'Diatris Soundtrack',
     month: 'July',
