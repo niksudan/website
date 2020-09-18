@@ -20,6 +20,15 @@ type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/remember.jpg'),
+    title: 'Remember',
+    month: 'September',
+    year: 2020,
+    description: 'An EP of ambient and contemporary tracks about our memories.',
+    href: 'https://soundcloud.com/niksudan/sets/remember',
+    tags: ['Music'],
+  },
+  {
     img: require('../assets/well-meet-again.jpg'),
     title: "We'll Meet Again",
     month: 'July',
