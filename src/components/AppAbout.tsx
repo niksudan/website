@@ -11,11 +11,11 @@ export default class AppAbout extends React.Component {
             <div className="column is-4">
               <div className="box">
                 <div className="content">
-                  <h3>Musician</h3>
+                  <h3>Music</h3>
                   <p>
-                    London based composer, music producer and performer of
-                    soundscape/electronica works. Also produces works for games
-                    and film.
+                    Composer of contemporary works ranging in many genres,
+                    including ambient, electronica, and lo-fi. Also produces
+                    music for games and film.
                   </p>
                 </div>
                 <SocialIcon
@@ -38,21 +38,16 @@ export default class AppAbout extends React.Component {
                   iconName="apple"
                   href="https://music.apple.com/us/artist/nik-sudan/1442298371"
                 />
-                <SocialIcon
-                  title="Like on Facebook"
-                  iconName="facebook"
-                  href="https://facebook.com/niksudanmusic"
-                />
               </div>
             </div>
             <div className="column is-4">
               <div className="box">
                 <div className="content">
-                  <h3>Developer</h3>
+                  <h3>Code</h3>
                   <p>
-                    Full stack web developer and software architect for systems,
-                    with a thing for interfaces and UI. Experienced in React,
-                    TypeScript and Node.js.
+                    Software engineer with a thing for interfaces and user
+                    experience. Experienced in React, React Native, TypeScript
+                    and Node.js.
                   </p>
                 </div>
                 <SocialIcon
@@ -66,7 +61,7 @@ export default class AppAbout extends React.Component {
                   href="https://medium.com/@niksudan"
                 />
                 <SocialIcon
-                  title="Check Legitimacy"
+                  title="View Experience"
                   iconName="linkedin"
                   href="https://linkedin.com/in/niksudan"
                 />
@@ -75,11 +70,11 @@ export default class AppAbout extends React.Component {
             <div className="column is-4">
               <div className="box">
                 <div className="content">
-                  <h3>Game Designer</h3>
+                  <h3>Games</h3>
                   <p>
                     Independent game developer and designer creating weird and
-                    wonderful games, with the occasional excremental experience.
-                    GameMaker nut.
+                    wonderful games. Big interest in gamification and making
+                    things fun.
                   </p>
                 </div>
                 <SocialIcon
@@ -97,11 +92,6 @@ export default class AppAbout extends React.Component {
                   title="Watch Gameplay"
                   iconName="youtube"
                   href="https://youtube.com/c/niksudan"
-                />
-                <SocialIcon
-                  title="Development Livestreams"
-                  iconName="twitch"
-                  href="https://twitch.tv/niksudan"
                 />
               </div>
             </div>
