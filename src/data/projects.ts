@@ -20,6 +20,15 @@ type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/human-resources.jpg'),
+    title: 'Human Resources Soundtrack',
+    month: 'August',
+    year: 2021,
+    description: 'Soundtrack to the horror/thriller motion picture, Human Resources.',
+    href: 'https://soundcloud.com/niksudan/sets/human-resources',
+    tags: ['Music', 'Film']
+  },
+  {
     img: require('../assets/moments-going-by.jpg'),
     title: 'Moments Going By',
     month: 'March',
