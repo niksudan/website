@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-tilt';
-import TrackVisibility from 'react-on-screen';
-import { url } from 'inspector';
 
 interface Props {
   img?: string;
