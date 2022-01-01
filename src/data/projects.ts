@@ -20,13 +20,83 @@ type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/lifts.jpg'),
+    title: 'LIFTS Soundtrack',
+    month: 'January',
+    year: 2022,
+    description: 'Soundtrack to upcoming short thriller film, LIFTS.',
+    href: 'https://www.kickstarter.com/projects/liftsshortfilm/lifts-a-short-film',
+    tags: ['Music', 'Film'],
+  },
+  {
+    img: require('../assets/strangers-vol-1.jpg'),
+    title: 'Strangers: Volume 1',
+    month: 'January',
+    year: 2022,
+    description:
+      'A collaborative album by members of Locon Records. I collaborated with Jonathan Gillis on a track.',
+    href: 'https://loconrecords.bandcamp.com/album/strangers-volume-1',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/its-getting-late.jpg'),
+    title: "It's Getting Late",
+    month: 'November',
+    year: 2021,
+    description:
+      'A dreamy reimagining of a 2018 song by Will Newman. A collaboration with Will Newman and James Gregory. I provided additional synths and vocals.',
+    href: 'http://www.willnewman.lnk.to/itsgettinglate',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/torquefest2.png'),
+    title: 'TORQUEFEST002',
+    month: 'November',
+    year: 2021,
+    description:
+      'Online music event hosted by the HEALTH Discord server. I showcased three new songs alongside animations by Lui Ionescu.',
+    href: 'https://www.youtube.com/watch?v=SLPCqHohWyQ',
+    tags: ['Music', 'Video'],
+  },
+  {
+    img: require('../assets/its-getting-late.jpg'),
+    title: 'Manipulator',
+    month: 'October',
+    year: 2021,
+    description:
+      'An EP by Jonathan Gillis. I collaborated on a cover of Videotape by Radiohead. I provided additional synths, percussion and vocals.',
+    href: 'https://soundcloud.com/niksudan/videotape',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/keep-the-family-close.jpg'),
+    title: 'Keep the Family Close Soundtrack',
+    month: 'September',
+    year: 2021,
+    description:
+      'Soundtrack to the psychological horror short film, Keep the Family Close.',
+    href: 'https://www.youtube.com/watch?v=PeInC4gifeI',
+    tags: ['Music', 'Film'],
+  },
+  {
     img: require('../assets/human-resources.jpg'),
     title: 'Human Resources Soundtrack',
     month: 'August',
     year: 2021,
-    description: 'Soundtrack to the horror/thriller motion picture, Human Resources.',
+    description:
+      'Soundtrack to the horror/thriller motion picture, Human Resources. Won the award for Best Music at Tampa Bay Underground Film Festival 2022.',
     href: 'https://soundcloud.com/niksudan/sets/human-resources',
-    tags: ['Music', 'Film']
+    tags: ['Music', 'Film'],
+  },
+  {
+    img: require('../assets/daylight-fades-to-midnight.jpg'),
+    title: 'Daylight Fades to Midnight',
+    month: 'June',
+    year: 2021,
+    description:
+      'An album by Will Newman. I provided keys and synths on two tracks - Another Tuesday and Aftermath of You.',
+    href: 'http://www.willnewman.lnk.to/daylightfadestomidnight',
+    tags: ['Music'],
   },
   {
     img: require('../assets/moments-going-by.jpg'),
@@ -65,6 +135,16 @@ const projects: IProject[] = [
     description:
       'A collaborative album and artbook made by members of the Nine Inch Nails Discord server. I contributed 2 tracks as well as the front and back covers.',
     href: 'https://twitter.com/NIN_Discord/status/1273716735183433728',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/guess-you-didnt-mean-forever.jpg'),
+    title: "I Guess You Didn't Mean Forever",
+    month: 'May',
+    year: 2020,
+    description:
+      'A song by Will Newman. I provided additional keys and synths.',
+    href: 'http://www.willnewman.lnk.to/iguessyoudidntmeanforever',
     tags: ['Music'],
   },
   {
@@ -346,8 +426,7 @@ const projects: IProject[] = [
     year: 2013,
     description:
       'Christmas themed endless runner where you must throw gifts down the very rooftops you bolt across',
-    href:
-      'https://gamejolt.com/games/crazy-christmas-courier-chucks-charity-into-chimneys/20448',
+    href: 'https://gamejolt.com/games/crazy-christmas-courier-chucks-charity-into-chimneys/20448',
     tags: ['Game'],
   },
   {
@@ -367,8 +446,7 @@ const projects: IProject[] = [
       "Soundtrack to Jussi Simpanen's immensely popular Game Boy styled metroidvania.",
     month: 'November',
     year: 2013,
-    href:
-      'https://niksudan.bandcamp.com/album/tiny-dangerous-dungeons-original-game-soundtrack',
+    href: 'https://niksudan.bandcamp.com/album/tiny-dangerous-dungeons-original-game-soundtrack',
     tags: ['Music', 'Game'],
   },
   {
@@ -406,8 +484,7 @@ const projects: IProject[] = [
     description: "Soundtrack to Rob van Saaze's adventure game.",
     month: 'September',
     year: 2013,
-    href:
-      'https://niksudan.bandcamp.com/album/super-amazing-quest-original-game-soundtrack',
+    href: 'https://niksudan.bandcamp.com/album/super-amazing-quest-original-game-soundtrack',
     tags: ['Music', 'Game'],
   },
   {
@@ -506,8 +583,7 @@ const projects: IProject[] = [
     year: 2012,
     description:
       'Control the robot of the mad local member of parliament hellbent on destroying his neighboring town after they sent him an insulting letter regarding his parliamentary decisions.',
-    href:
-      'https://gamejolt.com/games/evil-robot-of-doom-crushes-innocent-town-due-to-parliamentary-disagreement/11173',
+    href: 'https://gamejolt.com/games/evil-robot-of-doom-crushes-innocent-town-due-to-parliamentary-disagreement/11173',
     tags: ['Game'],
   },
   {
@@ -517,8 +593,7 @@ const projects: IProject[] = [
     year: 2012,
     description:
       'Avoid asteroids and rockets that fly at you in Hyperspace, whilst trying to collect coins for more points, hearts for more health and powerups.',
-    href:
-      'https://gamejolt.com/games/insane-joyriding-on-a-jet-powered-bathtub-through-hyperspace/10881',
+    href: 'https://gamejolt.com/games/insane-joyriding-on-a-jet-powered-bathtub-through-hyperspace/10881',
     tags: ['Game'],
   },
   {
@@ -528,8 +603,7 @@ const projects: IProject[] = [
     year: 2012,
     description:
       "Balance on top of extremely high places on one leg... insanely. Just don't fall to your doom.",
-    href:
-      'https://gamejolt.com/games/insane-balancing-on-one-leg-in-extremely-high-places/9925',
+    href: 'https://gamejolt.com/games/insane-balancing-on-one-leg-in-extremely-high-places/9925',
     tags: ['Game'],
   },
   {
