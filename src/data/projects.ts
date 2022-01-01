@@ -59,7 +59,7 @@ const projects: IProject[] = [
     tags: ['Music', 'Video'],
   },
   {
-    img: require('../assets/its-getting-late.jpg'),
+    img: require('../assets/manipulator.jpg'),
     title: 'Manipulator',
     month: 'October',
     year: 2021,
