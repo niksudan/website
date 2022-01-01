@@ -63,7 +63,7 @@ export default class AppHero extends React.Component {
                     target="_blank"
                     rel="noopener nofollow"
                   >
-                    <span>Sign me up</span>
+                    <span>Send me stuff!</span>
                     <Icon iconName="arrow-right" />
                   </motion.a>
                 </div>

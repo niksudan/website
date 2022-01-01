@@ -39,9 +39,10 @@ export default class AppProjects extends React.Component<{}, State> {
     return (
       <section className="section">
         <div className="container">
-          <h2 className="title has-text-white">What?</h2>
+          <h2 className="title has-text-white">What have I done?</h2>
           <p className="subtitle has-text-white">
-            I make a lot of stuff, but here's just the cool bits:
+            I've made a <strong className=" has-text-white">lot</strong> of
+            stuff. Here's the cool bits.
           </p>
           <div className="tags">
             {tags.map((tag) => (
