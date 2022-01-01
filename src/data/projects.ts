@@ -1,4 +1,4 @@
-interface IProject {
+export interface IProject {
   img?: string;
   title: string;
   month: string;
@@ -8,7 +8,7 @@ interface IProject {
   tags: ITag[];
 }
 
-type ITag =
+export type ITag =
   | 'Music'
   | 'Game'
   | 'Open Source'
