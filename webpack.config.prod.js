@@ -13,6 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js?v=[contenthash]',
     publicPath: '/',
+    assetModuleFilename: 'assets/[name].[hash:8].[ext]',
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -30,25 +31,26 @@ module.exports = {
       {
         test: /\.tsx?$/,
         enforce: 'pre',
-        loader: 'tslint-loader',
+        use: 'tslint-loader',
       },
       {
         test: /\.tsx?$/,
-        loader: 'ts-loader',
-        options: {
-          configFile: 'tsconfig.json',
-        },
+        use: [
+          {
+            loader: 'ts-loader',
+            options: {
+              configFile: 'tsconfig.json',
+            },
+          },
+        ],
       },
       {
         test: /\.s(a|c)ss$/,
-        loader: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
       {
         test: /\.(pdf|ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)(\?.*)?$/,
-        loader: 'file-loader',
-        query: {
-          name: 'assets/[name].[hash:8].[ext]',
-        },
+        type: 'asset/resource',
       },
     ],
   },
