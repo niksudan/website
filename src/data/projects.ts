@@ -21,10 +21,10 @@ type ITag =
 const projects: IProject[] = [
   {
     img: require('../assets/lifts.jpg'),
-    title: 'LIFTS Soundtrack',
+    title: 'Lifts Soundtrack',
     month: 'January',
     year: 2022,
-    description: 'Soundtrack to upcoming short thriller film, LIFTS.',
+    description: 'Soundtrack to upcoming short thriller film, Lifts.',
     href: 'https://www.kickstarter.com/projects/liftsshortfilm/lifts-a-short-film',
     tags: ['Music', 'Film'],
   },
