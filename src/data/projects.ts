@@ -29,12 +29,22 @@ const projects: IProject[] = [
     tags: ['Music', 'Film'],
   },
   {
+    img: require('../assets/forgotten.jpg'),
+    title: 'Forgotten',
+    month: 'January',
+    year: 2022,
+    description:
+      'Standalone release of the dark and atmospheric drone metal track. A collaboration with Jonathan Gillis.',
+    href: 'https://soundcloud.com/niksudan/forgotten',
+    tags: ['Music'],
+  },
+  {
     img: require('../assets/strangers-vol-1.jpg'),
     title: 'Strangers: Volume 1',
     month: 'January',
     year: 2022,
     description:
-      'A collaborative album by members of Locon Records. I collaborated with Jonathan Gillis on a track.',
+      'A collaborative album by artists of the Locon Records music label. I contributed a track with Jonathan Gillis.',
     href: 'https://loconrecords.bandcamp.com/album/strangers-volume-1',
     tags: ['Music'],
   },
