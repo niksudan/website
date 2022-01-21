@@ -20,13 +20,14 @@ export type ITag =
 
 const projects: IProject[] = [
   {
-    img: require('../assets/lifts.jpg'),
-    title: 'Lifts Soundtrack',
+    img: require('../assets/this-world-burns.jpg'),
+    title: 'This World Burns',
     month: 'January',
     year: 2022,
-    description: 'Soundtrack to upcoming short thriller film, Lifts.',
-    href: 'https://www.kickstarter.com/projects/liftsshortfilm/lifts-a-short-film',
-    tags: ['Music', 'Film'],
+    description:
+      'A dark and foreboding cinematic track with elements of ambient, neoclassical, contemporary and post-rock.',
+    href: 'https://soundcloud.com/niksudan/this-world-burns',
+    tags: ['Music'],
   },
   {
     img: require('../assets/forgotten.jpg'),
