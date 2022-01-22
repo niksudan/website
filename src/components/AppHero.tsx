@@ -34,6 +34,28 @@ export default class AppHero extends React.Component {
                 <div className="buttons">
                   <motion.a
                     initial={{ scale: 0 }}
+                    animate={{ scale: 1, transition: { delay: 0.7 } }}
+                    whileHover={{ scale: 1.25 }}
+                    className="button is-primary is-inverted is-outlined is-medium"
+                    href="https://linktr.ee/niksudan"
+                    target="_blank"
+                    rel="noopener nofollow"
+                  >
+                    <Icon iconName="music" />
+                  </motion.a>
+                  <motion.a
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1, transition: { delay: 0.6 } }}
+                    whileHover={{ scale: 1.25 }}
+                    className="button is-primary is-inverted is-outlined is-medium"
+                    href="https://instagram.com/niksudanmusic"
+                    target="_blank"
+                    rel="noopener nofollow"
+                  >
+                    <Icon iconName="instagram" iconPack="fab" />
+                  </motion.a>
+                  <motion.a
+                    initial={{ scale: 0 }}
                     animate={{ scale: 1, transition: { delay: 0.6 } }}
                     whileHover={{ scale: 1.25 }}
                     className="button is-primary is-inverted is-outlined is-medium"
@@ -43,29 +65,17 @@ export default class AppHero extends React.Component {
                   >
                     <Icon iconName="twitter" iconPack="fab" />
                   </motion.a>
-                  <motion.a
-                    initial={{ scale: 0 }}
-                    animate={{ scale: 1, transition: { delay: 0.7 } }}
-                    whileHover={{ scale: 1.25 }}
-                    className="button is-primary is-inverted is-outlined is-medium"
-                    href="https://soundcloud.com/niksudan"
-                    target="_blank"
-                    rel="noopener nofollow"
-                  >
-                    <Icon iconName="music" />
-                  </motion.a>
-                  <motion.a
-                    initial={{ scale: 0 }}
-                    animate={{ scale: 1, transition: { delay: 0.8 } }}
-                    whileHover={{ scale: 1.25, originX: 0 }}
-                    className="button is-primary is-inverted is-outlined is-medium"
-                    href="https://upscri.be/81a958/"
-                    target="_blank"
-                    rel="noopener nofollow"
-                  >
-                    <span>Send me stuff!</span>
-                    <Icon iconName="arrow-right" />
-                  </motion.a>
+                  <Link smooth={true} duration={500} to="about">
+                    <motion.a
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1, transition: { delay: 0.8 } }}
+                      whileHover={{ scale: 1.25, originX: 0 }}
+                      className="button is-primary is-inverted is-outlined is-medium"
+                    >
+                      <span>Tell me more!</span>
+                      <Icon iconName="arrow-right" />
+                    </motion.a>
+                  </Link>
                 </div>
               </div>
             </div>
