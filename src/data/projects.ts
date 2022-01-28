@@ -20,6 +20,26 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/light-in-the-dark.jpg'),
+    title: 'A Light in the Dark',
+    month: 'January',
+    year: 2022,
+    description:
+      'A hopeful and immersive electronic track with ambient elements that builds up into a wall of sound.',
+    href: 'https://soundcloud.com/niksudan/a-light-in-the-dark',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/videotape.jpg'),
+    title: 'Videotape',
+    month: 'January',
+    year: 2022,
+    description:
+      "A haunting music video for a cover of Radiohead's Videotape by Jonathan Gillis and I. Written, directed, shot and edited by Dominic Krupp.",
+    href: 'https://www.youtube.com/watch?v=KaxWxwxh5es',
+    tags: ['Music', 'Video'],
+  },
+  {
     img: require('../assets/this-world-burns.jpg'),
     title: 'This World Burns',
     month: 'January',
