@@ -20,6 +20,16 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/and-they-will-fall.jpg'),
+    title: 'And They Will Fall',
+    month: 'February',
+    year: 2022,
+    description:
+      'An album of ambient soundscapes and contemporary pieces evolving around themes of sadness, hopelessness and death. Sorrowful piano pieces, droning ambient and intense soundscapes.',
+    href: 'https://soundcloud.com/niksudan/and-they-will-fall',
+    tags: ['Music'],
+  },
+  {
     img: require('../assets/light-in-the-dark.jpg'),
     title: 'A Light in the Dark',
     month: 'January',
