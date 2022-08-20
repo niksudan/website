@@ -25,8 +25,38 @@ const projects: IProject[] = [
     month: 'August',
     year: 2022,
     description:
-      'Soundtrack to a short film set over the course of one night, following a story about how far someone would go for a chance at a better life. Coming soon.',
+      'Soundtrack to a short film by Untrue Films. Over the course of a night, how far someone would go for a chance at a better life?',
     href: 'https://www.instagram.com/liftsshortfilm',
+    tags: ['Music', 'Film'],
+  },
+  {
+    img: require('../assets/ghost.jpg'),
+    title: 'Ghost',
+    month: 'July',
+    year: 2022,
+    description:
+      'A drum & bass track by Rohan Sudan. I produced this track and also laid some some synthesisers, percussion, guitars and vocals.',
+    href: 'https://open.spotify.com/track/4FgqhXTEJihoyqiGWu5rC3?si=ace398b045124bf7',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/discordance.jpg'),
+    title: 'Discordance I',
+    month: 'July',
+    year: 2022,
+    description:
+      'A compilation album of music inspired by Nine Inch Nails, featuring a track of mine.',
+    href: 'https://discordance0.bandcamp.com/album/discordance-i',
+    tags: ['Music'],
+  },
+  {
+    img: require('../assets/draw.jpg'),
+    title: 'Draw Soundtrack',
+    month: 'March',
+    year: 2022,
+    description:
+      'Soundtrack to a short film by Braden Swope. Late one night, a woman comes face-to-face with a terrifying presence after drawing in her sketchbook.',
+    href: 'https://www.youtube.com/watch?v=HfJmaLeiTPA',
     tags: ['Music', 'Film'],
   },
   {
@@ -125,7 +155,7 @@ const projects: IProject[] = [
     month: 'September',
     year: 2021,
     description:
-      'Soundtrack to the psychological horror short film, Keep the Family Close.',
+      'Soundtrack to a short film by Rohan Sudan. A secluded family retreat further into isolation after news of a pandemic arrives. The family spirals as the Fathers instability forces the Daughter to choose to trust her father or herself.',
     href: 'https://www.youtube.com/watch?v=PeInC4gifeI',
     tags: ['Music', 'Film'],
   },
@@ -135,8 +165,8 @@ const projects: IProject[] = [
     month: 'August',
     year: 2021,
     description:
-      'Soundtrack to the horror/thriller motion picture, Human Resources. Won the award for Best Music at Tampa Bay Underground Film Festival 2022.',
-    href: 'https://soundcloud.com/niksudan/sets/human-resources',
+      'Soundtrack to a horror/thriller motion picture by NBD Productions. Winner of the "Best Music" award at Tampa Bay Underground Film Festival 2022.',
+    href: 'https://linktr.ee/humanresourcesost',
     tags: ['Music', 'Film'],
   },
   {
@@ -214,8 +244,8 @@ const projects: IProject[] = [
     month: 'April',
     year: 2019,
     description:
-      "Original composition for Rohan Sudan's short film. A more minimal version of this mix made it into the final cut of the film.",
-    href: 'https://soundcloud.com/niksudan/artusen',
+      'Soundtrack to a short film by Rohan Sudan. A young detective named Anna who is on call at the eve of the new millenium. What seems to be a domestic occurrence turns into something much more sinister.',
+    href: 'https://www.youtube.com/watch?v=swPaxoBN0Cg&t=3s',
     tags: ['Music', 'Film'],
   },
   {
