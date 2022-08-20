@@ -20,6 +20,16 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/lifts.jpg'),
+    title: 'Lifts Soundtrack',
+    month: 'August',
+    year: 2022,
+    description:
+      'Soundtrack to a short film set over the course of one night, following a story about how far someone would go for a chance at a better life. Coming soon.',
+    href: 'https://www.instagram.com/liftsshortfilm',
+    tags: ['Music', 'Film'],
+  },
+  {
     img: require('../assets/and-they-will-fall.jpg'),
     title: 'And They Will Fall',
     month: 'February',
