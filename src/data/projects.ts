@@ -22,12 +22,22 @@ const projects: IProject[] = [
   {
     img: require('../assets/lifts.jpg'),
     title: 'Lifts Soundtrack',
-    month: 'August',
-    year: 2022,
+    month: 'March',
+    year: 2023,
     description:
       'Soundtrack to a short film by Untrue Films. Over the course of a night, how far someone would go for a chance at a better life?',
     href: 'https://www.instagram.com/liftsshortfilm',
     tags: ['Music', 'Film'],
+  },
+  {
+    img: require('../assets/drive-my-car.jpg'),
+    title: 'Drive My Car (Nik Sudan Remix)',
+    month: 'February',
+    year: 2023,
+    description:
+      'A remix of the song by goneMUNE from their album TULPA. This remix turns the soft, emotional track into a wall of shoegazey sound.',
+    href: 'https://www.youtube.com/watch?v=cnuxzPMN4d4',
+    tags: ['Music'],
   },
   {
     img: require('../assets/ghost.jpg'),
