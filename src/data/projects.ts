@@ -315,7 +315,7 @@ const projects: IProject[] = [
     year: 2017,
     description:
       'Christmas-themed mobile game developed for the investment firm BGF. Designed, developed, and distributed in just 2 weeks.',
-    href: 'https://forge.uk/our-portfolio/bgelf',
+    href: 'https://www.bgf.co.uk/bgelf-toy-trouble',
     tags: ['Game', 'Mobile'],
   },
   {
