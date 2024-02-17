@@ -20,6 +20,36 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/eldritchvania.jpg'),
+    title: 'Eldritchvania Soundtrack',
+    month: 'February',
+    year: 2024,
+    description:
+      'Soundtrack to a spooky, Lovecraftian platformer game by DeathCount Games. Available on Steam!',
+    href: 'https://niksudan.bandcamp.com/album/eldritchvania-original-game-soundtrack',
+    tags: ['Music', 'Game'],
+  },
+  {
+    img: require('../assets/vgm3.jpg'),
+    title: 'Video Game Music - Volume 3',
+    month: 'February',
+    year: 2024,
+    description:
+      'A collection of music I have composed for various video games from 2016 to 2019.',
+    href: 'https://niksudan.bandcamp.com/album/video-game-music-volume-3',
+    tags: ['Music', 'Game'],
+  },
+  {
+    img: require('../assets/such-a-pity.jpg'),
+    title: 'Such a Pity (Nik Sudan Remix)',
+    month: 'April',
+    year: 2023,
+    description:
+      'A remix of the song by Memoraphile from their album "And Dream". This remix turns it into an incredibly ethereal experience.',
+    href: 'https://www.youtube.com/watch?v=cnuxzPMN4d4',
+    tags: ['Music'],
+  },
+  {
     img: require('../assets/lifts.jpg'),
     title: 'Lifts Soundtrack',
     month: 'March',
@@ -35,7 +65,7 @@ const projects: IProject[] = [
     month: 'February',
     year: 2023,
     description:
-      'A remix of the song by goneMUNE from their album TULPA. This remix turns the soft, emotional track into a wall of shoegazey sound.',
+      'A remix of the song by goneMUNE from their album "TULPA". This remix turns the soft, emotional track into a wall of shoegazey sound.',
     href: 'https://www.youtube.com/watch?v=cnuxzPMN4d4',
     tags: ['Music'],
   },
