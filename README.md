@@ -3,13 +3,12 @@
 ## Prerequisites
 
 * Node.js v8.9.0
-* Yarn
 
 ## Installation
 
-* Install dependencies with `yarn install`
+* Install dependencies with `npm install`
 
 ## Development
 
-* `yarn dev` - Watch files locally for development
-* `yarn build` - Build static files for production
+* `npm run dev` - Watch files locally for development
+* `npm run build` - Build static files for production
