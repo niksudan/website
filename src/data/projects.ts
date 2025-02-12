@@ -20,6 +20,15 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/weekend.jpg'),
+    title: 'Weekend',
+    month: 'December',
+    year: 2024,
+    description: 'Soundtrack to a short film. A lonely University student returns home to his parents for the weekend.',
+    href: 'https://rohansudan.com/weekend',
+    tags: ['Music', 'Film'],
+  },
+  {
     img: require('../assets/eldritchvania.jpg'),
     title: 'Eldritchvania Soundtrack',
     month: 'February',
@@ -56,7 +65,7 @@ const projects: IProject[] = [
     year: 2023,
     description:
       'Soundtrack to a short film by Untrue Films. Over the course of a night, how far someone would go for a chance at a better life?',
-    href: 'https://www.instagram.com/liftsshortfilm',
+    href: 'https://rohansudan.com/lifts',
     tags: ['Music', 'Film'],
   },
   {
