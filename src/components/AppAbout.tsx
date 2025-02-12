@@ -23,6 +23,11 @@ export default class AppAbout extends React.Component {
                   </p>
                 </div>
                 <SocialIcon
+                  title="Listen on Bandcamp"
+                  iconName="bandcamp"
+                  href="https://niksudan.bandcamp.com"
+                />
+                <SocialIcon
                   title="Listen on Spotify"
                   iconName="spotify"
                   href="https://open.spotify.com/artist/4zQ53leKAM0j0hyRuSP5lD"
@@ -37,23 +42,23 @@ export default class AppAbout extends React.Component {
                   iconName="soundcloud"
                   href="https://soundcloud.com/niksudan"
                 />
-                <SocialIcon
-                  title="Listen on Bandcamp"
-                  iconName="bandcamp"
-                  href="https://niksudan.bandcamp.com"
-                />
               </div>
             </div>
             <div className="column is-4">
               <div className="box">
                 <div className="content">
-                  <h3>Software Engineer</h3>
+                  <h3>Engineering Leader</h3>
                   <p>
-                    Engineering lead with a thing for interfaces and user
-                    experience. Experienced with React, React Native, TypeScript
-                    and Node.js.
+                    Engineer with a thing for interfaces and user experience.
+                    Experienced with React, React Native, TypeScript and
+                    Node.js.
                   </p>
                 </div>
+                <SocialIcon
+                  title="View professional experience"
+                  iconName="linkedin"
+                  href="https://linkedin.com/in/niksudan"
+                />
                 <SocialIcon
                   title="View open source projects"
                   iconName="github"
@@ -63,11 +68,6 @@ export default class AppAbout extends React.Component {
                   title="Read blog"
                   iconName="medium"
                   href="https://medium.com/@niksudan"
-                />
-                <SocialIcon
-                  title="View professional experience"
-                  iconName="linkedin"
-                  href="https://linkedin.com/in/niksudan"
                 />
               </div>
             </div>
@@ -82,15 +82,15 @@ export default class AppAbout extends React.Component {
                   </p>
                 </div>
                 <SocialIcon
+                  title="Play games on itch.io"
+                  iconName="itch-io"
+                  href="https://nik.itch.io"
+                />
+                <SocialIcon
                   title="Play games on Game Jolt"
                   iconName="bolt"
                   iconPack="fas fa-2x"
                   href="https://gamejolt.com/@nik"
-                />
-                <SocialIcon
-                  title="Play games on itch.io"
-                  iconName="itch-io"
-                  href="https://nik.itch.io"
                 />
                 <SocialIcon
                   title="Watch videos of games"
