@@ -20,6 +20,15 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/daayan.jpg'),
+    title: 'Daayan',
+    month: 'June',
+    year: 2025,
+    description: 'Soundtrack to a short film. A horror-drama inspired by Indian folklore.',
+    href: 'https://rohansudan.com/daayan',
+    tags: ['Music', 'Film'],
+  },
+  {
     img: require('../assets/weekend.jpg'),
     title: 'Weekend',
     month: 'December',
