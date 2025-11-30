@@ -20,6 +20,15 @@ export type ITag =
 
 const projects: IProject[] = [
   {
+    img: require('../assets/telentertain.jpg'),
+    title: 'Telentertain',
+    month: 'November',
+    year: 2025,
+    description: 'Soundtrack to a quirky game by Linkronny. Entertain party guests with a series of minigames. Placed 3rd in audio for ShroomJam 2025.',
+    href: 'https://niksudan.bandcamp.com/album/telentertain-original-game-soundtrack',
+    tags: ['Music', 'Game']
+  },
+  {
     img: require('../assets/daayan.jpg'),
     title: 'Daayan',
     month: 'June',
